@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+
+
+.vs
+.nuget
+packages
+typings
+
+
+dist/*.js
+dist/*.json
