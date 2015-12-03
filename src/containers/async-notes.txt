@@ -1,0 +1,19 @@
+We want our async operations to flow like this
+
+given these actions
+{type: 'FETCH_POSTS'}
+{type: 'FETCH_POSTS_SUCCESS', data}
+{type: 'FETCH_POSTS_FAILED', err}
+
+handleGetPosts: function() {
+
+    dispatch({type: 'SET_FETCHING', val: true})
+    new promise
+                .then(state =>
+                    dispatch({type: 'SET_STATE', state: state})
+                    dispatch({type: 'SET_FETCHING', val: false})
+                )
+                .catch(
+                    dispatch({type: 'SET_FETCHING', val: false})
+                    dispatch({type: 'ERROR', msg: msg})
+                )

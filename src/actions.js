@@ -1,0 +1,4 @@
+export const INDEX_REQUESTED = 'INDEX_REQUESTED';
+export const INDEX_RECEIVED = 'INDEX_RECEIVED';
+export const UPDATE_INDEX = 'UPDATE_INDEX';
+export const FETCH_INDEX = 'FETCH_INDEX';

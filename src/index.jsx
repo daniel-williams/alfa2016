@@ -1,37 +1,30 @@
 import React from 'react';
+import thunkMiddleware from 'redux-thunk'
 import ReactDom from 'react-dom';
 import Router, {Route} from 'react-router';
 import {createStore, applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
+import history from './history';
 
 import reducer from './reducer';
-// import {setState} from './action_creators';
-// import remoteActionMiddleware from './remote_action_middleware';
 import App from './components/App';
 import Home from './containers/Home';
 import About from './containers/About';
-// import {ResultsContainer} from './components/Results';
-// import {VotingContainer} from './components/Voting';
+import {Book, BookContainer} from './containers/Book';
 
-// const socket = io(`${location.protocol}//${location.hostname}:8090`);
-// socket.on('state', state =>
-//     store.dispatch(setState(state))
-// );
+const createStoreWithMiddleware = applyMiddleware(thunkMiddleware)(createStore);
 
-// const createStoreWithMiddleWare = applyMiddleware(remoteActionMiddleware(socket))(createStore);
-// const store = createStoreWithMiddleWare(reducer);
-const store = createStore(reducer);
+const store = createStoreWithMiddleware(reducer);
 
 const routes = (
     <Route component={App}>
-        <Route path="/about" component={About} />
-        <Route path="/" component={Home} />
+        <Route path="/" component={BookContainer} />
     </Route>
 );
 
 ReactDom.render(
     <Provider store={store}>
-        <Router>{routes}</Router>
+        <Router history={history}>{routes}</Router>
     </Provider>,
     document.getElementById('app')
 );
