@@ -1,7 +1,9 @@
 import React from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
+import {List} from 'immutable';
 import {connect} from 'react-redux';
-import * as actionCreators from '../action_creators.js';
+
+import * as actionCreators from '../actions/creators';
 
 export const Book = React.createClass({
     mixins: [PureRenderMixin],
@@ -9,24 +11,27 @@ export const Book = React.createClass({
     isFetching: function() {
         return this.props.isFetching;
     },
+    isBookLoaded: function() {
+        return List.isList(this.props.chapters) && this.props.chapters.count() > 0
+    },
     render: function() {
         return (
             <div className='book'>
-                <h2>Book</h2>
-                <button className='btn' ref='more' onClick={() => this.props.fetchIndex()}>get index</button>
-                {this.isFetching() &&
-                    <div>fetching...</div>}
-                {this.renderChapters()}
+                <h1>Book List</h1>
+                {!this.isBookLoaded() && <button className='btn' onClick={() => this.props.fetchIndex()}>get index</button>}
+                {this.isFetching() && <div>fetching...</div>}
+                {this.renderIndex()}
             </div>
         );
     },
-    renderChapters: function() {
-        var chapters = this.props.chapters.map(function(item, i) {
-            item = item.toJS();
+    renderIndex: function() {
+        var chapters = this.props.chapters.map((item, i) => {
+            var chapterUi = item.has('content') ? this.renderChapter(i, item)
+                                                : this.renderTitle(i, item);
+
             return (
                 <div key={i}>
-                    <h4>Chapter {i+1}</h4>
-                    {item.url}
+                    {chapterUi}
                 </div>
             );
         });
@@ -37,6 +42,24 @@ export const Book = React.createClass({
             </div>
         );
     },
+    renderChapter: function(i, item) {
+        var content = item.get('content');
+        return (
+            <div style={{margin:'10px'}}>
+                <h2>Chapter {i+1}</h2>
+                <div dangerouslySetInnerHTML={{__html:content}} />
+            </div>
+        );
+    },
+    renderTitle: function(i, item) {
+        var url = item.get('url');
+        return (
+            <div style={{margin:'10px'}}>
+                <h2 onClick={() => this.props.getChapter(i, url)} style={{cursor:'pointer'}}>Chapter {i+1}</h2>
+            </div>
+        );
+    },
+
 });
 
 function mapStateToProps(state) {
