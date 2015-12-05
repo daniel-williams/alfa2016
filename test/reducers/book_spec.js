@@ -19,11 +19,7 @@ describe('book reducer', () => {
         const action = {type: INDEX_REQUESTED};
         const nextState = reducer(state, action);
 
-        expect(nextState).to.equal(fromJS({
-            book: {
-                isFetching: true
-            }
-        }));
+        expect(nextState.getIn(['book', 'isFetching'])).to.be.true;
     });
 
     it('handles INDEX_RECEIVED', () => {
@@ -35,11 +31,7 @@ describe('book reducer', () => {
         const action = {type: INDEX_RECEIVED};
         const nextState = reducer(state, action);
 
-        expect(nextState).to.equal(fromJS({
-            book: {
-                isFetching: false
-            }
-        }));
+        expect(nextState.getIn(['book', 'isFetching'])).to.be.false;
     });
 
     it('handles UPDATE_INDEX', () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
-import {List} from 'immutable';
+import {List, Map} from 'immutable';
 import {connect} from 'react-redux';
 
 import * as actionCreators from '../actions/creators';
@@ -9,25 +9,28 @@ export const Book = React.createClass({
     mixins: [PureRenderMixin],
 
     isFetching: function() {
-        return this.props.isFetching;
+        return this.props.book.get('isFetching');
     },
     isBookLoaded: function() {
-        return List.isList(this.props.chapters) && this.props.chapters.count() > 0
+        return this.props.book.get('chapters').count() > 0
+    },
+    getBookUrl: function() {
+        return this.props.book.get('url');
     },
     render: function() {
         return (
             <div className='book'>
                 <h1>Book List</h1>
-                {!this.isBookLoaded() && <button className='btn' onClick={() => this.props.fetchIndex()}>get index</button>}
+                {!this.isBookLoaded() && <button className='btn' onClick={() => this.props.fetchIndex(this.getBookUrl())}>get index</button>}
                 {this.isFetching() && <div>fetching...</div>}
                 {this.renderIndex()}
             </div>
         );
     },
     renderIndex: function() {
-        var chapters = this.props.chapters.map((item, i) => {
+        var chapters = this.props.book.get('chapters').map((item, i) => {
             var chapterUi = item.has('content') ? this.renderChapter(i, item)
-                                                : this.renderTitle(i, item);
+                                                : this.renderTitleOnly(i, item);
 
             return (
                 <div key={i}>
@@ -51,11 +54,10 @@ export const Book = React.createClass({
             </div>
         );
     },
-    renderTitle: function(i, item) {
-        var url = item.get('url');
+    renderTitleOnly: function(i, item) {
         return (
-            <div style={{margin:'10px'}}>
-                <h2 onClick={() => this.props.getChapter(i, url)} style={{cursor:'pointer'}}>Chapter {i+1}</h2>
+            <div style={{margin:'5px'}}>
+                <h2 onClick={() => this.props.getChapter(i, item.get('url'))} style={{cursor:'pointer'}}>Chapter {i+1}</h2>
             </div>
         );
     },
@@ -63,11 +65,8 @@ export const Book = React.createClass({
 });
 
 function mapStateToProps(state) {
-    var isFetching = state.getIn(['book', 'isFetching']);
-    var chapters = state.getIn(['book', 'chapters']);
     return {
-        isFetching,
-        chapters
+        book: state.get('book')
     }
 }
 
