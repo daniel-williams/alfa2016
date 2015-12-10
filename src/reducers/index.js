@@ -9,5 +9,5 @@ export default function(state = INITIAL_STATE, action) {
     var ret = Map({
         book: book(state.get('book'), action)
     });
-    return ret.updateIn(['book', 'chapters'], () => chapter(ret.getIn(['book', 'chapters']), action))
+    return ret.updateIn(['book', 'chapters'], () => chapter(ret.getIn(['book', 'chapters']), action));
 }

@@ -1,4 +1,4 @@
-var webpack = require('webpack');
+const webpack = require('webpack');
 
 module.exports = {
     entry: [
@@ -7,14 +7,20 @@ module.exports = {
         './src/index.jsx'
     ],
     module: {
-        loaders: [{
-            test: /\.jsx?$/,
-            exclude: /node_modules/,
-            loader: 'react-hot!babel'
-        }]
+        loaders: [
+            {
+                test: /\.jsx?$/,
+                exclude: /node_modules/,
+                loader: 'react-hot!babel'
+            },
+            {
+                test: /\.node$/,
+                loader: "node-loader"
+            }
+        ]
     },
     resolve: {
-        extensions: ['', '.js', '.jsx']
+        extensions: ['', '.js', '.jsx', '.node']
     },
     output: {
         path: __dirname + '/dist',
@@ -26,6 +32,8 @@ module.exports = {
         hot: true
     },
     plugins: [
-        new webpack.HotModuleReplacementPlugin()
-    ]
+        new webpack.HotModuleReplacementPlugin(),
+        new webpack.IgnorePlugin(/vertx/)
+    ],
+    target: "node",
 };

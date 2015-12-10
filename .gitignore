@@ -10,3 +10,4 @@ typings
 
 dist/*.js
 dist/*.json
+dist/content/
