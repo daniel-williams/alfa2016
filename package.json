@@ -13,8 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "immutable": "^3.7.5",
-    "kerberos": "0.0.17",
-    "mongodb": "^2.1.0",
     "react": "^0.14.3",
     "react-addons-pure-render-mixin": "^0.14.3",
     "react-dom": "^0.14.3",
@@ -34,7 +32,7 @@
     "history": "^1.15.0",
     "isomorphic-fetch": "^2.2.0",
     "mocha": "^2.3.4",
-    "node-loader": "^0.5.0",
+    "re-base": "^1.3.1",
     "react-hot-loader": "^1.3.0",
     "redux-thunk": "^1.0.0"
   },
