@@ -1,13 +1,12 @@
+// root reducer
 import {Map, List, fromJS} from 'immutable';
-
 import INITIAL_STATE from '../store/initialState';
 
-import book from './book';
-import chapter from './chapter';
+import galleries from './galleries';
 
 export default function(state = INITIAL_STATE, action) {
     var ret = Map({
-        book: book(state.get('book'), action)
+        galleries: galleries(state.get('galleries'), action),
     });
-    return ret.updateIn(['book', 'chapters'], () => chapter(ret.getIn(['book', 'chapters']), action));
+    return ret;
 }

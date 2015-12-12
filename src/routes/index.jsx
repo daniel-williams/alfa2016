@@ -3,12 +3,12 @@ import {Route} from 'react-router';
 
 import App from '../components/App';
 import DbTest from '../containers/DbTest';
-import {BookContainer} from '../containers/Book';
+import {GalleriesContainer} from '../containers/Galleries';
 
 
 const routes = (
     <Route component={App}>
-        <Route path='/' component={DbTest} />
+        <Route path='/' component={GalleriesContainer} />
     </Route>
 );
 
