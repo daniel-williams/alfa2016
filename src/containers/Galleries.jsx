@@ -30,7 +30,7 @@ export const Galleries = React.createClass({
         return (
             <div>
                 <div className='galleries'>
-                    <h1>galleries List</h1>
+                    <h1>Gallery List</h1>
                     {this.isFetching() && <div>...fetching galleries</div>}
                     {this.isLoaded() && galleries}
                 </div>
