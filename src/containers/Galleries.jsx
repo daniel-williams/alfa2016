@@ -16,8 +16,8 @@ export const Galleries = React.createClass({
         return this.props.galleries.get('items').count() > 0;
     },
     componentWillMount: function() {
-        if(!this.props.galleries.get('items').count()) {
-            this.props.bootstrap();
+        if(!this.isLoaded()) {
+            this.props.fetchGalleries();
         }
     },
     // componentWillReceiveProps: function(nextProps) {
@@ -28,10 +28,15 @@ export const Galleries = React.createClass({
             return <div key={i} dangerouslySetInnerHTML={{__html:item.get('name')}} />;
         });
         return (
-            <div className='galleries'>
-                <h1>galleries List</h1>
-                {this.isFetching() && <div>...fetching</div>}
-                {this.isLoaded() && galleries}
+            <div>
+                <div className='galleries'>
+                    <h1>galleries List</h1>
+                    {this.isFetching() && <div>...fetching galleries</div>}
+                    {this.isLoaded() && galleries}
+                </div>
+                <div>
+                    {this.props.children}
+                </div>
             </div>
         );
     },

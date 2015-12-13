@@ -1,14 +1,14 @@
 import {fromJS} from 'immutable';
 
 const INITIAL_STATE = fromJS({
-    // book: {
-    //     title: 'Public Domain Mashup',
-    //     url: '/content/book/index.json',
-    //     isFetching: false,
-    //     chapters: []
-    // }
-    // galleries: [],
-    // art: []
+    galleries: {
+        isFetching: false,
+        items: []
+    },
+    art: {
+        isFetching: false,
+        items: []
+    }
 });
 
 export default INITIAL_STATE;
