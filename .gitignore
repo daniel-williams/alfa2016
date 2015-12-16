@@ -1,13 +1,11 @@
-node_modules
+node_modules/
 npm-debug.log
 
 
-.vs
-.nuget
-packages
-typings
+.vs/
+.nuget/
+packages/
+typings/
 
 
-dist/*.js
-dist/*.json
-dist/content/
+dist/

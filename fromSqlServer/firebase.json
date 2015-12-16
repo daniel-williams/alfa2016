@@ -1,32 +1,32 @@
 {
     "gallery": [
         {
-            "id": "E928BD9A-6427-489F-A421-A67D878E12D9",
+            "id": 1,
             "name": "Contemporary",
             "thumb": "g_co.jpg",
             "order": "1"
         }, {
-            "id": "1C872C51-0EC8-43FA-827F-5B494A2FFAA5",
+            "id": 2,
             "name": "Portraits &amp; Figures",
             "thumb": "g_p.jpg",
             "order": "2"
         }, {
-            "id": "B4A15BE5-F850-44D1-92E3-16EBAB4AF1F1",
+            "id": 3,
             "name": "Traditional",
             "thumb": "g_tr.jpg",
             "order": "3"
         }, {
-            "id": "B1E5273B-7A68-4903-9308-3D5404A7296F",
+            "id": 4,
             "name": "Plein Air",
             "thumb": "g_pa.jpg",
             "order": "4"
         }, {
-            "id": "906C529D-02A9-4A69-A30C-569AE692D740",
+            "id": 5,
             "name": "Archive",
             "thumb": "g_a.jpg",
             "order": "5"
         }, {
-            "id": "6495A463-B952-49F5-BF0B-255C8ED0A5D2",
+            "id": 6,
             "name": "Stills from Life",
             "thumb": "g_sfl.jpg",
             "order": "6"
@@ -34,7 +34,7 @@
     ],
     "art": [
         {
-            "id": "0E2F770A-5055-42BB-A948-8D5CB431DF8A",
+            "id": 1,
             "title": "Red Sky in the Morning",
             "filename": "RedSkyInTheMorning.jpg",
             "media": "Oil",
@@ -50,7 +50,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "2108D00B-B86B-484C-BE09-4EACCDE99099",
+            "id": 2,
             "title": "Patchwork Imaginations",
             "filename": "PatchworkImaginations.jpg",
             "media": "Oil",
@@ -65,7 +65,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "AB54B0C4-6195-426F-9AA1-B67BA47A0FF3",
+            "id": 3,
             "title": "Mossy Cavern",
             "filename": "MossyCavern.jpg",
             "media": "Oil",
@@ -80,7 +80,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "24196FFF-4AD1-41C9-A378-ADB4523534A8",
+            "id": 4,
             "title": "Little Messages of Light",
             "filename": "LittleMessagesOfLight.jpg",
             "media": "Oil",
@@ -95,7 +95,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "872D725C-54A2-44A7-9F37-FF90954511CA",
+            "id": 5,
             "title": "Shimmer Blossom",
             "filename": "ShimmerBlossom.jpg",
             "media": "Oil",
@@ -110,7 +110,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "D1DE1A03-BE0D-4106-9480-0A7E419B76B1",
+            "id": 6,
             "title": "TLC",
             "filename": "tlc.jpg",
             "media": "Acrylic",
@@ -125,7 +125,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "991F69C7-DAA5-4155-8A8F-0391ECDEBEE1",
+            "id": 7,
             "title": "Texture Plates",
             "filename": "TexturePlates.jpg",
             "media": "Oil",
@@ -140,7 +140,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "03D11E21-0A46-43AE-BC11-8F442352BC17",
+            "id": 8,
             "title": "Texture Puzzle Pieces",
             "filename": "TexturePuzzlePieces.jpg",
             "media": "Oil",
@@ -155,7 +155,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "7AD1C907-8952-43AD-98BC-E317CEE5047F",
+            "id": 9,
             "title": "Texture Shapes",
             "filename": "TextureShapes.jpg",
             "media": "Oil",
@@ -170,7 +170,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "B903EA50-4C9C-4569-B1BD-2882D3F6FCEB",
+            "id": 10,
             "title": "The Cross Emerging",
             "filename": "TheCrossEmerging.jpg",
             "media": "Oil",
@@ -185,7 +185,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "FE150B27-648C-4869-8D9F-13A30A611287",
+            "id": 11,
             "title": "Venture Into Abstract",
             "filename": "VentureIntoAbstract.jpg",
             "media": "Abstract",
@@ -200,7 +200,7 @@
             "orientation": ["horizontal", "vertical"],
             "keywords": []
         }, {
-            "id": "FD1E27B0-C1BE-49ED-B73E-E2D5BCB9FC99",
+            "id": 12,
             "title": "Apple of His Father's Eyes",
             "filename": "AppleOfHisFathersEyes.jpg",
             "media": "Oil",
@@ -215,7 +215,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "EC10A5D2-7B68-4729-AB72-58F9B3B6EA18",
+            "id": 13,
             "title": "Jovanna",
             "filename": "Jovanna.jpg",
             "media": "Oil",
@@ -230,7 +230,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "4A6093F0-539B-4C7D-9C7C-2B14309C1C6C",
+            "id": 14,
             "title": "Found Faithful - Sheena and Katrina",
             "filename": "FoundFaithful.jpg",
             "media": "Oil",
@@ -246,7 +246,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "B3C36FD9-6B99-49E2-A15A-15D265586D86",
+            "id": 15,
             "title": "Stay Awhile",
             "filename": "StayAwhile.jpg",
             "media": "Oil",
@@ -261,7 +261,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "254C2A1A-E9B1-4FCF-B873-7E8EA1A8DA89",
+            "id": 16,
             "title": "The Color of Winter Minisink",
             "filename": "TheColorOfWinterMinisink.jpg",
             "media": "Oil",
@@ -277,7 +277,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "F58022F6-D229-40AE-BD4A-FAC61480151B",
+            "id": 17,
             "title": "Therefore Be an Imitator of God",
             "filename": "ThereforeBeAnImitatorOfGod.jpg",
             "media": "Oil",
@@ -292,7 +292,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "F2667C91-86B4-4A38-84F2-D482DFDB40A5",
+            "id": 18,
             "title": "His Father's Promise",
             "filename": "HisFathersPromise.jpg",
             "media": "Oil",
@@ -307,7 +307,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "236AB2EB-0C6B-4787-B0B6-4948BE51C406",
+            "id": 19,
             "title": "Lessons by Scripture Light",
             "filename": "LessonsByScriptureLight.jpg",
             "media": "Oil",
@@ -323,7 +323,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "EA0F2236-6690-4247-8CF8-6958B5DF1198",
+            "id": 20,
             "title": "Hedged in Behind and Before",
             "filename": "HedgedInBehindAndBefore.jpg",
             "media": "Mixed Media",
@@ -338,7 +338,7 @@
             "orientation": ["vertical"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "C82BC392-E14D-4437-83FB-DA49D8462913",
+            "id": 21,
             "title": "His Eye is on the Sparrow",
             "filename": "HisEyeIsOnTheSparrow.jpg",
             "media": "Mixed Media",
@@ -353,7 +353,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "2B61D11B-0593-4E3A-BC34-789B91714FDA",
+            "id": 22,
             "title": "Shelter for a Fragile Flower",
             "filename": "ShelterForAFragileFlower.jpg",
             "media": "Mixed Media",
@@ -368,7 +368,7 @@
             "orientation": ["vertical"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "64BA4CB0-A77A-4443-9B85-FCD29173E331",
+            "id": 23,
             "title": "Which Side of the Fence",
             "filename": "WhichSideOfTheFence.jpg",
             "media": "Mixed Media",
@@ -383,7 +383,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "948E465B-945F-492E-9CA5-1D1721F39255",
+            "id": 24,
             "title": "Beauty Still Grows in this Old Clay Pot",
             "filename": "BeautyStillGrows.jpg",
             "media": "Mixed Media",
@@ -398,7 +398,7 @@
             "orientation": ["vertical"],
             "keywords": ["Still Life", "Florals"]
         }, {
-            "id": "7EC1DBE0-DB7A-4B7B-A76D-466573AC1FF9",
+            "id": 25,
             "title": "Concert of Brother's",
             "filename": "ConcertOfBrothers.jpg",
             "media": "Oil",
@@ -414,7 +414,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "85808035-CDC5-4291-8E3D-92A4B58A2496",
+            "id": 26,
             "title": "Evening Kissed Rose",
             "filename": "EveningKissedRose.jpg",
             "media": "Mixed Media",
@@ -429,7 +429,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "D056B6DA-5B13-4D78-B6EF-43C477B77D95",
+            "id": 27,
             "title": "Fellowship of Good Friends",
             "filename": "FellowshipOfGoodFriends.jpg",
             "media": "Mixed Media",
@@ -444,7 +444,7 @@
             "orientation": ["vertical"],
             "keywords": ["Still Life", "Florals"]
         }, {
-            "id": "67EC4543-7BEE-4EF2-9A0A-A6FD94D77ACB",
+            "id": 28,
             "title": "Flashy Lady Slipper",
             "filename": "FlashyLadySlipper.jpg",
             "media": "Mixed Media",
@@ -459,7 +459,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "BAD23DE1-20A3-48B1-8C0A-88E2750D79E5",
+            "id": 29,
             "title": "Garments",
             "filename": "Garments.jpg",
             "media": "Mixed Media",
@@ -474,7 +474,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "ABED30EA-E8E7-4DFD-B9A9-6F2BCB2BA98F",
+            "id": 30,
             "title": "Rose of Sharon",
             "filename": "RoseOfSharon.jpg",
             "media": "Mixed Media",
@@ -489,7 +489,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "6818ACE4-FD2D-48F6-82D8-06488F69C6D4",
+            "id": 31,
             "title": "Strength on the Peaceful Shore",
             "filename": "StrengthOnThePeacefulShore.jpg",
             "media": "Mixed Media",
@@ -504,7 +504,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "E6E69D3D-496D-4A87-983E-BE1E8C905049",
+            "id": 32,
             "title": "The Bathing Yaquina Head",
             "filename": "TheBathingYaquina.jpg",
             "media": "Oil",
@@ -519,7 +519,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "757F2575-05A9-43EC-9645-037985E60298",
+            "id": 33,
             "title": "Travel While the Path is Light",
             "filename": "TravelWhileThePathIsLight.jpg",
             "media": "Mixed Media",
@@ -534,7 +534,7 @@
             "orientation": ["vertical"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "FE0E996B-5C42-4FF2-A1C1-10B1B15A5EF8",
+            "id": 34,
             "title": "Alayne Joyous",
             "filename": "AlayneJoyous.jpg",
             "media": "Oil",
@@ -549,7 +549,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "432BC7CB-9658-42FA-80FF-F9B42A3D4AA7",
+            "id": 35,
             "title": "As the Deer Pants for Water",
             "filename": "AsTheDeerPantsForWater.jpg",
             "media": "Oil",
@@ -565,7 +565,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "A54464BC-A3FD-47E5-8E7B-6F3E3205214D",
+            "id": 36,
             "title": "Evening Watch",
             "filename": "EveningWatch.jpg",
             "media": "Oil",
@@ -580,7 +580,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "F27140B9-687A-4777-991E-3186ED72E9B4",
+            "id": 37,
             "title": "Quiet Memory",
             "filename": "QuietMemory.jpg",
             "media": "Oil",
@@ -595,7 +595,7 @@
             "orientation": ["vertical"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "6EC65CFB-C0DA-4736-8AC6-86E8EA1D081F",
+            "id": 38,
             "title": "Waiting for My Friends",
             "filename": "WaitingForMyFriends.jpg",
             "media": "Oil",
@@ -610,7 +610,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "39949CDE-C248-4DCC-A820-F97B30B8B7E4",
+            "id": 39,
             "title": "Dance on the Beach",
             "filename": "DanceOnTheBeach.jpg",
             "media": "Oil",
@@ -626,7 +626,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "78B527B5-AA7D-4348-982D-0309A9F5F6D6",
+            "id": 40,
             "title": "Menucha Pilgrim's Path",
             "filename": "MenuchaPilgrimsPath.jpg",
             "media": "Oil",
@@ -642,7 +642,7 @@
             "orientation": ["vertical"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "E2760B1C-F26F-44A3-A8CF-A05124C03041",
+            "id": 41,
             "title": "Crown Jewel, Corbit OR",
             "filename": "CrownJewel.jpg",
             "media": "Oil",
@@ -657,7 +657,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "B836C4A0-FEC2-4339-90D5-6442D7E087A9",
+            "id": 42,
             "title": "Fortress of Roses",
             "filename": "FortressOfRoses.jpg",
             "media": "Oil",
@@ -673,7 +673,7 @@
             "orientation": ["vertical"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "32059834-AA20-4818-81D4-12F83BBA7662",
+            "id": 43,
             "title": "Hidden Garden at Fanno Creek, OR",
             "filename": "HiddenGardenAtFannoCreek.jpg",
             "media": "Oil",
@@ -688,7 +688,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "D04C8121-B98A-463D-B3B8-25748F113D2F",
+            "id": 44,
             "title": "Princess Terri and Stinger",
             "filename": "PrincessTerriAndStinger.jpg",
             "media": "Oil",
@@ -703,7 +703,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "1C4C9A3A-0409-4263-B352-0E8FE778C591",
+            "id": 45,
             "title": "Queen Kristen and Big",
             "filename": "QueenKristenAndBig.jpg",
             "media": "Oil",
@@ -718,7 +718,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "19F9A761-230F-4D09-A9FD-09CD74450265",
+            "id": 46,
             "title": "Quiet Roses Before the Storm",
             "filename": "QuietRosesBeforeTheStorm.jpg",
             "media": "Mixed Media",
@@ -733,7 +733,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "42C24757-9193-4EDC-9461-C39D756F844B",
+            "id": 47,
             "title": "Sharrah's Patchwork of Dreams",
             "filename": "SharrahsPatchworkOfDreams.jpg",
             "media": "Photoshop",
@@ -748,7 +748,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "32393F64-E301-4543-8F26-AF31839A154F",
+            "id": 48,
             "title": "Young Watchmen of the Columbia River Gorge",
             "filename": "YoungWatchmenOfTheColumbiaRiverGorge.jpg",
             "media": "Oil",
@@ -763,7 +763,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "53F5EBC0-DB9A-40C0-BC2A-1150D0A32C9E",
+            "id": 49,
             "title": "Funky Blues Fuchsia",
             "filename": "FunkyBluesFuchsia.jpg",
             "media": "Mixed Media",
@@ -778,7 +778,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "E3454C54-2D63-49D8-848D-85749D2149AC",
+            "id": 50,
             "title": "Rosalie",
             "filename": "Rosalie.jpg",
             "media": "Oil",
@@ -793,7 +793,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "E2F78FA9-322A-47B4-9669-14DA8B193BBB",
+            "id": 51,
             "title": "Royal Majestic",
             "filename": "RoyalMajestic.jpg",
             "media": "Mixed Media",
@@ -808,7 +808,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "AF868439-9D60-4797-93CD-29464CB7E484",
+            "id": 52,
             "title": "Sherbet Mountain",
             "filename": "SherbetMountain.jpg",
             "media": "Mixed Media",
@@ -823,7 +823,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "7667A7D0-674D-4EBD-A2CB-1926BCC1CC33",
+            "id": 53,
             "title": "Simply Classical",
             "filename": "SimplyClassical.jpg",
             "media": "Oil",
@@ -839,7 +839,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "29A26B31-58B2-49F0-B7FC-06E1E370E50F",
+            "id": 54,
             "title": "Somewhere Beyond the Western Sky",
             "filename": "SomewhereBeyondTheWesternSky.jpg",
             "media": "Mixed Media",
@@ -854,7 +854,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "F291EB85-7AD6-4AC3-9425-266E97796B8B",
+            "id": 55,
             "title": "Springs First Morning Gloria",
             "filename": "SpringsFirstMorningGloria.jpg",
             "media": "Mixed Media",
@@ -869,7 +869,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "BE98C595-B8BC-4D74-B646-F130D4CDE77D",
+            "id": 56,
             "title": "Sunny Sweet",
             "filename": "SunnySweet.jpg",
             "media": "Photoshop",
@@ -884,7 +884,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "DBEFAB23-979D-4EF9-A91D-016180A07D40",
+            "id": 57,
             "title": "High Desert Fire Clearing",
             "filename": "HighDesertFireClearing.jpg",
             "media": "Mixed Media",
@@ -899,7 +899,7 @@
             "orientation": ["vertical"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "098D0550-30B7-4BF9-9A2F-4CC70A10C2FA",
+            "id": 58,
             "title": "We Can Stay, 'Till the Last Drop of Water is Under the Bridge",
             "filename": "WeCanStay.jpg",
             "media": "Oil",
@@ -914,7 +914,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "49DBBA70-671E-4F59-98E9-F5EA62B6FF51",
+            "id": 59,
             "title": "Rubies of Spring",
             "filename": "RubiesOfSpring.jpg",
             "media": "Mixed Media",
@@ -929,7 +929,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "BF5A953D-FD93-47E2-BA1B-75CDD9D06215",
+            "id": 60,
             "title": "Transcending",
             "filename": "Transcending.jpg",
             "media": "Oil",
@@ -945,7 +945,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "BA24DC16-70BB-4736-8730-1C923835F9A7",
+            "id": 61,
             "title": "Winters Advance",
             "filename": "WintersAdvance.jpg",
             "media": "Mixed Media",
@@ -960,7 +960,7 @@
             "orientation": ["vertical"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "E3918E68-D693-4469-A699-C66EBFA096E0",
+            "id": 62,
             "title": "Children are a Blessed Heritage unto the Lord",
             "filename": "ChildrenAreABlessedHeritage.jpg",
             "media": "Oil",
@@ -975,7 +975,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "7D794859-BDD4-4425-995A-44F31F548AA8",
+            "id": 63,
             "title": "High Water at Beavercreek",
             "filename": "HighWaterAtBeavercreek.jpg",
             "media": "Oil",
@@ -991,7 +991,7 @@
             "orientation": ["vertical"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "1644A566-FF75-4EDB-BB67-08428BD2816B",
+            "id": 64,
             "title": "Iris Whispering Secrets",
             "filename": "IrisWhisperingSecrets.jpg",
             "media": "Mixed Media",
@@ -1006,7 +1006,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "B4DD4995-12DF-47D4-986C-0CE6E893DB45",
+            "id": 65,
             "title": "Preponderance",
             "filename": "Preponderance.jpg",
             "media": "Oil",
@@ -1022,7 +1022,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "6483BA21-56C1-440C-B6A0-12ED258EB3DB",
+            "id": 66,
             "title": "Reach for the Sun",
             "filename": "ReachForTheSun.jpg",
             "media": "Oil",
@@ -1038,7 +1038,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "BC88789B-4451-4B58-A60E-019A677C3BCB",
+            "id": 67,
             "title": "Shimmer Mountain",
             "filename": "ShimmerMountain.jpg",
             "media": "Oil",
@@ -1053,7 +1053,7 @@
             "orientation": ["vertical"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "E36EDA43-6366-459D-BFF7-9094A5ADC543",
+            "id": 68,
             "title": "Sunlit Storm",
             "filename": "SunlitStorm.jpg",
             "media": "Mixed Media",
@@ -1068,7 +1068,7 @@
             "orientation": ["vertical"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "63D41A2B-71AE-4F3D-9ABB-6CB7566387BD",
+            "id": 69,
             "title": "Irenic Sanctuary",
             "filename": "IrenicSanctuary.jpg",
             "media": "Oil",
@@ -1084,7 +1084,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "4ADF666E-D2D3-4BF7-9CB8-FF5DD9EB5C37",
+            "id": 70,
             "title": "Iris Family Portrait",
             "filename": "IrisFamilyPortrait.jpg",
             "media": "Oil",
@@ -1099,7 +1099,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "DE667DA4-9891-4958-AFD1-C3DCC124E872",
+            "id": 71,
             "title": "Sudden Arrival",
             "filename": "SuddenArrival.jpg",
             "media": "Oil",
@@ -1115,7 +1115,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "31AA6C0C-7452-436D-A112-D41D8B93535C",
+            "id": 72,
             "title": "Adorning My Neighbors Steps",
             "filename": "AdorningMyNeighborsSteps.jpg",
             "media": "Oil",
@@ -1131,7 +1131,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Still Life", "Florals"]
         }, {
-            "id": "C6CBE56A-BE64-4F1D-B1FF-83817EECFFDD",
+            "id": 73,
             "title": "Afternoon She Slumbers",
             "filename": "AfternoonSheSlumbers.jpg",
             "media": "Oil",
@@ -1147,7 +1147,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "41994BAC-3A5F-496C-BC4D-48F3217D16C5",
+            "id": 74,
             "title": "Fire Sky at Fogerty",
             "filename": "FireSkyAtFogerty.jpg",
             "media": "Oil",
@@ -1162,7 +1162,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "FFFBDB20-DE58-4282-99BB-9A40F234CAFC",
+            "id": 75,
             "title": "Impetuous Spirit - Mount St. Helens",
             "filename": "ImpetuousSpirit.jpg",
             "media": "Oil",
@@ -1178,7 +1178,7 @@
             "orientation": ["vertical"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "CF6F1F57-A825-4A35-BD8A-AA12546E5340",
+            "id": 76,
             "title": "Mix It Up",
             "filename": "MixItUp.jpg",
             "media": "Oil",
@@ -1193,7 +1193,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "D23397A5-8155-4826-9F1A-992B606AC043",
+            "id": 77,
             "title": "Sun, Cypress and Surf",
             "filename": "SunCypressAndSurf.jpg",
             "media": "Mixed Media",
@@ -1208,7 +1208,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "F2DC47B0-987B-4F34-92D8-CA5C37BBDC1A",
+            "id": 78,
             "title": "Warm Gathering",
             "filename": "WarmGathering.jpg",
             "media": "Mixed Media",
@@ -1223,7 +1223,7 @@
             "orientation": ["vertical"],
             "keywords": ["Still Life", "Florals"]
         }, {
-            "id": "22CE8E20-2474-44F7-AD97-95ED9012BBF2",
+            "id": 79,
             "title": "When Iris and Rose Came to Lunch",
             "filename": "WhenIrisAndRosesCameToLunch.jpg",
             "media": "Oil",
@@ -1239,7 +1239,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "34DD3B2B-F240-4CC8-AD5B-881CAEFBFB29",
+            "id": 80,
             "title": "Pocono Mountain Floral Gathering",
             "filename": "PoconoMountain.jpg",
             "media": "Oil",
@@ -1254,7 +1254,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "650C2183-553D-4EF0-9BF5-25892930BFDC",
+            "id": 81,
             "title": "Color Burst",
             "filename": "ColorBurst.jpg",
             "media": "Oil",
@@ -1270,7 +1270,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "EB6B8D0B-1168-4526-8826-627D631564AE",
+            "id": 82,
             "title": "Evening Kissed Sweet",
             "filename": "EveningKissedSweet.jpg",
             "media": "Oil",
@@ -1285,7 +1285,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Still Life"]
         }, {
-            "id": "CFC00016-6A54-4E8A-873E-97F54937D833",
+            "id": 83,
             "title": "Puppy Hotel Gardens",
             "filename": "PuppyHotelGardens.jpg",
             "media": "Oil",
@@ -1300,7 +1300,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Florals", "Landscapes"]
         }, {
-            "id": "7120DE24-175B-4085-9793-C34F4F52809B",
+            "id": 84,
             "title": "Golden Hood",
             "filename": "GoldenHood.jpg",
             "media": "Oil",
@@ -1316,7 +1316,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "32AA4722-29D2-4254-81C1-8B06CBD6892D",
+            "id": 85,
             "title": "Serenade a Future Dance",
             "filename": "SerenadeAFutureDance.jpg",
             "media": "Oil",
@@ -1332,7 +1332,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "CA3DAA7A-7671-4644-8420-CE5E67D3AB26",
+            "id": 86,
             "title": "Sunflowers for Breakfast",
             "filename": "SunflowersForBreakfast.jpg",
             "media": "Oil",
@@ -1348,7 +1348,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Still Life"]
         }, {
-            "id": "926552CF-0EEE-4077-8BD3-0D847FD22AA1",
+            "id": 87,
             "title": "The Pretty Club",
             "filename": "ThePrettyClub.jpg",
             "media": "Oil",
@@ -1363,7 +1363,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "AFDA6E2F-2E5B-4451-9E7F-6E5D7A4A779E",
+            "id": 88,
             "title": "Burst Beyond Borders",
             "filename": "BurstBeyondBorders.jpg",
             "media": "Mixed Media",
@@ -1379,7 +1379,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "63F649A8-69A5-4809-8D3D-4B9E1E244AAD",
+            "id": 89,
             "title": "Magnolia Choir",
             "filename": "MagnoliaChoir.jpg",
             "media": "Oil",
@@ -1394,7 +1394,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "A36AEA5B-DC64-420A-B38B-D6AF5EB90BAE",
+            "id": 90,
             "title": "Meet you at the Teapot",
             "filename": "MeetYouAtTheTeapot.jpg",
             "media": "Oil",
@@ -1410,7 +1410,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Still Life"]
         }, {
-            "id": "F25A16E9-D544-43E9-80C1-DC0EE4C6431F",
+            "id": 91,
             "title": "Michael's Eternal Spring",
             "filename": "MichaelsEternalSpring.jpg",
             "media": "Oil",
@@ -1425,7 +1425,7 @@
             "orientation": ["vertical"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "FFB0FCAC-19C3-428A-A4DD-266398083A27",
+            "id": 92,
             "title": "Retreat Behind the Mountain",
             "filename": "RetreatBehindTheMountain.jpg",
             "media": "Mixed Media",
@@ -1440,7 +1440,7 @@
             "orientation": ["vertical"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "C74E2465-A44B-416E-98F7-3573CEE297D9",
+            "id": 93,
             "title": "Rise Among Us",
             "filename": "RiseAmongUs.jpg",
             "media": "Oil",
@@ -1455,7 +1455,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "533213B9-00BD-4BA1-8DA6-C636F9463756",
+            "id": 94,
             "title": "The Wedding",
             "filename": "TheWedding.jpg",
             "media": "Oil",
@@ -1470,7 +1470,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "ABEA1FDF-E10E-4827-A254-E618A34887BD",
+            "id": 95,
             "title": "Under the Gaze of Christmas Cactus",
             "filename": "UnderTheGazeOfChristmasCactus.jpg",
             "media": "Oil",
@@ -1486,7 +1486,7 @@
             "orientation": ["vertical"],
             "keywords": ["Still Life"]
         }, {
-            "id": "3668986E-6B5C-40E5-A74A-F5CDF2BE9E60",
+            "id": 96,
             "title": "When Searching for My Ordinary World, Help Me Remember You",
             "filename": "WhenSearchingForMyOrdinaryWorld.jpg",
             "media": "Oil",
@@ -1502,7 +1502,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "9191CCDF-43A1-4035-92E3-5615E2519259",
+            "id": 97,
             "title": "Warm Gathering for Tea",
             "filename": "WarmGatheringForTea.jpg",
             "media": "Mixed Media",
@@ -1518,7 +1518,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "2B27EA02-3F80-4E8D-9A1B-AF8956BA74C4",
+            "id": 98,
             "title": "Fire Fuchsia II",
             "filename": "FireFuchsiaII.jpg",
             "media": "Mixed Media",
@@ -1533,7 +1533,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "6820DCA9-21E4-4D7B-A37E-1FD380289838",
+            "id": 99,
             "title": "Father's Love for the Tablets of Her Heart",
             "filename": "FathersLove.jpg",
             "media": "Oil",
@@ -1548,7 +1548,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "A6B2E607-13C5-42AC-9CC0-A070EC644CBB",
+            "id": 100,
             "title": "Late Spring Bloom",
             "filename": "LateSpringBloom.jpg",
             "media": "Oil",
@@ -1563,7 +1563,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "39D1E2E3-E20D-43B4-AB10-CBD1814F694E",
+            "id": 101,
             "title": "Rubies of Spring II",
             "filename": "RubiesOfSpringII.jpg",
             "media": "Mixed Media",
@@ -1579,7 +1579,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "37C9A94A-AD62-4552-B05B-5629D74AEF9C",
+            "id": 102,
             "title": "Corporal Matthew Lempke",
             "filename": "CorporalMatthewLempke.jpg",
             "media": "Oil",
@@ -1594,7 +1594,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "D423732E-9CF3-4155-B08B-5C971E449D69",
+            "id": 103,
             "title": "Fruit of Her Passionate Dedication",
             "filename": "FruitOfHerPassionateDedication.jpg",
             "media": "Oil",
@@ -1609,7 +1609,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "2E6AAE93-2511-4602-A0C7-85F300AE6B65",
+            "id": 104,
             "title": "High Tide Cascade",
             "filename": "HighTideCascade.jpg",
             "media": "Mixed Media",
@@ -1625,7 +1625,7 @@
             "orientation": ["vertical"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "0061F25A-7B66-4B3F-8890-E9A6E02E9290",
+            "id": 105,
             "title": "Iris Whispering Secrets II",
             "filename": "IrisWhisperingSecretsII.jpg",
             "media": "Mixed Media",
@@ -1641,7 +1641,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "FE40B1C9-FBFF-44AC-A6D7-98C65750FAF2",
+            "id": 106,
             "title": "Needle by a Haystack",
             "filename": "NeedleByAHaystack.jpg",
             "media": "Oil",
@@ -1657,7 +1657,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "DB1753BD-E6D9-4CE7-99EA-FDEC31592F76",
+            "id": 107,
             "title": "O Se' BaBa",
             "filename": "OSeBaBa.jpg",
             "media": "Oil",
@@ -1673,7 +1673,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "BCB77C5A-89C9-46EE-B64C-7DB83EB2AC4F",
+            "id": 108,
             "title": "Sunset Shawl II",
             "filename": "SunsetShawlII.jpg",
             "media": "Mixed Media",
@@ -1689,7 +1689,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "DC497C2A-B9CC-4472-A222-B008BBDD151A",
+            "id": 109,
             "title": "Vibrant Magnolias",
             "filename": "VibrantMagnolias.jpg",
             "media": "Oil",
@@ -1705,7 +1705,7 @@
             "orientation": ["vertical"],
             "keywords": ["Florals"]
         }, {
-            "id": "0A4ADDE2-543E-4A30-926D-5F113F9E086F",
+            "id": 110,
             "title": "Wild Magnolias",
             "filename": "WildMagnolias.jpg",
             "media": "Mixed Media",
@@ -1720,7 +1720,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "43EEA7B5-EEEB-4D81-AC35-BDCE37831A7B",
+            "id": 111,
             "title": "Ballet Folklorico Between Spring Showers",
             "filename": "DanceBetweenShowers.jpg",
             "media": "Oil",
@@ -1736,7 +1736,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "8E40A379-1813-4D1E-8090-B48B8517C0EF",
+            "id": 112,
             "title": "Myrtle Beach",
             "filename": "MyrtleBeach.jpg",
             "media": "Oil",
@@ -1751,7 +1751,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Landscapes"]
         }, {
-            "id": "AAAC94ED-6306-4F06-9F09-F085D2EF1B80",
+            "id": 113,
             "title": "Red and Yellow Sweet Bells",
             "filename": "RedAndYellowBells.jpg",
             "media": "Mixed Media",
@@ -1767,7 +1767,7 @@
             "orientation": ["horizontal"],
             "keywords": ["Still Life"]
         }, {
-            "id": "4B0134FB-881B-4FE3-B62F-0CFBDF5E7331",
+            "id": 114,
             "title": "You Redefine Acting Your Age",
             "filename": "YouRedefineActingYourAge.jpg",
             "media": "Oil",
@@ -1782,7 +1782,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "A0BA162D-9E6C-4176-984C-3C62B637CA8A",
+            "id": 115,
             "title": "Bend Summer's Eve",
             "filename": "BendSummersEve.jpg",
             "media": "Oil",
@@ -1798,7 +1798,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "74D9E82D-FB17-4D0F-BA67-3CCA39C02B4D",
+            "id": 116,
             "title": "Cannon Beach Evening Sunset",
             "filename": "CannonBeachEveningSunset.jpg",
             "media": "Oil",
@@ -1814,7 +1814,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "A2B77F53-44C3-4C89-A2CB-95ABFB411F1B",
+            "id": 117,
             "title": "Cannon Beach Sunset Sentinels",
             "filename": "CannonBeachSunsetSentinels.jpg",
             "media": "Oil",
@@ -1829,7 +1829,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "66749572-3149-4499-80EC-3E342ADDD0DA",
+            "id": 118,
             "title": "Debbie Bunce",
             "filename": "DebbieBunce.jpg",
             "media": "Oil",
@@ -1844,7 +1844,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "EEE354C0-CDC5-4009-AC46-C5046C9D1444",
+            "id": 119,
             "title": "Eucalyptus Shore Blk",
             "filename": "EucalyptisShoreBlk.jpg",
             "media": "Oil",
@@ -1860,7 +1860,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "A33F5A57-E977-48E5-BA39-B3A9EC47176B",
+            "id": 120,
             "title": "Floppy Roses",
             "filename": "FloppyRoses.jpg",
             "media": "Oil",
@@ -1876,7 +1876,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "4383E063-CF7B-4CBB-B9D0-0DDF6708F8E8",
+            "id": 121,
             "title": "Golden Anniversary Park's Peak",
             "filename": "GoldenAnniversaryPark.jpg",
             "media": "Oil",
@@ -1892,7 +1892,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "59BA80E6-D4C3-49AC-BA9C-130B20057E97",
+            "id": 122,
             "title": "Good Morning Magnolia",
             "filename": "GoodMorningMagnolia.jpg",
             "media": "Oil",
@@ -1908,7 +1908,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "8705C445-9D5E-421F-A59E-CC2A50181E2E",
+            "id": 123,
             "title": "Hillside Rodie",
             "filename": "HillsideRodie.jpg",
             "media": "Oil",
@@ -1924,7 +1924,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "C12589D9-6D98-4A9B-8201-F262B4602FCD",
+            "id": 124,
             "title": "Just Passing Through",
             "filename": "JustPassingThrough.jpg",
             "media": "Oil",
@@ -1940,7 +1940,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "DCF442F2-33E0-4865-A8EB-A5FC68CAFB55",
+            "id": 125,
             "title": "Mature Rose Horizon",
             "filename": "MatureRoseHorizon.jpg",
             "media": "Oil",
@@ -1956,7 +1956,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "AE4ADD43-0DED-414E-93DF-93A099A2ACD8",
+            "id": 126,
             "title": "Purple Mountain Lake",
             "filename": "PurpleMountainLake.jpg",
             "media": "Oil",
@@ -1972,7 +1972,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "02159449-444B-431B-8146-AD177227FCCC",
+            "id": 127,
             "title": "Rose Jam",
             "filename": "RoseJam.jpg",
             "media": "Oil",
@@ -1988,7 +1988,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "07AE124F-C29A-4031-B878-237AF2F79E54",
+            "id": 128,
             "title": "Sweet by Candle Light",
             "filename": "SweetByCandlelight.jpg",
             "media": "Oil",
@@ -2003,7 +2003,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "891C1AC2-9384-4D1D-8DCB-B2800A2D0756",
+            "id": 129,
             "title": "Tim and Sarah Fallon",
             "filename": "TimAndSarahFallon.jpg",
             "media": "Oil",
@@ -2018,7 +2018,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "877A78F6-3841-4E71-85DB-84786F51F7F3",
+            "id": 130,
             "title": "Where the River Runs",
             "filename": "WhereTheRiverRuns.jpg",
             "media": "Oil",
@@ -2034,7 +2034,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "432500E0-8A67-4C39-AC4E-D1D18337AA08",
+            "id": 131,
             "title": "Lt. Jason Cammarata and P3",
             "filename": "LtJasonCammarataAndP3.jpg",
             "media": "Oil",
@@ -2049,7 +2049,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "16B586F2-4C01-4439-BA5E-D1C578785761",
+            "id": 132,
             "title": "Party in a Pewter Pot",
             "filename": "PartyInAPewterPot.jpg",
             "media": "Acrylic",
@@ -2064,7 +2064,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "0B854749-A718-4C31-A93B-BC9E2D32E687",
+            "id": 133,
             "title": "You Would be a Pool There on a Mountain, Standing Tall, I would be a Waterfall",
             "filename": "YouWouldBeAPool.jpg",
             "media": "Oil",
@@ -2079,7 +2079,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "E583A8F4-89B3-4AAA-964D-F00BEB2F49D3",
+            "id": 134,
             "title": "Drop That Pulls the Waterfall",
             "filename": "DropThatPullsTheWaterfall.jpg",
             "media": "Oil",
@@ -2094,7 +2094,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "C4038BD3-7B70-4CE8-B150-EC161E23167B",
+            "id": 135,
             "title": "Mountain Side Rose",
             "filename": "MountainSideRose.jpg",
             "media": "Oil",
@@ -2109,7 +2109,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "D3331D68-DC35-4FE2-A51F-6D0BDC835C92",
+            "id": 136,
             "title": "Up The Hill, Sauvie Island OR",
             "filename": "SauvieIslandUpTheHill.jpg",
             "media": "Oil",
@@ -2124,7 +2124,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "BBD504D7-28D3-44FC-98A7-688BBF86699D",
+            "id": 137,
             "title": "Eucalyptus Bay",
             "filename": "EucalyptusBay.jpg",
             "media": "Oil",
@@ -2139,7 +2139,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "181C8B4E-A156-444B-938F-6F9707990FD9",
+            "id": 138,
             "title": "Sentimental Sunset - Myrtle Beach",
             "filename": "SentimentalSunsetMyrtleBeach.jpg",
             "media": "Oil",
@@ -2154,7 +2154,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "D0B4DAB0-A66F-41FB-85A5-E180E9A5D35A",
+            "id": 139,
             "title": "Sentimental Reflection - Jackson Bottom Wetland Preserve, Hillsboro OR",
             "filename": "SentimentalReflections.jpg",
             "media": "Oil",
@@ -2169,7 +2169,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "8EACFB19-2299-46FD-9007-4960F25C9BEB",
+            "id": 140,
             "title": "Anniversary Beach, Oregon, en plein air",
             "filename": "AnniversaryBeach.jpg",
             "media": "Acrylic",
@@ -2184,7 +2184,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "69AF3767-6EFF-4FE5-A927-EE72A3947ABE",
+            "id": 141,
             "title": "Doc., Ashland, Portrait from Life",
             "filename": "DocAshland.jpg",
             "media": "Oil",
@@ -2199,7 +2199,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "D6F44DF1-0612-439F-8C6F-63F091C85FBD",
+            "id": 142,
             "title": "My Favorite House on Lake Shore Road",
             "filename": "MyFavoriteHouse.jpg",
             "media": "Oil ",
@@ -2214,7 +2214,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "E8F2DC30-3EDB-4399-B189-9BBF6FAD988F",
+            "id": 143,
             "title": "Windy Window, Chinook Boating Park, Fair View OR",
             "filename": "WindyWindow.jpg",
             "media": "Oil ",
@@ -2229,7 +2229,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "A14D218F-97C5-4F1A-AE10-435DF5FB698B",
+            "id": 144,
             "title": "Blue Mist Morning, Muir Beach CA",
             "filename": "BlueMistMorning.jpg",
             "media": "Oil",
@@ -2244,7 +2244,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "16F6AD03-3F83-4A87-A35B-91FB1F0A24EC",
+            "id": 145,
             "title": "Cannon Beach Curl, Cannon Beach OR",
             "filename": "CannonBeachCurl.jpg",
             "media": "Oil",
@@ -2259,7 +2259,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "3922BDE9-635E-4FD0-A38D-23B034585740",
+            "id": 146,
             "title": "Early Morning Mist, Hood River OR",
             "filename": "EarlyMorningMist.jpg",
             "media": "Oil",
@@ -2274,7 +2274,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "8614D2C1-9E98-4E24-8855-0740917DC55B",
+            "id": 147,
             "title": "Late Light at Lakeshore, Lake Oswego OR",
             "filename": "LateLightAtLakeshore.jpg",
             "media": "Oil",
@@ -2289,7 +2289,7 @@
             "orientation": ["horizontal", "vertical"],
             "keywords": []
         }, {
-            "id": "88CCC337-56BE-403C-A130-A15D3FC0DFDF",
+            "id": 148,
             "title": "Lavender Gateway, Mountain Side Lavender Farm, Hillsboro OR",
             "filename": "LavenderGateway.jpg",
             "media": "Oil",
@@ -2304,7 +2304,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "D9A08137-FD00-44D4-88D6-CB40083661C5",
+            "id": 149,
             "title": "Meadow Gate, Sauvie Island OR",
             "filename": "MeadowGate.jpg",
             "media": "Oil",
@@ -2319,7 +2319,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "4C1114D1-3025-497D-8FD1-D90D16246C97",
+            "id": 150,
             "title": "Philip Foster Farm, Estacada OR",
             "filename": "PhilipFosterFarm.jpg",
             "media": "Oil",
@@ -2334,7 +2334,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "8D855F95-5ED2-4D19-81A4-309C2E089A18",
+            "id": 151,
             "title": "Sunny Embrace, Mt. Hood Vineyard Homestead, Hood River OR",
             "filename": "SunnyEmbrace.jpg",
             "media": "Oil",
@@ -2349,7 +2349,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "FC9C840D-B290-45EE-9C91-06222C9BB1E6",
+            "id": 152,
             "title": "View from the Bluff, Cannon Beach OR",
             "filename": "ViewFromTheBluff.jpg",
             "media": "Oil",
@@ -2364,7 +2364,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "B22825F2-0D6E-4290-A7FD-569EED3659D7",
+            "id": 153,
             "title": "When the Fog Breaks, Ecola State Park Lookout",
             "filename": "WhenTheFogBreaks.jpg",
             "media": "Oil",
@@ -2379,7 +2379,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "ABCD173E-D603-48CC-80B7-F2C2A98114FE",
+            "id": 154,
             "title": "Wildwood Water Rush, Welches OR",
             "filename": "WildwoodWaterRush.jpg",
             "media": "Oil",
@@ -2394,7 +2394,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "3703625E-C036-4178-8C67-9B6E1DD47D58",
+            "id": 155,
             "title": "House on Main Street, Hillsboro OR",
             "filename": "HouseOnMainStreet.jpg",
             "media": "Oil",
@@ -2409,7 +2409,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "49545F4F-BF90-4D42-9626-093673848847",
+            "id": 156,
             "title": "View from Rood Bridge, Hillsboro OR",
             "filename": "ViewFromRoodBridge.jpg",
             "media": "Oil",
@@ -2424,7 +2424,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "C747F79D-D17B-4992-9FEC-FFC05B9D597D",
+            "id": 157,
             "title": "5th Street Market, Eugene",
             "filename": "5thStreetMarket.jpg",
             "media": "Oil",
@@ -2439,7 +2439,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "AFC4AFA3-F3AB-45CE-8BA0-5FE1FCD3DBAA",
+            "id": 158,
             "title": "Blue Heron Swan Song, Oregon City Falls",
             "filename": "BlueHeronSwanSong.jpg",
             "media": "Oil",
@@ -2454,7 +2454,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "D853EDC3-592A-4D10-A0F3-08DA0DC7A6C8",
+            "id": 159,
             "title": "Panorama Point, County Park Scenic View, Hood River Oregon",
             "filename": "PanoramaPointLookout.jpg",
             "media": "Oil",
@@ -2469,7 +2469,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "9C2B8401-894B-4538-ADF2-6CA51C85EA17",
+            "id": 160,
             "title": "Pumpkin Glow, Rasmussen Farms, Hood River",
             "filename": "PumpkinGlow.jpg",
             "media": "Oil",
@@ -2484,7 +2484,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "BB3AFFB1-F66A-43C3-AB00-AE441E407640",
+            "id": 161,
             "title": "Sheep Tire you Out, So, We are Resting on the Bluff",
             "filename": "SheepTireYouOut.jpg",
             "media": "Oil",
@@ -2499,7 +2499,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "2AB3EDE4-8094-4949-B692-8EDF4774335D",
+            "id": 162,
             "title": "Sun Kissed Slope, Rooster Rock State Park",
             "filename": "SunKissedSlope.jpg",
             "media": "Oil",
@@ -2514,7 +2514,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "E8758F0D-B1BC-457B-B502-E249153C0606",
+            "id": 163,
             "title": "View from McLoughlin Promenade, Oregon City",
             "filename": "ViewFromMcLoughlin.jpg",
             "media": "Oil",
@@ -2529,7 +2529,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "9CB55610-3D8A-442C-94D2-58262B6DEE68",
+            "id": 164,
             "title": "View from the Vineyard - George Crest Vineyard, WA",
             "filename": "ViewFromTheVineyard.jpg",
             "media": "Acrylic",
@@ -2544,7 +2544,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "9F9A9BED-1A22-4F38-B567-B6022B2A752B",
+            "id": 165,
             "title": "An Inviting Place, Mountain Side Farm Hillsboro",
             "filename": "AnInvitingPlace.jpg",
             "media": "Oil",
@@ -2559,7 +2559,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "08AEE953-17B3-4344-981E-12ED3AB8C88E",
+            "id": 166,
             "title": "Box R Ranch Tall Firs, Ashland",
             "filename": "BoxRRanchTallFirs.jpg",
             "media": "Oil",
@@ -2574,7 +2574,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "BC4AEBCD-6BF7-44BA-87F2-900DACD4653B",
+            "id": 167,
             "title": "Brilliant Morning Mist, St. John's Bridge Portland",
             "filename": "BrilliantMorningMist.jpg",
             "media": "Oil",
@@ -2589,7 +2589,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "BB321DA1-060B-4985-B381-026294B3333C",
+            "id": 168,
             "title": "Chinook Landing at Sunset, Fairview",
             "filename": "ChinookLandingAtSunset.jpg",
             "media": "Oil",
@@ -2604,7 +2604,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "6D71537A-8DFE-403D-A72A-91E8448F0034",
+            "id": 169,
             "title": "George Rodgers Bridge, Lake Oswego",
             "filename": "GeorgeRodgersBridge.jpg",
             "media": "Oil",
@@ -2619,7 +2619,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "45C94F07-C229-472C-A5EB-DC9252A4398B",
+            "id": 170,
             "title": "It Takes 2 Baby, Mountain Side Farm Hillsboro",
             "filename": "ItTakes2Baby.jpg",
             "media": "Oil",
@@ -2634,7 +2634,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "046FA45F-025A-49C2-8AD8-B3FCFFE6D61E",
+            "id": 171,
             "title": "Kelly Point Beach, Portland",
             "filename": "KellyPointBeach.jpg",
             "media": "Oil",
@@ -2649,7 +2649,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "C325A6EE-05BE-44E0-A91F-3873B1DC15DF",
+            "id": 172,
             "title": "Little Warm Up for 2, Mountain Side Farm, Hillsboro",
             "filename": "LittleWarmUpFor2.jpg",
             "media": "Oil",
@@ -2664,7 +2664,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "125F0C1F-6E87-4297-BF28-92AB0D9B2D8B",
+            "id": 173,
             "title": "New Blooms Rhododendren Garden, Portland",
             "filename": "NewBloomsRhododendrenGarden.jpg",
             "media": "Oil",
@@ -2679,7 +2679,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "E463463F-8416-4EE5-A5F7-4B8D9C4AA8D6",
+            "id": 174,
             "title": "Rooster Rock Jetty, Columbia River Gorge",
             "filename": "RoosterRockJetty.jpg",
             "media": "Oil",
@@ -2694,7 +2694,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "AF321912-1178-488C-A529-BBCE0640C477",
+            "id": 175,
             "title": "Skinner Butte Rapids, Eugene",
             "filename": "SkinnerButteRapids.jpg",
             "media": "Oil",
@@ -2709,7 +2709,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "9282F494-BA0C-43BA-A46B-9E7536BB0C44",
+            "id": 176,
             "title": "Watching Over the Lavender, Mountain Side Farm, Hillsboro",
             "filename": "WatchingOverTheLavender.jpg",
             "media": "Oil",
@@ -2724,7 +2724,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "E7AFF0FB-F571-436D-882A-2747D1E26D2F",
+            "id": 177,
             "title": "Whittaker Pond Shimmer, Portland",
             "filename": "WhittakerPondShimmer.jpg",
             "media": "Oil",
@@ -2739,7 +2739,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "7653377C-3ABC-4261-8B38-DC694E73C810",
+            "id": 178,
             "title": "Blue Morning Mist",
             "filename": "BlueMorningMist.jpg",
             "media": "Oil on Linen",
@@ -2754,7 +2754,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "392DD539-30C9-4936-9CAD-59A9ACA6CF86",
+            "id": 179,
             "title": "Hillsboro Bridge with MCM Style, Hillsboro Oregon",
             "filename": "HillsboroBridge.jpg",
             "media": "Oil",
@@ -2769,7 +2769,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "1051AE98-362F-4C5C-AB93-0E5836D518A5",
+            "id": 180,
             "title": "Crown Point, Columbia River Gorge",
             "filename": "CrownPoint.jpg",
             "media": "Oil",
@@ -2784,7 +2784,7 @@
             "orientation": ["horizontal", "vertical"],
             "keywords": []
         }, {
-            "id": "EF852B9C-CF34-4431-BCFD-9B28433626FF",
+            "id": 181,
             "title": "Haystack Rock, Cannon Beach",
             "filename": "HaystackRock.jpg",
             "media": "Oil",
@@ -2799,7 +2799,7 @@
             "orientation": ["horizontal", "vertical"],
             "keywords": []
         }, {
-            "id": "D2866B89-173B-4394-9ED2-F4085ED91DA8",
+            "id": 182,
             "title": "Independence, New Jersey",
             "filename": "Independence.jpg",
             "media": "Oil",
@@ -2814,7 +2814,7 @@
             "orientation": ["horizontal", "vertical"],
             "keywords": []
         }, {
-            "id": "F7D207DA-C8AC-40E9-B10B-CB6D304A3ADD",
+            "id": 183,
             "title": "Indian Point, Cannon Beach",
             "filename": "IndianPoint.jpg",
             "media": "Oil",
@@ -2829,7 +2829,7 @@
             "orientation": ["horizontal", "vertical"],
             "keywords": []
         }, {
-            "id": "2870836D-9194-4A2A-94AA-21F57E228F55",
+            "id": 184,
             "title": "Rowena Crest Sunset",
             "filename": "RowenaCrestSunset.jpg",
             "media": "Oil",
@@ -2844,7 +2844,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "BF5F1DD9-3C01-42CC-8A63-83A042402F7D",
+            "id": 185,
             "title": "Sunset Seascape, Oregon Coast",
             "filename": "SunsetSeascape.jpg",
             "media": "Oil",
@@ -2859,7 +2859,7 @@
             "orientation": ["horizontal", "vertical"],
             "keywords": []
         }, {
-            "id": "FD2F7841-D69D-434C-A3DD-902D89547D94",
+            "id": 186,
             "title": "3 Pear Still Life",
             "filename": "3PearStillLife.jpg",
             "media": "Oil",
@@ -2874,7 +2874,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "52B65EC1-3FF2-4A91-9470-74728748B006",
+            "id": 187,
             "title": "Canadian Geese on Parade",
             "filename": "CanadianGeeseOnParade.jpg",
             "media": "Oil",
@@ -2889,7 +2889,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "E64DA33A-087B-4C0C-AD44-1DC4EEF46B0E",
+            "id": 188,
             "title": "Fisherman's Wharf, Monterey California",
             "filename": "FishermansWharf.jpg",
             "media": "Oil",
@@ -2904,7 +2904,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "4E830DFC-AFD9-41F0-A3D2-2C741E286AFE",
+            "id": 189,
             "title": "George Rodgers Park, Lake Oswego Oregon",
             "filename": "GeorgeRodgersPark.jpg",
             "media": "Oil",
@@ -2919,7 +2919,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "3A548A5D-9871-4D33-BA7C-458B32518831",
+            "id": 190,
             "title": "Little Blue Bottle",
             "filename": "LittleBlueBottle.jpg",
             "media": "Oil",
@@ -2934,7 +2934,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "313ADF99-DB68-45D4-8C5F-76618153CE04",
+            "id": 191,
             "title": "Little Blue Jug",
             "filename": "LittleBlueJug.jpg",
             "media": "Oil",
@@ -2949,7 +2949,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "C2B54A36-7386-41BC-9C3A-29C451C124B9",
+            "id": 192,
             "title": "Little Yellow Pitcher",
             "filename": "LittleYellowPitcher.jpg",
             "media": "Oil",
@@ -2964,7 +2964,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "D491A157-7792-4398-8C5E-0119A6E5BB5F",
+            "id": 193,
             "title": "Millennium Park Fishing and Duck Feeding Outlet",
             "filename": "MillenniumParkFishingAndDuckFeedingOutlet.jpg",
             "media": "Oil",
@@ -2979,7 +2979,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "5331AC22-3842-43C4-AA98-B6EA6CE7B6AE",
+            "id": 194,
             "title": "Red Minature Tea Pot and Alarm",
             "filename": "RedMinatureTeapotAndAlarm.jpg",
             "media": "Oil",
@@ -2994,7 +2994,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "38082D72-A386-4B54-B884-AAC59E8F0926",
+            "id": 195,
             "title": "State Street B and G, Lake Oswego Oregon",
             "filename": "StateStreet.jpg",
             "media": "Oil",
@@ -3009,7 +3009,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "7A559923-2F30-4CD3-961E-1B0BB26CE7A2",
+            "id": 196,
             "title": "Strawberry Lime Orange Mix",
             "filename": "StrawberryLimeOrangeMix.jpg",
             "media": "Oil",
@@ -3024,7 +3024,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "766A41D1-B0A8-4ADD-8600-4DF5EBB332BD",
+            "id": 197,
             "title": "Toast and Coffee for Breakfast",
             "filename": "ToastAndCoffeeForBreakfast.jpg",
             "media": "Oil",
@@ -3039,7 +3039,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "DD729E5E-A5B3-4979-83D0-A07F93B704E9",
+            "id": 198,
             "title": "Lavender Lunch Break - The Honey Bees Invited Themselves",
             "filename": "LavenderLunchBreak.jpg",
             "media": "Oil",
@@ -3054,7 +3054,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "28542F25-CEF8-4444-AEB9-3C783E408BDD",
+            "id": 199,
             "title": "Morning Sun on the Lavender Mountainside",
             "filename": "MorningSunOnTheLavenderMountainside.jpg",
             "media": "Oil",
@@ -3069,7 +3069,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "6D16C5AC-599B-489F-9FE8-E43830CA50DE",
+            "id": 200,
             "title": "Right Side of the Track",
             "filename": "RightSideOfTheTrack.jpg",
             "media": "Oil",
@@ -3084,7 +3084,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "6326A70C-D0D9-49FD-B56B-D30C84A09D7D",
+            "id": 201,
             "title": "Wild Epiphany Ice Cream",
             "filename": "WildEpiphanyIceCream.jpg",
             "media": "Oil",
@@ -3099,7 +3099,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "EDEEDCAE-300F-4FBB-9A7F-E4423DF5C3D4",
+            "id": 202,
             "title": "Tillikum Bridge, Sunset Twinkle",
             "filename": "TillikumBridgeSunsetTwinkle.jpg",
             "media": "Oil",
@@ -3114,7 +3114,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "69051088-C371-447E-8F1C-2123B47B0A7F",
+            "id": 203,
             "title": "Tillikum Bridge, The Clouds Roll In",
             "filename": "TillikumBridgeTheCloudsRollIn.jpg",
             "media": "Oil",
@@ -3129,7 +3129,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "8EAD3DE2-FAB6-4DD0-A844-634C9B55659C",
+            "id": 204,
             "title": "Tillikum Bridge, Warm Afternoon",
             "filename": "TillikumBridgeWarmAfternoon.jpg",
             "media": "Oil",
@@ -3144,7 +3144,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "EEB3D22F-2A8F-41DB-BEE7-6774E6148787",
+            "id": 205,
             "title": "A Few Rows in the Outback",
             "filename": "AFewRowsInTheOutback.jpg",
             "media": "Oil",
@@ -3159,7 +3159,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "BE161C57-481F-489E-9E1F-73846ED16FE9",
+            "id": 206,
             "title": "Alton Baker Park River Rocks",
             "filename": "AltonBakerParkRiverRocks.jpg",
             "media": "Oil",
@@ -3174,7 +3174,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "5B40E6E2-1CB1-4E42-890D-5B3CFADB9EF1",
+            "id": 207,
             "title": "Cascade Locks Waters Edge",
             "filename": "CascadeLocksWatersEdge.jpg",
             "media": "Oil",
@@ -3189,7 +3189,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "6EEC399D-D6BE-4A92-BEB9-D815767CB208",
+            "id": 208,
             "title": "Cool Reflections Tualatin Wetlands",
             "filename": "CoolReflectionsTualatinWetlands.jpg",
             "media": "Oil",
@@ -3204,7 +3204,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "374E9A5B-CBE6-4190-8648-16B293390679",
+            "id": 209,
             "title": "Eugene Alton Baker Park Sandy Shore",
             "filename": "EugeneAltonBakerParkSandyShore.jpg",
             "media": "Oil",
@@ -3219,7 +3219,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "90E28E39-6A3F-4C10-A80A-2C55D5069DAF",
+            "id": 210,
             "title": "Eugene River Side",
             "filename": "EugeneRiverSide.jpg",
             "media": "Oil",
@@ -3234,7 +3234,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "986E11B5-53DE-4733-BD41-F6F1C6974D0A",
+            "id": 211,
             "title": "Eugene by the Creek",
             "filename": "EugeneByTheCreek.jpg",
             "media": "Oil",
@@ -3249,7 +3249,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "D81C10E2-E1E8-4C3C-A92F-E0984D214709",
+            "id": 212,
             "title": "Fall in Hood River",
             "filename": "FallInHoodRiver.jpg",
             "media": "Oil",
@@ -3264,7 +3264,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "B86DA503-652E-4101-B05B-A5487B5C2D27",
+            "id": 213,
             "title": "Foot Hills Park at Rest",
             "filename": "FootHillsParkAtRest.jpg",
             "media": "Oil",
@@ -3279,7 +3279,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "E9A24947-E70E-47AB-A14D-E239184E2EAA",
+            "id": 214,
             "title": "Hood River Bluff",
             "filename": "HoodRiverBluff.jpg",
             "media": "Oil",
@@ -3294,7 +3294,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "11AF82D4-5132-4012-AB80-23E1A3FAFAD4",
+            "id": 215,
             "title": "Luscher Farm Trees",
             "filename": "LuscherFarmTrees.jpg",
             "media": "Oil",
@@ -3309,7 +3309,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "8FB6420B-0F6D-471D-8971-2946DFDA2B9A",
+            "id": 216,
             "title": "Montinore Vineyard Warm Up",
             "filename": "MontinoreVineyardWarmUp.jpg",
             "media": "Oil",
@@ -3324,7 +3324,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "FE6F59C7-8F02-4063-8762-23E0A5A83ED1",
+            "id": 217,
             "title": "Moorage Around Back",
             "filename": "MoorageAroundBack.jpg",
             "media": "Oil",
@@ -3339,7 +3339,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "C8EB64D3-CB15-4F72-8407-71B13AE2F3F3",
+            "id": 218,
             "title": "Red and Orange Doors, Umpqua Quick Draw",
             "filename": "RedAndOrangeDoors.jpg",
             "media": "Oil",
@@ -3354,7 +3354,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "ECEF2CB5-FBE4-47D7-8C4B-079029E6F4CC",
+            "id": 219,
             "title": "Ruthon Park Sentinel",
             "filename": "RuthonParkSentinel.jpg",
             "media": "Oil",
@@ -3369,7 +3369,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "D9D3A1D0-DB3E-4418-8286-EDDC8814BD48",
+            "id": 220,
             "title": "Sauvies Island The Studio",
             "filename": "SauviesIslandTheStudio.jpg",
             "media": "Oil",
@@ -3384,7 +3384,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "A49FBE35-00FC-40FE-ABF2-EE53577E5EB7",
+            "id": 221,
             "title": "Silver Falls Conference Center",
             "filename": "SilverFallsConferenceCenter.jpg",
             "media": "Oil",
@@ -3399,7 +3399,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "E80B9A5A-468D-482A-9851-486D952130E5",
+            "id": 222,
             "title": "Silver Falls Tree Moss",
             "filename": "SilverFallsTreeMoss.jpg",
             "media": "Oil",
@@ -3414,7 +3414,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "B0259741-8A02-45A3-951B-4548A6E4EB61",
+            "id": 223,
             "title": "Standing at Attention",
             "filename": "StandingAtAttention.jpg",
             "media": "Oil",
@@ -3429,7 +3429,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "CB6E0B85-E98B-447F-B570-3C109424A8B1",
+            "id": 224,
             "title": "Studebaker has seen Better Days",
             "filename": "StudebakerHasSeenBetterDays.jpg",
             "media": "Oil",
@@ -3444,7 +3444,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "CF50A444-DB80-4FDF-AECC-124CAE04A487",
+            "id": 225,
             "title": "Swan Island Dahlia Gardens",
             "filename": "SwanIslandDahliaGardens.jpg",
             "media": "Oil",
@@ -3459,7 +3459,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "E5B5E23D-85E9-4FC8-9859-E0430F4DA77F",
+            "id": 226,
             "title": "Swiftwater Park River Rush",
             "filename": "SwiftwaterParkRiverRush.jpg",
             "media": "Oil",
@@ -3474,7 +3474,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "CD595446-D718-4613-8978-5674987B8832",
+            "id": 227,
             "title": "Tualatin Century Farm Numbered Days",
             "filename": "TualatinCenturyFarmNumberedDays.jpg",
             "media": "Oil",
@@ -3489,7 +3489,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "B6B64010-2A01-462D-B1B5-37793AFC7CCF",
+            "id": 228,
             "title": "Tualatin Wetland Cloudy Day Reflections",
             "filename": "TualatinWetlandCloudyDayReflections.jpg",
             "media": "Oil",
@@ -3504,7 +3504,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "DEA546B0-1041-4B85-ADD7-B65A031A3884",
+            "id": 229,
             "title": "Tualatin Wetland Still Standing",
             "filename": "TualatinWetlandStillStanding.jpg",
             "media": "Oil",
@@ -3519,7 +3519,7 @@
             "orientation": ["horizontal"],
             "keywords": []
         }, {
-            "id": "E0BFC005-9A74-4248-8BCC-35FB6B5BB186",
+            "id": 230,
             "title": "Umpqua River Reflections, Swiftwater Park",
             "filename": "UmpquaRiverReflections.jpg",
             "media": "Oil",
@@ -3534,7 +3534,7 @@
             "orientation": ["vertical"],
             "keywords": []
         }, {
-            "id": "C96A355A-012B-49F2-8538-360E1F58A27B",
+            "id": 231,
             "title": "Yellow Sail Boat",
             "filename": "YellowSailBoat.jpg",
             "media": "Oil",

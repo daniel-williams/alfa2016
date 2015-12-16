@@ -8,6 +8,18 @@ var keywords = getKeywords();
 var categories = getLookupTable();
 var art = getArt();
 
+
+galleries = removeGuid(galleries);
+art = removeGuid(art);
+
+function removeGuid(arr) {
+    return arr.map(function(item) {
+        delete item['guid'];
+        return item;
+    });
+}
+
+
 console.log('total galleries:', galleries.length);
 console.log('total orientations:', orientations.length);
 console.log('total keywords:', keywords.length);
@@ -29,16 +41,23 @@ function getGalleries() {
         if(fields.length !== 4) return accum;
 
         accum.push({
-            id: fields[0],
+            id: null, // creating here to force first prop
+            guid: fields[0],
             name: fields[1],
             thumb: fields[2],
             order: fields[3],
         });
         return accum;
     }, []);
-    return galleries.sort(function(a, b) {
+    galleries.sort(function(a, b) {
         return a.order === b.order ? 0
                                    : a.order < b.order ? -1 : 1;
+    });
+
+    // reindex
+    return galleries.map(function(item, i) {
+        item['id'] = i + 1;
+        return item;
     });
 }
 
@@ -47,12 +66,14 @@ function getOrientations() {
     var data = fs.readFileSync(DATA_ROOT + 'alfa-orientation.txt', 'utf8');
 
     var lines = data.split('\r\n').slice(1);
+    var idx = 0;
     orientation = lines.reduce(function(accum, line, i) {
         var fields = line.split('\t');
         if(fields.length !== 2) return accum;
 
         accum.push({
-            id: fields[0],
+            id: ++idx,
+            guid: fields[0],
             name: fields[1],
         });
         return accum;
@@ -65,12 +86,14 @@ function getKeywords() {
     var data = fs.readFileSync(DATA_ROOT + 'alfa-keywords.txt', 'utf8');
 
     var lines = data.split('\r\n').slice(1);
+    var idx = 0;
     keywords = lines.reduce(function(accum, line, i) {
         var fields = line.split('\t');
         if(fields.length !== 2) return accum;
 
         accum.push({
-            id: fields[0],
+            id: ++idx,
+            guid: fields[0],
             name: fields[1],
         });
         return accum;
@@ -88,8 +111,8 @@ function getLookupTable() {
         if(fields.length !== 2) return accum;
 
         accum.push({
-            artId: fields[0],
-            catId: fields[1],
+            artGuid: fields[0],
+            catGuid: fields[1],
         });
         return accum;
     }, []);
@@ -111,7 +134,8 @@ function getArt() {
             var width = toInt(fields[7]);
             var height = toInt(fields[8]);
             accum.push({
-                id: fields[0],
+                id: null, // creating here to force first prop
+                guid: fields[0],
                 title: fields[1],
                 filename: fields[2],
                 media: fields[3],
@@ -141,26 +165,31 @@ function getArt() {
                                                      : a.title < b.title ? -1:1
                                : aDate < bDate ? -1:1;
     });
-    return orderedArt;
+
+    // reindex
+    return orderedArt.map(function(item, i) {
+        item['id'] = i + 1;
+        return item;
+    });
 }
 
 
-function buildGalleryList(id) {
+function buildGalleryList(guid) {
     var galleryList = [];
     galleries.forEach(function(gallery, i) {
-        if(gallery.id === id) {
+        if(gallery.guid === guid) {
             galleryList.push(gallery.name);
         }
     });
     return galleryList;
 }
 
-function buildKeywordList(artId) {
+function buildKeywordList(artGuid) {
     var keywordList = [];
     categories.forEach(function(cat) {
-        if(cat.artId === artId) {
+        if(cat.artGuid === artGuid) {
             keywords.forEach(function(keyword) {
-                if(keyword.id === cat.catId) {
+                if(keyword.guid === cat.catGuid) {
                     keywordList.push(keyword.name);
                 }
             });
