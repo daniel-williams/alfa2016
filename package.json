@@ -7,10 +7,7 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js test/**/*.js*",
     "test:watch": "npm run test -- --watch",
     "build": "webpack --display-error-details",
-    "start": "babel-node server",
-    "old:start:http": "http-server ./dist -a localhost -p 8000",
-    "old:start:webpack": "webpack-dev-server --devtool eval --progress --colors --hot",
-    "old:start": "npm-run-all --parallel old:start:webpack old:start:http"
+    "start": "babel-node server"
   },
   "author": "Daniel James Williams",
   "license": "ISC",

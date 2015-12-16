@@ -4,39 +4,52 @@ import express from 'express';
 import webpack from 'webpack';
 import webpackMiddleware from 'webpack-dev-middleware';
 import webpackHotMiddleware from 'webpack-hot-middleware';
+import React from 'react';
+// import {renderToString} from 'react-dom/server';
+// import {match, RoutingContext} from 'react-router';
+// import routes from '../common/routes';
+
 import config from './webpack.config.js';
 
-const isDeveloping = process.env.NODE_ENV !== 'production';
-const port = isDeveloping ? 3000 : process.env.PORT;
-const app = express();
 
-if (isDeveloping) {
-  const compiler = webpack(config);
-  const middleware = webpackMiddleware(compiler, {
+const port = process.env.PORT || 3000;
+const app = express();
+const compiler = webpack(config);
+
+app.use(webpackMiddleware(compiler, {
     publicPath: config.output.publicPath,
     contentBase: 'src',
     stats: {
-      colors: true,
-      hash: false,
-      timings: true,
-      chunks: false,
-      chunkModules: false,
-      modules: false
+        colors: true,
+        hash: false,
+        timings: true,
+        chunks: false,
+        chunkModules: false,
+        modules: false
     }
-  });
+}));
+app.use(webpackHotMiddleware(compiler));
 
-  app.use(middleware);
-  app.use(webpackHotMiddleware(compiler));
-  app.get('*', function response(req, res) {
-    res.write(middleware.fileSystem.readFileSync(path.join(__dirname, 'dist/index.html')));
-    res.end();
-  });
-} else {
-  app.use(express.static(__dirname + '/dist'));
-  app.get('*', function response(req, res) {
-    res.sendFile(path.join(__dirname, 'dist/index.html'));
-  });
+app.get('*', function response(req, res) {
+    res.end(renderFullPage());
+});
+
+
+function renderFullPage() {
+  return `
+<!doctype html>
+<html>
+  <head>
+    <title>Redux Universal Example</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="/bundle.js"></script>
+  </body>
+</html>
+`
 }
+
 
 app.listen(port, '127.0.0.1', function onStart(err) {
   if (err) {
