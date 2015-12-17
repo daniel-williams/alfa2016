@@ -6,7 +6,7 @@ import webpackMiddleware from 'webpack-dev-middleware';
 import webpackHotMiddleware from 'webpack-hot-middleware';
 import React from 'react';
 
-import config from './webpack.config.js';
+import config from './webpack.dev.config.js';
 
 
 const port = process.env.PORT || 3000;

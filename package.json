@@ -6,12 +6,13 @@
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js test/**/*.js*",
     "test:watch": "npm run test -- --watch",
-    "build": "webpack --display-error-details",
-    "start": "babel-node server"
+    "dev": "babel-node server",
+    "deploy": "webpack --config webpack.prod.config.js"
   },
   "author": "Daniel James Williams",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.13.3",
     "immutable": "^3.7.5",
     "react": "^0.14.3",
     "react-addons-pure-render-mixin": "^0.14.3",
@@ -23,11 +24,13 @@
   },
   "devDependencies": {
     "babel-core": "^6.2.1",
+    "babel-eslint": "^4.1.6",
     "babel-loader": "^6.2.0",
     "babel-preset-es2015": "^6.1.18",
     "babel-preset-react": "^6.1.18",
     "chai": "^3.4.1",
     "chai-immutable": "^1.5.3",
+    "eslint-plugin-react": "^3.11.3",
     "history": "^1.16.0",
     "html-webpack-plugin": "^1.7.0",
     "isomorphic-fetch": "^2.2.0",
