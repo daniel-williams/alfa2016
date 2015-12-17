@@ -27,6 +27,8 @@ app.use(webpackMiddleware(compiler, {
 }));
 app.use(webpackHotMiddleware(compiler));
 
+app.use('/content', express.static('Web/content'));
+
 app.get('*', function response(req, res) {
     res.end(renderFullPage());
 });
@@ -37,11 +39,12 @@ function renderFullPage() {
 <!doctype html>
 <html>
   <head>
-    <title>Redux Universal Example</title>
+    <title>Anna Lancaster Fine Art</title>
   </head>
   <body>
     <div id="app"></div>
-    <script src="/bundle.js"></script>
+    <script src="/vendors.bundle.js"></script>
+    <script src="/app.bundle.js"></script>
   </body>
 </html>
 `

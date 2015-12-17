@@ -2,10 +2,13 @@ var webpack = require('webpack');
 var path = require('path');
 
 module.exports = {
-    entry: [
-        'webpack-hot-middleware/client',
-        './src/index.jsx'
-    ],
+    entry: {
+        app: [
+            'webpack-hot-middleware/client',
+            './app/index.jsx',
+        ],
+        vendors: ['react', 'react-router', 'redux', 'react-redux', 'immutable'],
+    },
     module: {
         loaders: [{
             test: /\.jsx?$/,
@@ -18,13 +21,14 @@ module.exports = {
     },
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: 'bundle.js',
+        filename: 'app.bundle.js',
         publicPath: '/'
     },
     plugins: [
         new webpack.DefinePlugin({
             'process.env.NODE_ENV': JSON.stringify('development')
         }),
+        new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.bundle.js'),
         new webpack.optimize.OccurenceOrderPlugin(),
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NoErrorsPlugin()
