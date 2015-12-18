@@ -806,19 +806,6 @@
     <Content Include="content\images\art\Sm_YoungWatchmenOfTheColumbiaRiverGorge.jpg" />
     <Content Include="content\images\art\Sm_YouRedefineActingYourAge.jpg" />
     <Content Include="content\images\art\Sm_YouWouldBeAPool.jpg" />
-    <Content Include="content\vendor\bootstrap\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="content\vendor\bootstrap\js\affix.js" />
-    <Content Include="content\vendor\bootstrap\js\alert.js" />
-    <Content Include="content\vendor\bootstrap\js\button.js" />
-    <Content Include="content\vendor\bootstrap\js\carousel.js" />
-    <Content Include="content\vendor\bootstrap\js\collapse.js" />
-    <Content Include="content\vendor\bootstrap\js\dropdown.js" />
-    <Content Include="content\vendor\bootstrap\js\modal.js" />
-    <Content Include="content\vendor\bootstrap\js\popover.js" />
-    <Content Include="content\vendor\bootstrap\js\scrollspy.js" />
-    <Content Include="content\vendor\bootstrap\js\tab.js" />
-    <Content Include="content\vendor\bootstrap\js\tooltip.js" />
-    <Content Include="content\vendor\bootstrap\js\transition.js" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -837,85 +824,6 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="content\images\art\Thumbs.db" />
-    <Content Include="content\vendor\bootstrap\less\alerts.less" />
-    <Content Include="content\vendor\bootstrap\less\badges.less" />
-    <Content Include="content\vendor\bootstrap\less\bootstrap.less" />
-    <Content Include="content\vendor\bootstrap\less\breadcrumbs.less" />
-    <Content Include="content\vendor\bootstrap\less\button-groups.less" />
-    <Content Include="content\vendor\bootstrap\less\buttons.less" />
-    <Content Include="content\vendor\bootstrap\less\carousel.less" />
-    <Content Include="content\vendor\bootstrap\less\close.less" />
-    <Content Include="content\vendor\bootstrap\less\code.less" />
-    <Content Include="content\vendor\bootstrap\less\component-animations.less" />
-    <Content Include="content\vendor\bootstrap\less\dropdowns.less" />
-    <Content Include="content\vendor\bootstrap\less\forms.less" />
-    <Content Include="content\vendor\bootstrap\less\glyphicons.less" />
-    <Content Include="content\vendor\bootstrap\less\grid.less" />
-    <Content Include="content\vendor\bootstrap\less\input-groups.less" />
-    <Content Include="content\vendor\bootstrap\less\jumbotron.less" />
-    <Content Include="content\vendor\bootstrap\less\labels.less" />
-    <Content Include="content\vendor\bootstrap\less\list-group.less" />
-    <Content Include="content\vendor\bootstrap\less\media.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins.less" />
-    <Content Include="content\vendor\bootstrap\less\modals.less" />
-    <Content Include="content\vendor\bootstrap\less\navbar.less" />
-    <Content Include="content\vendor\bootstrap\less\navs.less" />
-    <Content Include="content\vendor\bootstrap\less\normalize.less" />
-    <Content Include="content\vendor\bootstrap\less\pager.less" />
-    <Content Include="content\vendor\bootstrap\less\pagination.less" />
-    <Content Include="content\vendor\bootstrap\less\panels.less" />
-    <Content Include="content\vendor\bootstrap\less\popovers.less" />
-    <Content Include="content\vendor\bootstrap\less\print.less" />
-    <Content Include="content\vendor\bootstrap\less\progress-bars.less" />
-    <Content Include="content\vendor\bootstrap\less\responsive-embed.less" />
-    <Content Include="content\vendor\bootstrap\less\responsive-utilities.less" />
-    <Content Include="content\vendor\bootstrap\less\scaffolding.less" />
-    <Content Include="content\vendor\bootstrap\less\tables.less" />
-    <Content Include="content\vendor\bootstrap\less\theme.less" />
-    <Content Include="content\vendor\bootstrap\less\thumbnails.less" />
-    <Content Include="content\vendor\bootstrap\less\tooltip.less" />
-    <Content Include="content\vendor\bootstrap\less\type.less" />
-    <Content Include="content\vendor\bootstrap\less\utilities.less" />
-    <Content Include="content\vendor\bootstrap\less\variables.less" />
-    <Content Include="content\vendor\bootstrap\less\wells.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\alerts.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\background-variant.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\border-radius.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\buttons.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\center-block.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\clearfix.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\forms.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\gradients.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\grid-framework.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\grid.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\hide-text.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\image.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\labels.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\list-group.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\nav-divider.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\nav-vertical-align.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\opacity.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\pagination.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\panels.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\progress-bar.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\reset-filter.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\reset-text.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\resize.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\responsive-visibility.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\size.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\tab-focus.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\table-row.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\text-emphasis.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\text-overflow.less" />
-    <Content Include="content\vendor\bootstrap\less\mixins\vendor-prefixes.less" />
-    <Content Include="content\vendor\bootstrap\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="content\vendor\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="content\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="content\vendor\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="content\styles\bootstrap.less" />
-    <Content Include="content\styles\variables.less" />
-    <Content Include="content\styles\mixins.less" />
-    <Content Include="compilerconfig.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -926,6 +834,8 @@
   <ItemGroup>
     <Folder Include="content\fonts\" />
     <Folder Include="content\scripts\" />
+    <Folder Include="content\styles\" />
+    <Folder Include="content\vendor\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -958,9 +868,7 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
-    <Error Condition="!Exists('..\packages\BuildWebCompiler.1.8.284\build\BuildWebCompiler.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\BuildWebCompiler.1.8.284\build\BuildWebCompiler.targets'))" />
   </Target>
-  <Import Project="..\packages\BuildWebCompiler.1.8.284\build\BuildWebCompiler.targets" Condition="Exists('..\packages\BuildWebCompiler.1.8.284\build\BuildWebCompiler.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
