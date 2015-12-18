@@ -6,3 +6,7 @@ export const UPDATE_GALLERIES = 'UPDATE_GALLERIES';
 export const ART_REQUESTED = 'ART_REQUESTED';
 export const ART_RECEIVED = 'ART_RECEIVED';
 export const UPDATE_ART = 'UPDATE_ART';
+
+export const BLOG_REQUESTED = 'BLOG_REQUESTED';
+export const BLOG_RECEIVED = 'BLOG_RECEIVED';
+export const UPDATE_BLOG = 'UPDATE_BLOG';

@@ -1,9 +1,9 @@
 import {Map, List, fromJS} from 'immutable';
 
 import {
-    ART_REQUESTED,
-    ART_RECEIVED,
-    UPDATE_ART
+    BLOG_REQUESTED,
+    BLOG_RECEIVED,
+    UPDATE_BLOG
 } from '../actions';
 
 const initialState = fromJS({
@@ -13,11 +13,12 @@ const initialState = fromJS({
 
 export default function(state = initialState, action) {
     switch(action.type) {
-        case ART_REQUESTED:
+        case BLOG_REQUESTED:
             return state.set('isFetching', true);
-        case UPDATE_ART:
-            return state.set('items', fromJS(action.art));
-        case ART_RECEIVED:
+        case UPDATE_BLOG:
+            console.log('UPDATE_BLOG', action);
+            return state.set('items', fromJS(action.data.items));
+        case BLOG_RECEIVED:
             return state.set('isFetching', false);
         default:
             return state;

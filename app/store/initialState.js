@@ -8,6 +8,14 @@ const INITIAL_STATE = fromJS({
     art: {
         isFetching: false,
         items: []
+    },
+    blog: {
+        isFetching: false,
+        items: []
+    },
+    articles: {
+        isFetching: false,
+        items: []
     }
 });
 
