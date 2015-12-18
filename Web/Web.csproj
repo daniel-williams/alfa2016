@@ -806,6 +806,7 @@
     <Content Include="content\images\art\Sm_YoungWatchmenOfTheColumbiaRiverGorge.jpg" />
     <Content Include="content\images\art\Sm_YouRedefineActingYourAge.jpg" />
     <Content Include="content\images\art\Sm_YouWouldBeAPool.jpg" />
+    <Content Include="content\scripts\test.js" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -833,7 +834,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="content\fonts\" />
-    <Folder Include="content\scripts\" />
     <Folder Include="content\styles\" />
     <Folder Include="content\vendor\" />
   </ItemGroup>
