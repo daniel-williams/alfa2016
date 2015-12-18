@@ -1,0 +1,13 @@
+﻿[
+  {
+    "outputFile": "content/styles/bootstrap.css",
+    "inputFile": "content/styles/bootstrap.less",
+    "minify": {
+        "enabled": true
+    },
+    "includeInProject": true,
+    "options":{
+        "sourceMap": false
+    }
+  }
+]

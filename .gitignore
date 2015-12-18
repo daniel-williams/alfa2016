@@ -4,6 +4,7 @@ npm-debug.log
 
 typings/
 dist/
+vendor/
 bundle.js
 *.bundle.js
 
