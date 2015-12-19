@@ -3,7 +3,7 @@ import PureRenderMixin from 'react-addons-pure-render-mixin';
 import {List, Map} from 'immutable';
 import {connect} from 'react-redux';
 
-import * as actionCreators from '../actions/creators';
+import * as actionCreators from '../actions/galleryActionCreators';
 
 
 export const Galleries = React.createClass({

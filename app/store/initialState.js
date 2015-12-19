@@ -11,11 +11,9 @@ const INITIAL_STATE = fromJS({
     },
     blog: {
         isFetching: false,
-        items: []
-    },
-    articles: {
-        isFetching: false,
-        items: []
+        items: [],
+        page: 0,
+        pageToken: null
     }
 });
 

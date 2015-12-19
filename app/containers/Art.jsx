@@ -2,7 +2,7 @@ import React from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import {connect} from 'react-redux';
 
-import * as actionCreators from '../actions/creators';
+import * as actionCreators from '../actions/galleryActionCreators';
 
 
 export const Art = React.createClass({
