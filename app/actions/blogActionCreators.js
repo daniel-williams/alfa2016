@@ -9,7 +9,7 @@ const host = 'https://www.googleapis.com/blogger/v3/blogs/';
 const blogId = '5080215156052292878';
 const apiKey = 'AIzaSyAoTn6DttJFZ5mWGHuqfN5fE1eSvQ0jgaE';
 
-const url = host + blogId + '/posts?key=' + apiKey;
+const url = host + blogId + '/posts?maxResults=500&key=' + apiKey;
 
 export function fetchArticleList() {
     return function(dispatch) { // thunk
