@@ -17,6 +17,7 @@ export const Blog = React.createClass({
         return this.props.blog.get('items').count() > 0;
     },
     componentWillMount: function() {
+      console.log('WFT');
         if(!this.isLoaded()) {
             this.props.fetchArticleList();
         }

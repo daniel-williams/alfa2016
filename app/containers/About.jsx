@@ -5,7 +5,7 @@ export default React.createClass({
     mixins: [PureRenderMixin],
     render: function() {
         return (
-            <div>Home</div>
+            <div>About</div>
         );
     }
 });

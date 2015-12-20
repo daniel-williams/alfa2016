@@ -1,8 +1,12 @@
 import React from 'react';
-import {Route} from 'react-router';
+import {Route, IndexRoute} from 'react-router';
 
 import App from '../components/App';
+
 import Home from '../containers/Home';
+import Exhibits from '../containers/Exhibits';
+import Classes from '../containers/Classes';
+import About from '../containers/About';
 
 import {GalleriesContainer} from '../containers/Galleries';
 import {ArtContainer} from '../containers/Art';
@@ -10,22 +14,14 @@ import {BlogContainer} from '../containers/Blog';
 
 
 const routes = (
-    <Route component={App}>
-        <Route path='/' component={Home} />
-        <Route path='/about' component={Home} />
-        <Route path='/exhibits' component={Home} />
-        <Route path='/classes' component={Home} />
-        <Route path='/art' component={ArtContainer}>
-            <Route path=':slug' component={ArtContainer} />
-        </Route>
-        <Route path='/gallery' component={GalleriesContainer}>
-            <Route path=':name' component={GalleriesContainer}>
-                <Route path=':slug' component={GalleriesContainer} />
-            </Route>
-        </Route>
-        <Route path='/blog' component={BlogContainer}>
-            <Route path=':slug' component={BlogContainer} />
-        </Route>
+    <Route path='/' component={App}>
+        <IndexRoute component={Home} />
+        <Route path='about' component={About} />
+        <Route path='exhibits' component={Exhibits} />
+        <Route path='classes' component={Classes} />
+        <Route path='art' component={ArtContainer} />
+        <Route path='gallery' component={GalleriesContainer} />
+        <Route path='blog' component={BlogContainer} />
     </Route>
 );
 
