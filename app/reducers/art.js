@@ -16,7 +16,7 @@ export default function(state = initialState, action) {
         case ART_REQUESTED:
             return state.set('isFetching', true);
         case UPDATE_ART:
-            return state.set('items', fromJS(action.art));
+            return state.set('items', fromJS(action.data));
         case ART_RECEIVED:
             return state.set('isFetching', false);
         default:

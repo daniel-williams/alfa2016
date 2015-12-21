@@ -1,5 +1,6 @@
 import React from 'react';
 import {IndexLink, Link} from 'react-router';
+import {LinkContainer} from 'react-router-bootstrap';
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem, Col} from 'react-bootstrap';
 import Bootstrap from '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -23,18 +24,18 @@ export default React.createClass({
             <Navbar.Toggle/>
           </Navbar.Header>
           <Navbar.Collapse>
-            <Nav onSelect={this.handleSelect}>
-              <NavItem eventKey={1} href="/about">About</NavItem>
+            <Nav>
+              <LinkContainer to="/about"><NavItem eventKey={1}>About</NavItem></LinkContainer>
               <NavDropdown eventKey={2} title="Artwork" id='artwork-ddl'>
-                <MenuItem eventKey={2.1} href="/art/plein-air">Pein Air</MenuItem>
-                <MenuItem eventKey={2.2} href="/art/portraits-and-figures">Portraits &amp; Figures</MenuItem>
-                <MenuItem eventKey={2.3} href="/art/stills-from-life">Stills from Life</MenuItem>
-                <MenuItem eventKey={2.4} href="/art/traditional">Traditional</MenuItem>
-                <MenuItem eventKey={2.5} href="/art" onSelect={this.handleMenuItemClick}>Archive</MenuItem>
+                <LinkContainer to="/art/plein-air"><MenuItem eventKey={2.1}>Pein Air</MenuItem></LinkContainer>
+                <LinkContainer to="/art/portraits-and-figures"><MenuItem eventKey={2.2}>Portraits &amp; Figures</MenuItem></LinkContainer>
+                <LinkContainer to="/art/stills-from-life"><MenuItem eventKey={2.3}>Stills from Life</MenuItem></LinkContainer>
+                <LinkContainer to="/art/traditional"><MenuItem eventKey={2.4}>Traditional</MenuItem></LinkContainer>
+                <LinkContainer to="/art/archive"><MenuItem eventKey={2.5}>Archive</MenuItem></LinkContainer>
               </NavDropdown>
-              <NavItem eventKey={3} href="/exhibits">Galleries &amp; Exhibits</NavItem>
-              <NavItem eventKey={4} href="/classes">Classes</NavItem>
-              <NavItem eventKey={4} href="/blog">Blog</NavItem>
+              <LinkContainer to="/exhibits"><NavItem eventKey={3}>Galleries &amp; Exhibits</NavItem></LinkContainer>
+              <LinkContainer to="/classes"><NavItem eventKey={4}>Classes</NavItem></LinkContainer>
+              <LinkContainer to="/blog"><NavItem eventKey={4}>Blog</NavItem></LinkContainer>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -43,33 +44,24 @@ export default React.createClass({
       </div>
     );
   },
-  handleSelect(key, path) {
-    this.setState({activeItem: key});
-    if (path) {
-      console.log('selectTo:', path);
-      // deprecated
-      //this.transitionTo(href);
-
-      // the router is now built on rackt/history, and it is a first class
-      // API in the router for navigating
-      this.props.history.pushState(null, path);
-      // this.history.replaceState(null, `/users/${user.id}`, query);
-    }
-  },
-  handleMenuItemClick: function(e, key) {
-    e.preventDefault();
-    e.stopPropagation();
-    var tgt = e.target;
-
-    this.setState({activeItem: key});
-
-    // the router is now built on rackt/history, and it is a first class
-    // API in the router for navigating
-    if(tgt.href) {
-      history.pushState(null, tgt.pathname);
-    }
-    // this.history.replaceState(null, `/users/${user.id}`, query);
-  },
+  // handleSelect: function(p1, p2) {
+  //   if(typeof p1 === 'number' && typeof p2 === 'string') {
+  //     // (key, path)
+  //     this.handleTransition(p1, p2);
+  //   } else if(typeof p1 === 'object' && p2 === 'number') {
+  //     // MenuItem API docs appear to lie about onSelect params
+  //     // https://react-bootstrap.github.io/components.html#menu-items
+  //     // documented: (eventKey, href, target)
+  //     // actual, as of 12/2015: (event, eventKey)
+  //     var path = p1 && p1.target && p1.target.pathname;
+  //     this.handleTransition(p2, path);
+  //   }
+  // },
+  // handleTransition: function(key, path) {
+  //   console.log(`To: ${path} (${key})`);
+  //   this.setState({activeItem: key});
+  //   this.props.history.pushState(null, path);
+  // },
 
 });
 

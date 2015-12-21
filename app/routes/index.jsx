@@ -19,7 +19,7 @@ const routes = (
         <Route path='about' component={About} />
         <Route path='exhibits' component={Exhibits} />
         <Route path='classes' component={Classes} />
-        <Route path='art' component={ArtContainer} />
+        <Route path='art/:gallery' component={ArtContainer} />
         <Route path='gallery' component={GalleriesContainer} />
         <Route path='blog' component={BlogContainer} />
     </Route>
