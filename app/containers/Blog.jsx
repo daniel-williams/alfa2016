@@ -13,12 +13,13 @@ export const Blog = React.createClass({
     isFetching: function() {
         return this.props.blog.get('isFetching');
     },
-    isLoaded: function() {
-        return this.props.blog.get('items').count() > 0;
+    isStale: function() {
+        return this.props.blog.get('isStale');
     },
     componentWillMount: function() {
-      console.log('WFT');
-        if(!this.isLoaded()) {
+      console.log('isFetching', this.isFetching());
+      console.log('isStale', this.isStale());
+        if(this.isStale()) {
             this.props.fetchArticleList();
         }
     },

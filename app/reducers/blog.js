@@ -2,25 +2,44 @@ import {Map, List, fromJS} from 'immutable';
 
 import {
     BLOG_REQUESTED,
-    BLOG_RECEIVED,
-    UPDATE_BLOG
+    BLOG_SUCCESS,
+    BLOG_FAILED
 } from '../actions';
 
 const initialState = fromJS({
     isFetching: false,
-    items: []
+    isStale: true,
+    lastFetchDate: null,
+    lastFetchError: null,
+    items: [],
+    page: 1,
+    nextPageToken: null
 });
 
 export default function(state = initialState, action) {
     switch(action.type) {
         case BLOG_REQUESTED:
             return state.set('isFetching', true);
-        case UPDATE_BLOG:
-            return state.set('items', fromJS(processBlogItems(action.data.items)));
-        case BLOG_RECEIVED:
-            return state.set('isFetching', false);
+        case BLOG_SUCCESS:
+            return state.withMutations((state) => {
+              state.set('isFetching', false);
+              state.set('isStale', false);
+              state.set('lastFetchDate', action.date);
+              state.set('lastFetchError', null);
+              state.set('items', fromJS(processBlogItems(action.items)));
+              state.set('nextPageToken', action.nextPageToken);
+              return state;
+            });
+        case BLOG_FAILED:
+            return state.withMutations((state) => {
+              state.set('isFetching', false);
+              state.set('isStale', false);
+              state.set('lastFetchDate', action.date);
+              state.set('lastFetchError', action.err);
+              return state;
+            });
         default:
-            return state;
+            return state
     }
 }
 

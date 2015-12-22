@@ -1,29 +1,37 @@
 import fetch from 'isomorphic-fetch';
+import {checkStatus, parseJSON} from './fetch-helper';
 import {
-    BLOG_REQUESTED,
-    BLOG_RECEIVED,
-    UPDATE_BLOG,
-} from '.';
+  BLOG_REQUESTED,
+  BLOG_SUCCESS,
+  BLOG_FAILED,
+}
+from '.';
 
 const host = 'https://www.googleapis.com/blogger/v3/blogs/';
 const blogId = '5080215156052292878';
 const apiKey = 'AIzaSyAoTn6DttJFZ5mWGHuqfN5fE1eSvQ0jgaE';
 
-const url = host + blogId + '/posts?maxResults=500&key=' + apiKey;
+const url = host + blogId + '/posts?key=' + apiKey; // + '&maxResults=500'
 
 export function fetchArticleList() {
-    return function(dispatch) { // thunk
-        dispatch({type: BLOG_REQUESTED});
+  return function(dispatch) { // thunk
+    dispatch({
+      type: BLOG_REQUESTED
+    });
 
-        fetch(url)
-            .then(data => {
-                return data.json();
-            })
-            .then(data => {
-                console.log('BLOGGER RESULT:', data);
-                dispatch({type: UPDATE_BLOG, data: data});
-            })
-            .catch(err => console.log('BLOGGER ERROR:', err))
-            .then(() => dispatch({type: BLOG_RECEIVED}));
-    }
+    fetch(url)
+      .then(checkStatus)
+      .then(parseJSON)
+      .then(json => dispatch({
+        type: BLOG_SUCCESS,
+        date: new Date(),
+        items: json.items,
+        nextPageToken: json.nextPageToken
+      }))
+      .catch(err => dispatch({
+        type: BLOG_FAILED,
+        date: new Date(),
+        err: err
+      }));
+  }
 }

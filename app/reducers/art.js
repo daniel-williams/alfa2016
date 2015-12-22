@@ -2,12 +2,15 @@ import {Map, List, fromJS} from 'immutable';
 
 import {
     ART_REQUESTED,
-    ART_RECEIVED,
-    UPDATE_ART
+    ART_SUCCESS,
+    ART_FAILED
 } from '../actions';
 
 const initialState = fromJS({
     isFetching: false,
+    isStale: true,
+    lastFetchDate: null,
+    lastFetchError: null,
     items: []
 });
 
@@ -15,10 +18,22 @@ export default function(state = initialState, action) {
     switch(action.type) {
         case ART_REQUESTED:
             return state.set('isFetching', true);
-        case UPDATE_ART:
-            return state.set('items', fromJS(action.data));
-        case ART_RECEIVED:
-            return state.set('isFetching', false);
+        case ART_SUCCESS:
+            return state.withMutations(state => {
+              state.set('isFetching', false);
+              state.set('isStale', false);
+              state.set('lastFetchDate', action.date);
+              state.set('items', fromJS(action.items));
+              return state;
+            });
+        case ART_FAILED:
+            return state.withMutations(state => {
+              state.set('isFetching', false);
+              state.set('isStale', false);
+              state.set('lastFetchDate', action.date);
+              state.set('lastFetchError', action.err);
+              return state;
+            });
         default:
             return state;
     }

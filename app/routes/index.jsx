@@ -8,7 +8,6 @@ import Exhibits from '../containers/Exhibits';
 import Classes from '../containers/Classes';
 import About from '../containers/About';
 
-import {GalleriesContainer} from '../containers/Galleries';
 import {ArtContainer} from '../containers/Art';
 import {BlogContainer} from '../containers/Blog';
 
@@ -20,7 +19,6 @@ const routes = (
         <Route path='exhibits' component={Exhibits} />
         <Route path='classes' component={Classes} />
         <Route path='art/:gallery' component={ArtContainer} />
-        <Route path='gallery' component={GalleriesContainer} />
         <Route path='blog' component={BlogContainer} />
     </Route>
 );
