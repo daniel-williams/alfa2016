@@ -1,7 +1,6 @@
 
 
 export function checkStatus(response) {
-  console.log('CHECKSTATUS', response);
   if (response.status >= 200 && response.status < 300) {
     return response;
   } else {
@@ -12,6 +11,5 @@ export function checkStatus(response) {
 }
 
 export function parseJSON(response) {
-  // console.log(response.json());
   return response.json();
 }

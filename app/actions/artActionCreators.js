@@ -16,15 +16,37 @@ export function fetchArt() {
     dispatch({type: ART_REQUESTED});
 
     try {
-
       firebaseDb.child('art').on('value', function(snapshot) {
-        dispatch({type:ART_SUCCESS, date: new Date(), items: snapshot.val()});
-      }, function (err) {
-        dispatch({type:ART_FAILED, date: new Date(), err: new Error('The read failed: ' + err.code)})
-      });
+        var data = snapshot.val();
+        data = data
+          .map((item) => {
+            item.created = new Date(item.created);
+            item.ticks = item.created.getTime();
+            return item;
+          })
+          .sort((a, b) => {
+            return a.ticks === b.ticks ? 0 : a.ticks > b.ticks ? 1 : -1
+          })
+          .reverse();
 
+        dispatch({
+          type:ART_SUCCESS,
+          date: new Date(),
+          items: data
+        });
+      }, function (err) {
+        dispatch({
+          type:ART_FAILED,
+          date: new Date(),
+          err: new Error('The read failed: ' + err.code)
+        });
+      });
     } catch(err) {
-      dispatch({type:ART_FAILED, date: new Date(), err: err})
+      dispatch({
+        type:ART_FAILED,
+        date: new Date(),
+        err: err
+      });
     }
 
 

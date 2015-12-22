@@ -36,7 +36,6 @@ export const Art = React.createClass({
   },
   componentDidMount: function() {
     var test = ReactDom.findDOMNode(this.refs.mmm);
-    console.log('mounted', this.refs, test);
   },
   render: function() {
     return (
@@ -53,8 +52,7 @@ export const Art = React.createClass({
   renderArt: function() {
     var art = this.props.art.get('items').toJS();
     var filtered = art.filter(item => {
-      var tmpArr = item.galleries.map(item => item.toUpperCase());
-      return tmpArr.indexOf(this.props.routeParams.gallery.toUpperCase());
+      return item.galleries.indexOf(this.props.routeParams.gallery) >= 0;
     });
     var mapped = filtered.map((item, i) => {
       return (
@@ -62,6 +60,8 @@ export const Art = React.createClass({
           <a href='#'>
             <ImageLoader src={'/content/images/art/sm_' + item.filename} onLoad={this.imgLoaded} />
           </a>
+          <div>{''+item.created}</div>
+          <div>{''+item.ticks}</div>
         </Col>
       );
     });

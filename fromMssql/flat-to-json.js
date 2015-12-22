@@ -1,4 +1,6 @@
 import fs from 'fs';
+import {toSlug} from './slug-utils';
+
 
 var DATA_ROOT = './';
 
@@ -8,17 +10,12 @@ var keywords = getKeywords();
 var categories = getLookupTable();
 var art = getArt();
 
-
 galleries = removeGuid(galleries);
 art = removeGuid(art);
 
-function removeGuid(arr) {
-    return arr.map(function(item) {
-        delete item['guid'];
-        return item;
-    });
-}
-
+fs.writeFile(DATA_ROOT + 'alfa-galleries.json', JSON.stringify(galleries));
+fs.writeFile(DATA_ROOT + 'alfa-art.json', JSON.stringify(art));
+fs.writeFile(DATA_ROOT + 'firebase.json', JSON.stringify({galleries: galleries, art: art}));
 
 console.log('total galleries:', galleries.length);
 console.log('total orientations:', orientations.length);
@@ -26,9 +23,13 @@ console.log('total keywords:', keywords.length);
 console.log('total categories:', categories.length)
 console.log('total art:', art.length);
 
-fs.writeFile(DATA_ROOT + 'alfa-art.json', JSON.stringify(art));
-fs.writeFile(DATA_ROOT + 'alfa-galleries.json', JSON.stringify(galleries));
 
+function removeGuid(arr) {
+    return arr.map(function(item) {
+        delete item['guid'];
+        return item;
+    });
+}
 
 
 function getGalleries() {
@@ -44,6 +45,7 @@ function getGalleries() {
             id: null, // creating here to force first prop
             guid: fields[0],
             name: fields[1],
+            slug: toSlug(fields[1]),
             thumb: fields[2],
             order: fields[3],
         });
@@ -74,7 +76,7 @@ function getOrientations() {
         accum.push({
             id: ++idx,
             guid: fields[0],
-            name: fields[1],
+            name: fields[1].toLowerCase(),
         });
         return accum;
     }, []);
@@ -94,7 +96,8 @@ function getKeywords() {
         accum.push({
             id: ++idx,
             guid: fields[0],
-            name: fields[1],
+            name: fields[1].toLowerCase(),
+            slug: toSlug(fields[1]),
         });
         return accum;
     }, []);
@@ -137,6 +140,7 @@ function getArt() {
                 id: null, // creating here to force first prop
                 guid: fields[0],
                 title: fields[1],
+                slug: toSlug(fields[1]),
                 filename: fields[2],
                 media: fields[3],
                 description: fields[4],
@@ -178,7 +182,7 @@ function buildGalleryList(guid) {
     var galleryList = [];
     galleries.forEach(function(gallery, i) {
         if(gallery.guid === guid) {
-            galleryList.push(gallery.name);
+            galleryList.push(toSlug(gallery.name));
         }
     });
     return galleryList;
