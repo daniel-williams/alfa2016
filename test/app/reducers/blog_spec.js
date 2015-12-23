@@ -1,22 +1,15 @@
-import {
-  Map, List, fromJS
-}
-from 'immutable';
-import {
-  expect
-}
-from 'chai';
+import {Map, List, fromJS} from 'immutable';
+import {expect} from 'chai';
 
-import reducer from '../../app/reducers';
+import reducer from '../../../app/reducers';
 import {
   BLOG_REQUESTED,
   BLOG_SUCCESS,
   BLOG_FAILED
 }
-from '../../app/actions';
-
-import blogPostRaw from '../data/blog-post-single-raw.json';
-import blogPostProcessed from '../data/blog-post-single-processed.json';
+from '../../../app/actions';
+import blogPostRaw from '../../data/blog-post-single-raw.json';
+import blogPostProcessed from '../../data/blog-post-single-processed.json';
 
 
 describe('Blog reducer', () => {

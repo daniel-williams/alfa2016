@@ -4,7 +4,7 @@ import PureRenderMixin from 'react-addons-pure-render-mixin';
 import {connect} from 'react-redux';
 
 import * as actionCreators from '../actions/artActionCreators';
-import ImageLoader from '../components/sky/ImageLoader';
+import {ImageLoader} from '../components/sky';
 import {Col} from 'react-bootstrap';
 
 var Masonry = require('react-masonry-component')(React);

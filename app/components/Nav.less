@@ -1,0 +1,50 @@
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  .navbar-toggle:focus,
+  .navbar-toggle:hover {
+    background-color: transparent;
+  }
+}
+.navbar {
+  margin: 0;
+  min-height: 30px;
+  .navbar-nav {
+    & > li > a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    li {
+      border-top: none;
+      border-bottom: none;
+      border-left: 1px solid transparent;
+      border-right: 1px solid transparent;
+    }
+    li.active {
+      border-left: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      a {
+        background-color: #f6f6f6;
+      }
+    }
+  }
+}
+.navbar-header {
+  margin-top: -55px;
+  float: right;
+}
+.navbar-collapse.collapsing,
+.navbar-collapse.in {
+  border-top: none;
+  border-bottom: 1px solid #ccc;
+}
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+}

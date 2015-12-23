@@ -1,5 +1,5 @@
 import ImageLoader from './ImageLoader';
 
-export default {
+export {
     ImageLoader
 }
