@@ -5,14 +5,19 @@ import {LinkContainer} from 'react-router-bootstrap';
 require('./Nav.less');
 
 export default React.createClass({
+  getInitialState: function() {
+    return {
+      expanded: false,
+    };
+  },
   render: function() {
     return (
-      <Navbar>
+      <Navbar expanded={this.state.expanded} onToggle={this.onToggle}>
         <Navbar.Header>
           <Navbar.Toggle/>
         </Navbar.Header>
         <Navbar.Collapse>
-          <Nav>
+          <Nav onClick={this.onClick}>
             <LinkContainer to="/about">
               <NavItem eventKey={1}>About</NavItem>
             </LinkContainer>
@@ -46,5 +51,16 @@ export default React.createClass({
         </Navbar.Collapse>
       </Navbar>
     );
-  }
+  },
+
+  onClick: function(e) {
+    var tgt = $(e.target).closest('li');
+    if(!tgt.hasClass('dropdown')) {
+      this.setState({ expanded: false });
+    }
+  },
+  onToggle: function() {
+    this.setState({ expanded: !this.state.expanded });
+  },
+
 });

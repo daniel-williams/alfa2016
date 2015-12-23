@@ -56,12 +56,10 @@ export const Art = React.createClass({
     });
     var mapped = filtered.map((item, i) => {
       return (
-        <Col key={i} lg={2} md={3} sm={4} xs={6} className='grid-item'>
+        <Col key={item.slug} lg={2} md={3} sm={4} xs={6} className='grid-item'>
           <a href='#'>
             <ImageLoader src={'/content/images/art/sm_' + item.filename} onLoad={this.imgLoaded} />
           </a>
-          <div>{''+item.created}</div>
-          <div>{''+item.ticks}</div>
         </Col>
       );
     });
