@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDom from 'react-dom';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import {connect} from 'react-redux';
+import {Location, Link} from 'react-router';
 
 import * as actionCreators from '../actions/artActionCreators';
 import {ImageLoader} from '../components/sky';
@@ -34,9 +35,6 @@ export const Art = React.createClass({
       this.props.fetchArt();
     }
   },
-  componentDidMount: function() {
-    var test = ReactDom.findDOMNode(this.refs.mmm);
-  },
   render: function() {
     return (
       <div style={{marginTop:'30px'}}>
@@ -57,9 +55,9 @@ export const Art = React.createClass({
     var mapped = filtered.map((item, i) => {
       return (
         <Col key={item.slug} lg={2} md={3} sm={4} xs={6} className='grid-item'>
-          <a href='#'>
+          <Link to={this.props.location.pathname + '/' + item.slug}>
             <ImageLoader src={'/content/images/art/sm_' + item.filename} onLoad={this.imgLoaded} />
-          </a>
+          </Link>
         </Col>
       );
     });

@@ -9,6 +9,7 @@ import Classes from '../containers/Classes';
 import About from '../containers/About';
 
 import {ArtContainer} from '../containers/Art';
+import {ArtDetailsContainer} from '../containers/ArtDetails';
 import {BlogContainer} from '../containers/Blog';
 
 
@@ -18,7 +19,9 @@ const routes = (
         <Route path='about' component={About} />
         <Route path='exhibits' component={Exhibits} />
         <Route path='classes' component={Classes} />
-        <Route path='art/:gallery' component={ArtContainer} />
+        <Route path='art/:gallery' component={ArtContainer}>
+          <Route path=':aslug' component={ArtDetailsContainer} />
+        </Route>
         <Route path='blog' component={BlogContainer} />
     </Route>
 );
