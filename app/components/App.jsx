@@ -10,11 +10,11 @@ export default React.createClass({
   render: function() {
     return (
       <div id='main-wrap'>
-        <Header />
+        <Header {...this.props} />
         <div id='page-wrap'>
           {this.props.children}
         </div>
-        <Footer />
+        <Footer {...this.props} />
       </div>
     );
   },

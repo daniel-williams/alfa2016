@@ -55,43 +55,86 @@
     display: inline-block;
     vertical-align: top;
     width: 100%;
-    transition-property: width;
-    transition-duration: 0.5s;
-  }
-  .show-info .img-panel {
-    width: 50%;
   }
 
   .info-panel {
     display: inline-block;
     vertical-align: top;
-    width: 0;
-    transition-property: width;
-    transition-duration: 0.5s;
-    transition-delay: 0.0s;
+    // width: 0;
   }
-  .show-info .info-panel {
-    transition-delay: 0.2s;
-    width: 50%;
-  }
+
   .info-wrap {
-    margin-left: 15px;
-    opacity: 0;
-    transition-property: opacity;
-    transition-duration: 0.2s;
-    transition-delay: 0.0s;
+    white-space: normal;
+
+    h3 {
+      margin-top: 0;
+    }
   }
-  .show-info .info-wrap {
-    transition-delay: 0.5s;
-    opacity: 1.0;
-  }
+
   .buy-now {
     margin-top: 30px;
   }
 }
 
+@media (min-width: 768px) {
+  #art-modal .modal-dialog {
+    .item-details {
+      white-space: nowrap;
+    }
+
+    // image panel side-by-side
+    .img-panel {
+      transition-property: width;
+      transition-duration: 0.5s;
+    }
+    .show-info .img-panel {
+      width: 50%;
+    }
+
+    // info panel side-by-side
+    .info-panel {
+      width: 0;
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-delay: 0.0s;
+    }
+    .show-info .info-panel {
+      transition-delay: 0.2s; // wait for opacity transition
+      width: 50%;
+    }
+
+    .info-wrap {
+      margin-left: 15px;
+      opacity: 0.0;
+      transition-property: opacity;
+      transition-duration: 0.2s;
+      transition-delay: 0.0s;
+    }
+    .show-info .info-wrap {
+      opacity: 1.0;
+      transition-delay: 0.5s; // wait for resize
+    }
+
+  }
+}
 @media (max-width: 767px) {
   #art-modal .modal-dialog {
     width: auto;
+
+    .show-info .img-panel, .show-info .info-panel {
+      display: block;
+      width: 100%;
+    }
+    .info-panel {
+      max-height: 0;
+      transition-property: max-height;
+      transition-duration: 0.5s;
+    }
+    .show-info .info-panel {
+      max-height: 500px;
+    }
+    .info-wrap {
+      margin-top: 25px;
+    }
   }
 }

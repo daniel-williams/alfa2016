@@ -11,7 +11,7 @@ export default React.createClass({
       <div id='header'>
         <Brand />
         <div className='nav-before'/>
-        <Nav />
+        <Nav {...this.props}/>
         <div className='nav-after'/>
       </div>
     );

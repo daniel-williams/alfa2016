@@ -1,4 +1,5 @@
 import React from 'react';
+import {Location} from 'react-router';
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 
@@ -11,6 +12,7 @@ export default React.createClass({
     };
   },
   render: function() {
+    let ddStatus = this.props.location.pathname.indexOf('/art/') >= 0 ? 'active' : '';
     return (
       <Navbar expanded={this.state.expanded} onToggle={this.onToggle}>
         <Navbar.Header>
@@ -21,7 +23,7 @@ export default React.createClass({
             <LinkContainer to="/about">
               <NavItem eventKey={1}>About</NavItem>
             </LinkContainer>
-            <NavDropdown eventKey={2} title="Artwork" id='artwork-ddl'>
+            <NavDropdown eventKey={2} title="Artwork" id='artwork-ddl' className={ddStatus}>
               <LinkContainer to="/art/plein-air">
                 <MenuItem eventKey={2.1}>Pein Air</MenuItem>
               </LinkContainer>
