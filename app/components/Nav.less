@@ -1,30 +1,58 @@
+@import (reference) "../components/app.less";
+
+
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
-  .navbar-toggle:focus,
-  .navbar-toggle:hover {
+
+  .navbar-toggle:focus, .navbar-toggle:hover {
     background-color: transparent;
   }
 }
 .navbar {
   margin: 0;
-  min-height: 30px;
+  min-height: @controlsHeight;
+
   .navbar-nav {
-    & > li > a {
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-    li {
+    & > li {
       border-top: none;
       border-bottom: none;
       border-left: 1px solid transparent;
       border-right: 1px solid transparent;
-    }
-    li.active {
-      border-left: 1px solid #ccc;
-      border-right: 1px solid #ccc;
-      a {
-        background-color: #f6f6f6;
+
+      & > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 18px;
+        line-height: 18px;
+        color: @beige;
+
+        &:focus {
+          color: @beige;
+          background-color: @white;
+        }
+        &:hover {
+          color: @gravel;
+          background-color: @darkPeach;
+        }
+      }
+      &.active, &.open {
+        border-left: 1px solid @beige;
+        border-right: 1px solid @beige;
+
+        a {
+          color: @beige;
+          background-color: @white;
+
+          &:focus {
+            color: @beige;
+            background-color: @white;
+          }
+          &:hover {
+            color: @darkCocoa;
+            background-color: @darkPeach;
+          }
+        }
       }
     }
   }

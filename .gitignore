@@ -30,3 +30,6 @@ build/
 
 # Atom? generated scripts
 null/
+
+# site specific
+Web/content/images/art/

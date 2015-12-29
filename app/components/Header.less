@@ -1,7 +1,9 @@
+@import (reference) "../components/app.less";
+
 
 #header {
   .nav-before {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid @beige;
     height: 0;
     margin-bottom: -1px;
   }
@@ -10,7 +12,7 @@
 @media (min-width: 768px) {
   #header {
     .nav-after {
-      border-top: 1px solid #ccc;
+      border-top: 1px solid @beige;
       height: 0;
       margin-top: -1px;
     }

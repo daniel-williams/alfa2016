@@ -1,4 +1,49 @@
 
+h1 { font-size: 48px; }
+h2 { font-size: 36px; }
+h3 { font-size: 28px; }
+button.btn.btn-alfa { font-size: 24px; }
+
+@media (max-width: 767px) {
+  h1 { font-size: 40px; }
+  h2 { font-size: 32px; }
+  h3 { font-size: 24px; }
+  button.btn.btn-alfa { font-size: 20px; }
+}
+@media (max-width: 479px) {
+  h1 { font-size: 28px; }
+  h2 { font-size: 24px; }
+  h3 { font-size: 22px; }
+  button.btn.btn-alfa { font-size: 16px; }
+}
+
+
+// colors
+@white: #fff;
+@burntOranage: #d15f27;
+@mediumOranage: #ee7522;
+@darkPeach: #f9a862;
+@darkGray: #404041;
+@darkCocoa: #594a41;
+@gravel: #716558;
+@beige: #c2b49a;
+
+
+
+@controlsHeight: 30px;
+
+
+a {
+  margin: 0;
+  cursor: pointer;
+
+  &, &:hover, &:visited, &:focus {
+    text-decoration: none;
+  }
+  &.disabled {
+    cursor: default;
+  }
+}
 
 img.loading {
     opacity: 0;
@@ -6,4 +51,104 @@ img.loading {
 img.loaded {
     opacity: 1;
     transition: opacity 0.5s;
+}
+
+
+.btn-alfa {
+  color: @white;
+  background-color: @burntOranage;
+  border-color: @burntOranage;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.btn-alfa:hover,
+.btn-alfa:focus,
+.btn-alfa:active,
+.btn-alfa.active {
+  color: @white;
+  background-color: @mediumOranage;
+  border-color: @burntOranage;
+}
+.btn-alfa.disabled:hover,
+.btn-alfa.disabled:focus,
+.btn-alfa.disabled:active,
+.btn-alfa.disabled.active,
+.btn-alfa[disabled]:hover,
+.btn-alfa[disabled]:focus,
+.btn-alfa[disabled]:active,
+.btn-alfa[disabled].active,
+fieldset[disabled] .btn-alfa:hover,
+fieldset[disabled] .btn-alfa:focus,
+fieldset[disabled] .btn-alfa:active,
+fieldset[disabled] .btn-alfa.active {
+  color: @white;
+  background-color: @burntOranage;
+  border-color: @burntOranage;
+}
+
+
+
+
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('/content/fonts/icomoon.eot?2chbi4');
+	src:url('/content/fonts/icomoon.eot?2chbi4#iefix') format('embedded-opentype'),
+		  url('/content/fonts/icomoon.ttf?2chbi4') format('truetype'),
+		  url('/content/fonts/icomoon.woff?2chbi4') format('woff'),
+		  url('/content/fonts/icomoon.svg?2chbi4#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-alfa-"], [class*=" icon-alfa-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-alfa-sold:before {
+	content: "\e90b";
+}
+.icon-alfa-arrow-left:before {
+	content: "\e900";
+}
+.icon-alfa-arrow-right:before {
+	content: "\e901";
+}
+.icon-alfa-close:before {
+	content: "\e902";
+}
+.icon-alfa-facebook:before {
+	content: "\e903";
+}
+.icon-alfa-info:before {
+	content: "\e904";
+}
+.icon-alfa-instagram:before {
+	content: "\e905";
+}
+.icon-alfa-linkedin:before {
+	content: "\e906";
+}
+.icon-alfa-magnify:before {
+	content: "\e907";
+}
+.icon-alfa-menu:before {
+	content: "\e908";
+}
+.icon-alfa-pinterest:before {
+	content: "\e909";
+}
+.icon-alfa-twitter:before {
+	content: "\e90a";
 }

@@ -56,7 +56,7 @@ export const Art = React.createClass({
       return (
         <Col key={item.slug} lg={2} md={3} sm={4} xs={6} className='grid-item'>
           <Link to={this.props.location.pathname + '/' + item.slug}>
-            <ImageLoader src={'/content/images/art/sm_' + item.filename} onLoad={this.imgLoaded} />
+            <ImageLoader src={'/content/images/art/' + item.slug + '-md.jpg'} onLoad={this.imgLoaded} />
           </Link>
         </Col>
       );

@@ -1,22 +1,97 @@
+@import (reference) "../components/app.less";
+
+
 #art-modal .modal-dialog {
   width: 90%;
 
   .controls {
-    a {
-      line-height: 30px;
-      margin: 0;
+    & > div {
+      height: @controlsHeight;
+      overflow: hidden;
 
-      &, &:hover, &:visited, &:focus {
-        text-decoration: none;
+      & > a {
+        margin-right: 10px;
+
+        &:last-child {
+          margin-right: 0;
+        }
       }
+    }
+    .col-0 {
+      position: relative;
+      float: left;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .sep {
+      width: 0;
+      height: @controlsHeight;
+      border-right: 1px solid @beige;
+      margin: 0 15px;
     }
     i {
-      font-size: 30px;
-      line-height: 30px;
+      font-size: @controlsHeight;
+      line-height: @controlsHeight;
+      color: @darkCocoa;
 
+      &:hover {
+        color: @gravel;
+      }
       &.disabled {
-        color: #eee;
+        color: lighten(@darkCocoa, 50%);
       }
     }
+  }
+
+  .dimensions {
+    margin-right: 10px;
+  }
+
+  .item-details {
+    overflow: hidden;
+  }
+
+  .img-panel {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    transition-property: width;
+    transition-duration: 0.5s;
+  }
+  .show-info .img-panel {
+    width: 50%;
+  }
+
+  .info-panel {
+    display: inline-block;
+    vertical-align: top;
+    width: 0;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-delay: 0.0s;
+  }
+  .show-info .info-panel {
+    transition-delay: 0.2s;
+    width: 50%;
+  }
+  .info-wrap {
+    margin-left: 15px;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-delay: 0.0s;
+  }
+  .show-info .info-wrap {
+    transition-delay: 0.5s;
+    opacity: 1.0;
+  }
+  .buy-now {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  #art-modal .modal-dialog {
+    width: auto;
   }
 }
