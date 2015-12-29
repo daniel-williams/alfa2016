@@ -4,6 +4,8 @@ import Bootstrap from '../../Web/content/styles/bootstrap.min.css';
 
 import Header from './Header';
 import Footer from './Footer';
+import SubFooter from './SubFooter';
+import Copyright from './Copyright';
 require('./App.less');
 require('../fonts');
 
@@ -16,7 +18,9 @@ export default React.createClass({
         <div id='page-wrap'>
           {this.props.children}
         </div>
-        <Footer {...this.props} />
+        <Footer />
+        <SubFooter/>
+        <Copyright />
       </div>
     );
   },

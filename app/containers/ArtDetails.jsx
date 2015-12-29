@@ -91,7 +91,7 @@ export const ArtDetails = React.createClass({
     );
   },
   renderSalesInfo(item) {
-    return item.isForSale && !item.isSold ? <div className='buy-now'><button className='btn btn-alfa' type='button' onClick={this.handleBuyNow}>Buy Now</button></div>
+    return item.isForSale && !item.isSold ? <div className='buy-now'><button className='btn btn-alfa-default' type='button' onClick={this.handleBuyNow}>Buy Now</button></div>
                                           : <h3><i className='icon-alfa-sold' /> Sold</h3>
   },
   renderDimensions(item) {

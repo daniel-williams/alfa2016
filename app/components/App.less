@@ -5,23 +5,25 @@ body {
 
 h1, h2, h3 {
   font-family: 'Roboto Slab', serif;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 h1 { font-size: 48px; }
 h2 { font-size: 36px; }
 h3 { font-size: 28px; }
-button.btn.btn-alfa { font-size: 24px; }
+button.btn { font-size: 24px; }
 
 @media (max-width: 767px) {
   h1 { font-size: 40px; }
   h2 { font-size: 32px; }
   h3 { font-size: 24px; }
-  button.btn.btn-alfa { font-size: 20px; }
+  button.btn { font-size: 20px; }
 }
 @media (max-width: 479px) {
   h1 { font-size: 28px; }
   h2 { font-size: 24px; }
   h3 { font-size: 22px; }
-  button.btn.btn-alfa { font-size: 16px; }
+  button.btn { font-size: 16px; }
 }
 
 
@@ -41,14 +43,33 @@ button.btn.btn-alfa { font-size: 24px; }
 
 
 @controlsHeight: 30px;
+@buttonMargin: 30px;
 
+.controls {
+  i {
+    font-size: @controlsHeight;
+    line-height: @controlsHeight;
+  }
+}
+
+i {
+  color: @darkCocoa;
+
+  &:hover {
+    color: @gravel;
+  }
+}
 
 a {
   margin: 0;
   cursor: pointer;
 
   &, &:hover, &:visited, &:focus {
+    color: @burntOranage;
     text-decoration: none;
+  }
+  &:hover {
+    text-decoration: underline;
   }
   &.disabled {
     cursor: default;
@@ -64,33 +85,74 @@ img.loaded {
 }
 
 
-.btn-alfa {
+.sec-wrap {
+  padding-top: 30px;
+}
+
+
+// default button
+.btn-alfa-default {
+  color: @white;
+  background-color: @darkCocoa;
+  border-color: @darkCocoa;
+  padding-left: @buttonMargin;
+  padding-right: @buttonMargin;
+}
+.btn-alfa-default:hover,
+.btn-alfa-default:focus,
+.btn-alfa-default:active,
+.btn-alfa-default.active {
+  color: @white;
+  background-color: @gravel;
+  border-color: @darkCocoa;
+}
+.btn-alfa-default.disabled:hover,
+.btn-alfa-default.disabled:focus,
+.btn-alfa-default.disabled:active,
+.btn-alfa-default.disabled.active,
+.btn-alfa-default[disabled]:hover,
+.btn-alfa-default[disabled]:focus,
+.btn-alfa-default[disabled]:active,
+.btn-alfa-default[disabled].active,
+fieldset[disabled] .btn-alfa-default:hover,
+fieldset[disabled] .btn-alfa-default:focus,
+fieldset[disabled] .btn-alfa-default:active,
+fieldset[disabled] .btn-alfa-default.active {
+  color: @white;
+  background-color: @darkCocoa;
+  border-color: @darkCocoa;
+}
+
+
+
+// primary button
+.btn-alfa-primary {
   color: @white;
   background-color: @burntOranage;
   border-color: @burntOranage;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: @buttonMargin;
+  padding-right: @buttonMargin;
 }
-.btn-alfa:hover,
-.btn-alfa:focus,
-.btn-alfa:active,
-.btn-alfa.active {
+.btn-alfa-primary:hover,
+.btn-alfa-primary:focus,
+.btn-alfa-primary:active,
+.btn-alfa-primary.active {
   color: @white;
   background-color: @mediumOranage;
   border-color: @burntOranage;
 }
-.btn-alfa.disabled:hover,
-.btn-alfa.disabled:focus,
-.btn-alfa.disabled:active,
-.btn-alfa.disabled.active,
-.btn-alfa[disabled]:hover,
-.btn-alfa[disabled]:focus,
-.btn-alfa[disabled]:active,
-.btn-alfa[disabled].active,
-fieldset[disabled] .btn-alfa:hover,
-fieldset[disabled] .btn-alfa:focus,
-fieldset[disabled] .btn-alfa:active,
-fieldset[disabled] .btn-alfa.active {
+.btn-alfa-primary.disabled:hover,
+.btn-alfa-primary.disabled:focus,
+.btn-alfa-primary.disabled:active,
+.btn-alfa-primary.disabled.active,
+.btn-alfa-primary[disabled]:hover,
+.btn-alfa-primary[disabled]:focus,
+.btn-alfa-primary[disabled]:active,
+.btn-alfa-primary[disabled].active,
+fieldset[disabled] .btn-alfa-primary:hover,
+fieldset[disabled] .btn-alfa-primary:focus,
+fieldset[disabled] .btn-alfa-primary:active,
+fieldset[disabled] .btn-alfa-primary.active {
   color: @white;
   background-color: @burntOranage;
   border-color: @burntOranage;
