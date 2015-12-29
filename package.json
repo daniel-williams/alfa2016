@@ -34,6 +34,7 @@
     "redux-thunk": "^1.0.0",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
+    "webfontloader": "^1.6.16",
     "webpack": "^1.12.9"
   },
   "devDependencies": {
