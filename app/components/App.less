@@ -1,6 +1,9 @@
+@import (reference) '../mixins.less';
+
 
 body {
   font-family: 'Quicksand', 'sans-serif';
+  color: @darkCocoa;
 }
 
 h1, h2, h3 {
@@ -27,9 +30,6 @@ button.btn { font-size: 24px; }
 }
 
 
-// fonts
-
-
 // colors
 @white: #fff;
 @burntOranage: #d15f27;
@@ -41,19 +41,19 @@ button.btn { font-size: 24px; }
 @beige: #c2b49a;
 
 
+// spacing
+@base-size: 20;
+.make-space(@base-size);
 
 @controlsHeight: 30px;
 @buttonMargin: 30px;
 
-.controls {
-  i {
-    font-size: @controlsHeight;
-    line-height: @controlsHeight;
-  }
-}
+
 
 i {
   color: @darkCocoa;
+  font-size: @controlsHeight;
+  line-height: @controlsHeight;
 
   &:hover {
     color: @gravel;
@@ -85,9 +85,7 @@ img.loaded {
 }
 
 
-.sec-wrap {
-  padding-top: 30px;
-}
+
 
 
 // default button

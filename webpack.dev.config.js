@@ -15,7 +15,7 @@ module.exports = {
             'webpack-hot-middleware/client',
             path.resolve(APP_ROOT, 'index.jsx'),
         ],
-        vendors: ['jquery', 'react', 'react-router', 'redux', 'react-redux', 'immutable', 'firebase'],
+        vendors: ['jquery', 'react', 'react-router', 'redux', 'react-redux', 'firebase', 'immutable'],
     },
     module: {
         loaders: [
@@ -58,7 +58,7 @@ module.exports = {
     },
     output: {
         path: DIST_PATH,
-        filename: 'app.bundle.js',
+        filename: '[name].bundle.js',
         publicPath: '/'
     },
     plugins: [
@@ -71,7 +71,10 @@ module.exports = {
             'windows.jQuery': 'jquery',
             'root.jQuery': 'jquery',
         }),
-        new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.bundle.js'),
+        new webpack.optimize.CommonsChunkPlugin({
+          names: ['vendors'],
+          minChunks: Infinity
+        }),
         new webpack.optimize.OccurenceOrderPlugin(),
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NoErrorsPlugin()

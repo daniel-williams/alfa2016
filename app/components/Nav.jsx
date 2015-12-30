@@ -25,7 +25,7 @@ export default React.createClass({
             </LinkContainer>
             <NavDropdown eventKey={2} title="Artwork" id='artwork-ddl' className={ddStatus}>
               <LinkContainer to="/art/plein-air">
-                <MenuItem eventKey={2.1}>Pein Air</MenuItem>
+                <MenuItem eventKey={2.1}>Plein Air</MenuItem>
               </LinkContainer>
               <LinkContainer to="/art/portraits-and-figures">
                 <MenuItem eventKey={2.2}>Portraits &amp; Figures</MenuItem>

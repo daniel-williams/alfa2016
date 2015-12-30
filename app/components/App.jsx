@@ -19,8 +19,6 @@ export default React.createClass({
           {this.props.children}
         </div>
         <Footer />
-        <SubFooter/>
-        <Copyright />
       </div>
     );
   },

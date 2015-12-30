@@ -30,11 +30,11 @@ app.use(webpackHotMiddleware(compiler));
 app.use('/content', express.static('Web/content'));
 
 app.get('*', function response(req, res) {
-    res.end(renderFullPage());
+    res.end(renderPage());
 });
 
 
-function renderFullPage() {
+function renderPage(includeFirebase) {
   return `
 <!doctype html>
 <html>

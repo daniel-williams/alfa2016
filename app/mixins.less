@@ -1,0 +1,64 @@
+
+@qtr: ~'-qtr';
+@half: ~'-half';
+@dbl: ~'-dbl';
+@tpl: ~'-tpl';
+
+.make-space(@size) {
+  .make-padding(@size / 4, @qtr);
+  .make-padding(@size / 2, @half);
+  .make-padding(@size, ~'');
+  .make-padding(@size * 2, @dbl);
+  .make-padding( @size * 3, @tpl);
+  .make-margin(@size / 4, @qtr);
+  .make-margin(@size / 2, @half);
+  .make-margin(@size, ~'');
+  .make-margin(@size * 2, @dbl);
+  .make-margin( @size * 3, @tpl);
+}
+
+.make-padding(@size, @prefix) {
+  .pt@{prefix} {
+    padding-top: ~"@{size}px"
+  }
+  .pb@{prefix} {
+    padding-bottom: ~"@{size}px"
+  }
+  .pv@{prefix} {
+    padding-top: ~"@{size}px";
+    padding-bottom: ~"@{size}px"
+  }
+  .pl@{prefix} {
+    padding-left: ~"@{size}px"
+  }
+  .pr@{prefix} {
+    padding-right: ~"@{size}px"
+  }
+  .ph@{prefix} {
+    padding-left: ~"@{size}px";
+    padding-right: ~"@{size}px"
+  }
+}
+
+.make-margin(@size, @prefix) {
+  .mt@{prefix} {
+    margin-top: ~"@{size}px"
+  }
+  .mb@{prefix} {
+    margin-bottom: ~"@{size}px"
+  }
+  .mv@{prefix} {
+    margin-top: ~"@{size}px";
+    margin-bottom: ~"@{size}px"
+  }
+  .ml@{prefix} {
+    margin-left: ~"@{size}px"
+  }
+  .mr@{prefix} {
+    margin-right: ~"@{size}px"
+  }
+  .mh@{prefix} {
+    margin-left: ~"@{size}px";
+    margin-right: ~"@{size}px"
+  }
+}

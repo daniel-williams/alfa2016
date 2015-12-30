@@ -8,11 +8,11 @@ export default React.createClass({
       <div id='sub-footer'>
         <Grid>
           <Row>
-            <Col sm={2}></Col>
-            <Col sm={8} xs={12} style={{textAlign:'center'}}>
+            <Col md={2} sm={1} className='hidden-xs'></Col>
+            <Col md={8} sm={10} xs={12} style={{textAlign:'center'}} className='mt-half'>
               <h2>Oil paintings of beauty that beckon to be seen &amp; touched.</h2>
             </Col>
-            <Col sm={2}></Col>
+            <Col md={2} sm={1} className='hidden-xs'></Col>
           </Row>
         </Grid>
       </div>
