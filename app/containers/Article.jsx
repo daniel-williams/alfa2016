@@ -2,14 +2,15 @@ import React from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import {connect} from 'react-redux';
 import {toJS} from 'immutable';
-import {Link, Location} from 'react-router';
 import {Grid, Row, Col} from 'react-bootstrap';
 
 import * as actionCreators from '../actions/blogActionCreators';
 require('./Blog.less');
 
 
-export const Blog = React.createClass({
+let someFrag = '<div>ima html frag</div>';
+
+export const Article = React.createClass({
   mixins: [PureRenderMixin],
 
   isFetching: function() {
@@ -24,13 +25,19 @@ export const Blog = React.createClass({
     }
   },
   render: function() {
-    var articles = this.props.blog.get('items').map((item, i) => this.renderArticle(item.toJS(), i));
+    let articleSlug = this.props.routeParams.articleSlug;
+    var article = this.props.blog.get('items').toJS()
+      .filter(item => {
+        return item.slug === articleSlug;
+      })
+      .map((item, i) => this.renderArticle(item, i));
+
     return (
-      <div id='blog' className='mv'>
+      <div id='blog-article' className='mv'>
         <Grid>
           <Row>
             <Col xs={12}>
-              {articles}
+              {article || this.renderNotFound()}
             </Col>
           </Row>
         </Grid>
@@ -45,12 +52,12 @@ export const Blog = React.createClass({
       }
 
       return (
-          <section key={i} className='mb'>
+          <section>
               <header>
-                  <Link to={'/blog/' + item.slug}><h3>{item.title}</h3></Link>
+                  <h3>{item.title}</h3>
               </header>
               <article>
-                  <div dangerouslySetInnerHTML={{__html:item.content}} />
+                  <div key={i} dangerouslySetInnerHTML={{__html:item.content}} />
               </article>
               <footer>
                   {tags}
@@ -67,7 +74,16 @@ export const Blog = React.createClass({
               <span style={{fontWeight:'bold'}}>Tags: </span><span className='tags'>{tagUi}</span>
           </div>
       );
-  }
+  },
+
+  renderNotFound: function() {
+    return (
+      <Col xs={12}>
+        <h3>Article not found.</h3>
+      </Col>
+    );
+  },
+
 
 });
 
@@ -78,4 +94,4 @@ function mapStateToProps(state) {
     }
 }
 
-export const BlogContainer = connect(mapStateToProps, actionCreators)(Blog);
+export const ArticleContainer = connect(mapStateToProps, actionCreators)(Article);

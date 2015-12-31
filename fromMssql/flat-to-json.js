@@ -1,6 +1,7 @@
 import fs from 'fs';
-import {toSlug} from './slug-utils';
+import {toSlug} from '../app/slug-utils';
 import show from './show.json';
+import feature from './feature.json';
 
 var DATA_ROOT = './';
 
@@ -13,9 +14,14 @@ var art = getArt();
 galleries = removeGuid(galleries);
 art = removeGuid(art);
 
-fs.writeFile(DATA_ROOT + 'alfa-galleries.json', JSON.stringify(galleries));
-fs.writeFile(DATA_ROOT + 'alfa-art.json', JSON.stringify(art));
-fs.writeFile(DATA_ROOT + 'firebase.json', JSON.stringify({show: show, galleries: galleries, art: art}));
+// fs.writeFile(DATA_ROOT + 'alfa-galleries.json', JSON.stringify(galleries));
+// fs.writeFile(DATA_ROOT + 'alfa-art.json', JSON.stringify(art));
+fs.writeFile(DATA_ROOT + 'firebase.json', JSON.stringify({
+  show: show,
+  feature: feature,
+  galleries: galleries,
+  art: art
+}));
 
 console.log('total galleries:', galleries.length);
 console.log('total orientations:', orientations.length);

@@ -50,7 +50,7 @@ export const Art = React.createClass({
   renderArt: function() {
     var art = this.props.art.get('items').toJS();
     var filtered = art.filter(item => {
-      return item.galleries.indexOf(this.props.routeParams.gallery) >= 0;
+      return item.galleries.indexOf(this.props.routeParams.gallerySlug) >= 0;
     });
     var mapped = filtered.map((item, i) => {
       return (

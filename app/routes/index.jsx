@@ -11,6 +11,7 @@ import About from '../containers/About';
 import {ArtContainer} from '../containers/Art';
 import {ArtDetailsContainer} from '../containers/ArtDetails';
 import {BlogContainer} from '../containers/Blog';
+import {ArticleContainer} from '../containers/Article';
 
 
 const routes = (
@@ -19,10 +20,11 @@ const routes = (
         <Route path='about' component={About} />
         <Route path='exhibits' component={Exhibits} />
         <Route path='classes' component={Classes} />
-        <Route path='art/:gallery' component={ArtContainer}>
-          <Route path=':aslug' component={ArtDetailsContainer} />
+        <Route path='art/:gallerySlug' component={ArtContainer}>
+          <Route path=':artSlug' component={ArtDetailsContainer} />
         </Route>
         <Route path='blog' component={BlogContainer} />
+        <Route path='blog/:articleSlug' component={ArticleContainer} />
     </Route>
 );
 

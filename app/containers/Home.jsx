@@ -2,7 +2,8 @@ import React from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import {Grid, Row, Col} from 'react-bootstrap';
 
-import {Player} from '../components/sky'
+import {Player} from '../components/sky';
+import {FeatureContainer} from './Feature';
 require('./Home.less');
 
 
@@ -11,11 +12,14 @@ export default React.createClass({
 
     render: function() {
         return (
-            <div id='home' className='mb'>
+            <div id='home' className='mv'>
               <Grid>
                 <Row>
                   <Col xs={12}>
                     <Player />
+                  </Col>
+                  <Col xs={12}>
+                    <FeatureContainer />
                   </Col>
                 </Row>
               </Grid>

@@ -12,3 +12,7 @@ export const SHOW_SUCCESS = 'SHOW_SUCCESS';
 export const SHOW_FAILED = 'SHOW_FAILED';
 export const SHOW_NEXT = 'SHOW_NEXT';
 export const SHOW_PREV = 'SHOW_PREV';
+
+export const FEATURE_REQUESTED = 'FEATURE_REQUESTED';
+export const FEATURE_SUCCESS = 'FEATURE_SUCCESS';
+export const FEATURE_FAILED = 'FEATURE_FAILED';

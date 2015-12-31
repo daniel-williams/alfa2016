@@ -2,59 +2,43 @@ import fetch from 'isomorphic-fetch';
 import {checkStatus, toJSON} from './fetch-helper';
 import Firebase from 'firebase';
 import {
-  SHOW_REQUESTED,
-  SHOW_SUCCESS,
-  SHOW_FAILED,
-  SHOW_NEXT,
-  SHOW_PREV,
+  FEATURE_REQUESTED,
+  FEATURE_SUCCESS,
+  FEATURE_FAILED,
+  FEATURE_NEXT,
+  FEATURE_PREV,
 }
 from '.';
 
 
 const firebaseDb = new Firebase('https://blistering-torch-4532.firebaseio.com/');
 
-export function fetchShow() {
+export function fetchFeature() {
   return function(dispatch) {
-    dispatch({type: SHOW_REQUESTED});
+    dispatch({type: FEATURE_REQUESTED});
 
     try {
-      firebaseDb.child('show').on('value', function(snapshot) {
-        var show = snapshot.val();
+      firebaseDb.child('feature').on('value', function(snapshot) {
+        var feature = snapshot.val();
         dispatch({
-          type: SHOW_SUCCESS,
+          type: FEATURE_SUCCESS,
           date: new Date(),
-          show: show
+          feature: feature
         });
       }, function (err) {
         dispatch({
-          type: SHOW_FAILED,
+          type: FEATURE_FAILED,
           date: new Date(),
           err: new Error('The read failed: ' + err.code)
         });
       });
     } catch(err) {
       dispatch({
-        type: SHOW_FAILED,
+        type: FEATURE_FAILED,
         date: new Date(),
         err: err
       });
     }
 
-
-  }
-}
-
-export function nextSlide() {
-  return function(dispatch) {
-    dispatch({
-      type: SHOW_NEXT
-    });
-  }
-}
-export function prevSlide() {
-  return function(dispatch) {
-    dispatch({
-      type: SHOW_PREV
-    });
   }
 }

@@ -12,7 +12,9 @@ export default React.createClass({
     };
   },
   render: function() {
-    let ddStatus = this.props.location.pathname.indexOf('/art/') >= 0 ? 'active' : '';
+    let inArt = this.props.location.pathname.indexOf('/art/') >= 0 ? 'active' : '';
+    let inBlog = this.props.location.pathname.indexOf('/blog/') >= 0 ? 'active' : '';
+
     return (
       <Navbar expanded={this.state.expanded} onToggle={this.onToggle}>
         <Navbar.Header>
@@ -23,7 +25,7 @@ export default React.createClass({
             <LinkContainer to="/about">
               <NavItem eventKey={1}>About</NavItem>
             </LinkContainer>
-            <NavDropdown eventKey={2} title="Artwork" id='artwork-ddl' className={ddStatus}>
+            <NavDropdown eventKey={2} title="Artwork" id='artwork-ddl' className={inArt}>
               <LinkContainer to="/art/plein-air">
                 <MenuItem eventKey={2.1}>Plein Air</MenuItem>
               </LinkContainer>
@@ -46,7 +48,7 @@ export default React.createClass({
             <LinkContainer to="/classes">
               <NavItem eventKey={4}>Classes</NavItem>
             </LinkContainer>
-            <LinkContainer to="/blog">
+            <LinkContainer to="/blog" className={inBlog}>
               <NavItem eventKey={4}>Blog</NavItem>
             </LinkContainer>
           </Nav>

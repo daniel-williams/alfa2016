@@ -30,11 +30,9 @@ export const Player = React.createClass({
   },
   componentDidMount: function() {
     timer = setInterval(this.props.nextSlide, 10000);
-    console.log('SET INTERVAL:', timer);
   },
   componentWillUnmount: function() {
     if(timer) {
-      console.log('CLEAR INTERVAL:', timer);
       clearInterval(timer);
     }
   },

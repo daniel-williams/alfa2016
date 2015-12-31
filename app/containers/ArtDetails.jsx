@@ -27,12 +27,12 @@ export const ArtDetails = React.createClass({
     }
   },
   getArtInfo: function() {
-    const gallery = this.props.params.gallery;
-    const aslug = this.props.routeParams.aslug;
+    const gallerySlug = this.props.params.gallerySlug;
+    const artSlug = this.props.routeParams.artSlug;
     const items = this.props.art.get('items').toJS();
 
     const filtered = items.filter(item => {
-      return item.galleries.indexOf(gallery) >= 0;
+      return item.galleries.indexOf(gallerySlug) >= 0;
     });
 
     let artInfo = {
@@ -41,7 +41,7 @@ export const ArtDetails = React.createClass({
 
     if(filtered.length) {
       for(var i = 0; i < filtered.length; i++) {
-        if(filtered[i].slug === aslug) {
+        if(filtered[i].slug === artSlug) {
           artInfo.item = filtered[i];
           artInfo.prevUrl = filtered[i-1] && artInfo.galleryUrl + '/' + filtered[i-1].slug;
           artInfo.nextUrl = filtered[i+1] && artInfo.galleryUrl + '/' + filtered[i+1].slug;

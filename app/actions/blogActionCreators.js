@@ -11,7 +11,10 @@ const host = 'https://www.googleapis.com/blogger/v3/blogs/';
 const blogId = '5080215156052292878';
 const apiKey = 'AIzaSyAoTn6DttJFZ5mWGHuqfN5fE1eSvQ0jgaE';
 
-const url = host + blogId + '/posts?key=' + apiKey; // + '&maxResults=500'
+// TODO djw: fetching all not ideal. Solution wants to efficiently retrieve for
+// article list (eg /blog, /blog?page=2) or individual article (eg /blog/some-blog-article).
+// const url = host + blogId + '/posts?key=' + apiKey + '&maxResults=500';
+const url = host + blogId + '/posts?key=' + apiKey;
 
 export function fetchArticleList() {
   return function(dispatch) { // thunk
