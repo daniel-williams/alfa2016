@@ -14,6 +14,11 @@ const INITIAL_STATE = fromJS({
         items: [],
         page: 0,
         pageToken: null
+    },
+    show: {
+      isFetching: false,
+      items: [],
+      active: null
     }
 });
 

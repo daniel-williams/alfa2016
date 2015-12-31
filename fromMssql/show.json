@@ -1,0 +1,13 @@
+{
+  "showControls": true,
+  "transitionTime": 1000,
+  "pauseTime": 10000,
+  "items": [
+    {"id": "slide01", "title": "slide01", "src": "01.jpg"},
+    {"id": "slide02", "title": "slide02", "src": "02.jpg"},
+    {"id": "slide03", "title": "slide03", "src": "03.jpg"},
+    {"id": "slide04", "title": "slide04", "src": "04.jpg"},
+    {"id": "slide05", "title": "slide05", "src": "05.jpg"},
+    {"id": "slide06", "title": "slide06", "src": "06.jpg"}
+  ]
+}

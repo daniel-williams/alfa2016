@@ -37,7 +37,7 @@ export const Art = React.createClass({
   },
   render: function() {
     return (
-      <div style={{marginTop:'30px'}}>
+      <div className='mv'>
         {this.isFetching() && <div>fetching art...</div>}
         {this.hasItems() && this.renderArt()}
         <div>

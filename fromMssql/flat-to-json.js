@@ -1,6 +1,6 @@
 import fs from 'fs';
 import {toSlug} from './slug-utils';
-
+import show from './show.json';
 
 var DATA_ROOT = './';
 
@@ -15,7 +15,7 @@ art = removeGuid(art);
 
 fs.writeFile(DATA_ROOT + 'alfa-galleries.json', JSON.stringify(galleries));
 fs.writeFile(DATA_ROOT + 'alfa-art.json', JSON.stringify(art));
-fs.writeFile(DATA_ROOT + 'firebase.json', JSON.stringify({galleries: galleries, art: art}));
+fs.writeFile(DATA_ROOT + 'firebase.json', JSON.stringify({show: show, galleries: galleries, art: art}));
 
 console.log('total galleries:', galleries.length);
 console.log('total orientations:', orientations.length);
