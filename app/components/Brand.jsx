@@ -7,7 +7,7 @@ require('./Brand.less');
 export default React.createClass({
   render: function() {
     return (
-      <div id='brand'>
+      <div id='brand' className='mt'>
         <IndexLink to="/">
           <h1>
             <ImageLoader src='/content/images/anna-lancaster-fine-art-logo.png' className='img-responsive'/>

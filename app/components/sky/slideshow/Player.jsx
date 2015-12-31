@@ -6,6 +6,7 @@ import {toJS} from 'immutable';
 import * as actionCreators from '../../../actions/showActionCreators.js';
 import {Controls, Slide} from '../../sky';
 
+let timer = null;
 
 export const Player = React.createClass({
   mixins: [PureRenderMixin],
@@ -27,35 +28,42 @@ export const Player = React.createClass({
       this.props.fetchShow();
     }
   },
+  componentDidMount: function() {
+    timer = setInterval(this.props.nextSlide, 10000);
+    console.log('SET INTERVAL:', timer);
+  },
+  componentWillUnmount: function() {
+    if(timer) {
+      console.log('CLEAR INTERVAL:', timer);
+      clearInterval(timer);
+    }
+  },
   render: function() {
     return (
       <div className='sky-player mv'>
         {this.isFetching() && <div>fetching show...</div>}
         {this.hasItems() && this.renderShow()}
-        {this.showControls() && this.renderControls()}
       </div>
     );
   },
 
   renderShow: function() {
-    var active = this.props.show.get('active')
-    var item = this.props.show.getIn(['show', 'items']).toJS()[active];
+    var active = this.props.show.get('active');
+    var item = this.props.show.getIn(['show', 'items']).toJS();
 
-    var slide = <Slide
+    var slides = item.map(function(item, idx) {
+      return <Slide key={item.id}
                     src={item.src}
                     alt={item.title}
-                    title={item.title} />
+                    title={item.title}
+                    active={idx === active} />
+    });
     return (
-      <div id='slide'>
-        {slide}
+      <div id='slides'>
+        {slides}
       </div>
     );
   },
-  renderControls: function() {
-    return <Controls nextSlide={this.props.nextSlide} prevSlide={this.props.prevSlide} />
-  },
-
-
 
 });
 

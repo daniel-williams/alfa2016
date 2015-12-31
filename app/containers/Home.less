@@ -1,8 +1,23 @@
 
 #home {
   .sky-player {
-    img {
-      margin: 0 auto;
+    .slide {
+      position: relative;
+      width: 100%;
+      opacity: 0.0;
+      transition: opacity 1s;
+
+      img {
+        width: 100%;
+      }
+    }
+    .slide.active {
+      opacity: 1.0;
+    }
+    .slide.off {
+      position: absolute;
+      width: 0;
+      height: 0;
     }
   }
 }

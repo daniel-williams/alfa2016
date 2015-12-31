@@ -11,7 +11,7 @@ export default React.createClass({
 
     render: function() {
         return (
-            <div id='home' className='mv'>
+            <div id='home' className='mb'>
               <Grid>
                 <Row>
                   <Col xs={12}>
