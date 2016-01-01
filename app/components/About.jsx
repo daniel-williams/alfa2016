@@ -1,0 +1,41 @@
+import React from 'react';
+import PureRenderMixin from 'react-addons-pure-render-mixin';
+import {Grid, Row, Col} from 'react-bootstrap';
+
+import {ImageLoader} from '../components/sky';
+require('./About.less');
+
+export default React.createClass({
+    mixins: [PureRenderMixin],
+    render: function() {
+        return (
+            <div id='about'>
+              <Grid className='pt pb'>
+                <Row>
+                  <Col md={6} sm={12}>
+                    <h2>About the Artist</h2>
+                    <p>Anna Lancaster enjoys diversified styles of creative expression including portraiture, contemporary and plein air landscape painting in oil. Her recent body of work explores contemporary still life in oil. Anna has expanded her contemporary art to include vibrant mixed media using pastel, oil impasto and acrylics.</p>
+                    <p>Identifying herself as a "Beautiful Art Revivalist", Anna markets her work under the auspices of her company, Anna Lancaster Fine Art. She has sold and exhibited work in Oregon since 1995.</p>
+                    <p>Born in New Jersey, Anna moved to Oregon in 1991, which resulted in her shifting her career focus from graphic illustration and design to professional fine artist. Anna works and resides with her family in Tualatin, Oregon.</p>
+                  </Col>
+                  <Col md={6} sm={12} xs={12} className={'pull-right'}>
+                    <Row className='img-wrap'>
+                      <Col md={12} sm={6} xs={12}>
+                        <ImageLoader src='/content/images/anna-lancaster-headshot.jpg' className='img-responsive'/>
+                      </Col>
+                      <Col md={12} sm={6} xs={12}>
+                        <ImageLoader src='/content/images/anna-lancaster-painting.jpg' className='img-responsive' />
+                      </Col>
+                    </Row>
+                  </Col>
+                  <Col md={6} sm={12} >
+                    <h2>Artists' Inpiration</h2>
+                    <p>God's masterful creation astounds and inspires me. I count the attribute of creativity to be one of His many precious gifts to humanity. I am given fully in love and admiration to His gift of art. It compels me to creatively rejoice in the mystery and majesty of His design.</p>
+                    <p>Whether I am indulging in the joyous color exlosion of my nature abstracts or tenderly rendering a precious moment of time in the classical style of the masters, I accept the challenge to capture the joy and magic of the beauty my eyes have witnessed and my heart longs to express. May you be inspired to create as well.</p>
+                  </Col>
+                </Row>
+              </Grid>
+            </div>
+        );
+    }
+});

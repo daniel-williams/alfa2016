@@ -1,6 +1,6 @@
 import {expect} from 'chai';
 
-import {toSlug} from '../../fromMssql/slug-utils';
+import {toSlug} from '../../app/slug-utils';
 
 const whitespace = '  Whitespace   should be trimmed and collapsed to  a   single dash   ';
 const whitespaceExpected = 'whitespace-should-be-trimmed-and-collapsed-to-a-single-dash';

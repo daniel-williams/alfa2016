@@ -42,7 +42,7 @@ export default React.createClass({
                 <MenuItem eventKey={2.5}>Archive</MenuItem>
               </LinkContainer>
             </NavDropdown>
-            <LinkContainer to="/exhibits">
+            <LinkContainer to="/galleries-and-exhibitions">
               <NavItem eventKey={3}>Galleries &amp; Exhibits</NavItem>
             </LinkContainer>
             <LinkContainer to="/classes">

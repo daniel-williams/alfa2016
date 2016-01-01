@@ -3,7 +3,7 @@ import PureRenderMixin from 'react-addons-pure-render-mixin';
 import {Grid, Row, Col} from 'react-bootstrap';
 
 import {Player} from '../components/sky';
-import {FeatureContainer} from './Feature';
+import {FeatureContainer} from '../containers/Feature';
 require('./Home.less');
 
 

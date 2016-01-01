@@ -45,7 +45,7 @@ export const Blog = React.createClass({
       }
 
       return (
-          <section key={i} className='mb'>
+          <section key={i} className='mb-tpl'>
               <header>
                   <Link to={'/blog/' + item.slug}><h3>{item.title}</h3></Link>
               </header>

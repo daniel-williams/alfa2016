@@ -1,8 +1,22 @@
-.tags {
+@import (reference) '../components/App.less';
+
+
+#blog {
+
+  header {
+    a, a:visited, a:focus {
+      color: @darkCocoa;
+    }
+    a:hover {
+      color: @gravel;
+    }
+  }
+  .tags {
     .tag:after {
-        content: ', '
+      content: ', '
     }
     .tag:last-child:after {
-        content: ''
+      content: ''
     }
+  }
 }
