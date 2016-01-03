@@ -4,10 +4,8 @@ import Bootstrap from '../../Web/content/styles/bootstrap.min.css';
 
 import Header from './Header';
 import Footer from './Footer';
-import SubFooter from './SubFooter';
-import Copyright from './Copyright';
 require('./App.less');
-require('../fonts');
+require('./fonts');
 
 
 export default React.createClass({

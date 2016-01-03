@@ -1,11 +1,11 @@
 import React from 'react';
 import {Route, IndexRoute} from 'react-router';
 
-import App from '../components/App';
-import Home from '../components/Home';
-import GalleriesAndExhibitions from '../components/GalleriesAndExhibitions';
-import Classes from '../components/Classes';
-import About from '../components/About';
+import App from '../pages/App';
+import Home from '../pages/Home';
+import GalleriesAndExhibitions from '../pages/GalleriesAndExhibitions';
+import Classes from '../pages/Classes';
+import About from '../pages/About';
 
 import {ArtContainer} from '../containers/Art';
 import {ArtDetailsContainer} from '../containers/ArtDetails';

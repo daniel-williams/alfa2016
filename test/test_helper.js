@@ -1,4 +1,4 @@
-import chai from 'chai';
-import chaiImmutable from 'chai-immutable';
+import expect from 'expect';
+import expectJsx from 'expect-jsx';
 
-chai.use(chaiImmutable);
+expect.extend(expectJsx);

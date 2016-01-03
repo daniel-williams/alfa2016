@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {ImageLoader} from '../../sky';
+import {ImageLoader} from '../';
 
 export default React.createClass({
   render: function() {

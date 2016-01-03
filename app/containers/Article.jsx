@@ -33,7 +33,7 @@ export const Article = React.createClass({
       .map((item, i) => this.renderArticle(item, i));
 
     return (
-      <div id='blog-article' className='mv'>
+      <div id='blog-article'>
         <Grid>
           <Row>
             <Col xs={12}>

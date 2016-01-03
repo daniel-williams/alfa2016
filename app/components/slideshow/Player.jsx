@@ -3,8 +3,8 @@ import PureRenderMixin from 'react-addons-pure-render-mixin';
 import {connect} from 'react-redux';
 import {toJS} from 'immutable';
 
-import * as actionCreators from '../../../actions/showActionCreators.js';
-import {Controls, Slide} from '../../sky';
+import * as actionCreators from '../../actions/showActionCreators.js';
+import {Controls, Slide} from './';
 
 let timer = null;
 
@@ -38,7 +38,7 @@ export const Player = React.createClass({
   },
   render: function() {
     return (
-      <div className='sky-player mv'>
+      <div className='sky-player'>
         {this.isFetching() && <div>fetching show...</div>}
         {this.hasItems() && this.renderShow()}
       </div>

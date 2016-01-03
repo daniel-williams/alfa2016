@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 import {Modal, Grid, Row, Col} from 'react-bootstrap';
 
 import * as actionCreators from '../actions/artActionCreators';
-import {ImageLoader} from '../components/sky';
+import {ImageLoader} from '../components';
 require('./ArtDetails.less');
 
 

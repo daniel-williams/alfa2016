@@ -1,36 +1,5 @@
 @import (reference) '../mixins.less';
 
-
-body {
-  font-family: 'Quicksand', 'sans-serif';
-  color: @darkCocoa;
-  font-size: 14px;
-}
-
-h1, h2, h3 {
-  font-family: 'Roboto Slab', serif;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-h1 { font-size: 48px; }
-h2 { font-size: 36px; }
-h3 { font-size: 28px; }
-button.btn { font-size: 24px; }
-
-@media (max-width: 767px) {
-  h1 { font-size: 40px; }
-  h2 { font-size: 32px; }
-  h3 { font-size: 24px; }
-  button.btn { font-size: 20px; }
-}
-@media (max-width: 479px) {
-  h1 { font-size: 28px; }
-  h2 { font-size: 24px; }
-  h3 { font-size: 22px; }
-  button.btn { font-size: 16px; }
-}
-
-
 // colors
 @white: #fff;
 @burntOranage: #d15f27;
@@ -42,12 +11,49 @@ button.btn { font-size: 24px; }
 @beige: #c2b49a;
 
 
-// spacing
-@base-size: 20;
-.make-space(@base-size);
-
+// sizing
 @controlsHeight: 30px;
 @buttonMargin: 30px;
+@base-space: 20;
+.make-space(@base-space);
+@base-font-size: 14px;
+
+
+body {
+  font-family: 'Quicksand', 'sans-serif';
+  color: @darkCocoa;
+  font-size: @base-font-size;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
+}
+h1 { font-size: 48px; line-height: 48px; }
+h2 { font-size: 36px; line-height: 36px; }
+h3 { font-size: 28px; line-height: 28px; }
+h4 { font-size: 22px; line-height: 22px; }
+button.btn { font-size: 24px; }
+
+@media (max-width: 767px) {
+  h1 { font-size: 40px; line-height: 40px; }
+  h2 { font-size: 32px; line-height: 32px; }
+  h3 { font-size: 24px; line-height: 24px; }
+  h4 { font-size: 20px; line-height: 20px; }
+  button.btn { font-size: 20px; }
+}
+@media (max-width: 479px) {
+  h1 { font-size: 28px; line-height: 28px; }
+  h2 { font-size: 24px; line-height: 24px; }
+  h3 { font-size: 22px; line-height: 22px; }
+  h4 { font-size: 18px; line-height: 18px; }
+  button.btn { font-size: 16px; }
+}
+
+
 
 
 
@@ -77,6 +83,10 @@ a {
   }
 }
 
+p {
+  margin: 0 0 7px;
+}
+
 img.loading {
     opacity: 0;
 }
@@ -85,8 +95,17 @@ img.loaded {
     transition: opacity 0.5s;
 }
 
+#header {
+  padding-top: 15px;
+}
 
+#page-wrap {
+  padding: 30px 0;
+}
 
+#footer {
+  padding-bottom: 10px;
+}
 
 
 // default button

@@ -1,14 +1,11 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
 
-// const {PropTypes} = React;
-
-
-var ImageLoader = React.createClass({
+export default React.createClass({
     displayName: 'ImageLoader',
 
-    // propTypes: {
-    //     src: PropTypes.string
-    // },
+    propTypes: {
+        src: PropTypes.string
+    },
     getInitialState: function() {
         return {
             loaded: false,
@@ -32,6 +29,3 @@ var ImageLoader = React.createClass({
     },
 
 });
-
-
-module.exports = ImageLoader;

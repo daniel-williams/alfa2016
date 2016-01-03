@@ -1,13 +1,12 @@
 import {Map, List, fromJS} from 'immutable';
-import {expect} from 'chai';
+import expect from 'expect';
 
 import reducer from '../../../app/reducers';
 import {
   BLOG_REQUESTED,
   BLOG_SUCCESS,
   BLOG_FAILED
-}
-from '../../../app/actions';
+} from '../../../app/actions';
 import blogPostRaw from '../../data/blog-post-single-raw.json';
 import blogPostProcessed from '../../data/blog-post-single-processed.json';
 
@@ -23,7 +22,7 @@ describe('Blog reducer', () => {
     const action = {type: BLOG_REQUESTED}
     const nextState = reducer(state, action);
 
-    expect(nextState.getIn(['blog', 'isFetching'])).to.be.true;
+    expect(nextState.getIn(['blog', 'isFetching'])).toExist();
   });
   // BLOG_SUCCESS
   it('BLOG_SUCCESS sets isFetching', () => {
@@ -41,7 +40,7 @@ describe('Blog reducer', () => {
     }
     const nextState = reducer(state, action);
 
-    expect(nextState.getIn(['blog', 'isFetching'])).to.be.false;
+    expect(nextState.getIn(['blog', 'isFetching'])).toNotExist();
   });
   it('BLOG_SUCCESS sets isStale', () => {
     const state = fromJS({
@@ -59,7 +58,7 @@ describe('Blog reducer', () => {
     }
     const nextState = reducer(state, action);
 
-    expect(nextState.getIn(['blog', 'isStale'])).to.be.false;
+    expect(nextState.getIn(['blog', 'isStale'])).toNotExist();
   });
   it('BLOG_SUCCESS sets lastFetchDate', () => {
     const state = fromJS({
@@ -78,7 +77,7 @@ describe('Blog reducer', () => {
     const nextState = reducer(state, action);
 
     const lastFetchDate = nextState.getIn(['blog', 'lastFetchDate']);
-    expect(lastFetchDate.getTime()).to.equal(actionDt.getTime());
+    expect(lastFetchDate.getTime()).toEqual(actionDt.getTime());
   });
   it('BLOG_SUCCESS clears lastFetchError', () => {
     const state = fromJS({
@@ -98,7 +97,7 @@ describe('Blog reducer', () => {
     const nextState = reducer(state, action);
 
     const lastFetchDate = nextState.getIn(['blog', 'lastFetchError']);
-    expect(lastFetchDate).to.be.a('null');
+    expect(lastFetchDate).toNotExist();
   });
   it('BLOG_SUCCESS sets items', () => {
     const state = fromJS({
@@ -116,11 +115,12 @@ describe('Blog reducer', () => {
     const nextState = reducer(state, action);
 
     const items = nextState.getIn(['blog', 'items']);
-    expect(items.count()).to.be.equal(1);
+    expect(items.count()).toBe(1);
 
     const itemZero = items.first();
+
     const processedZero = fromJS(blogPostProcessed).first();
-    expect(itemZero).to.be.equal(processedZero);
+    expect(itemZero).toEqual(processedZero);
   });
   it('BLOG_FAILED sets isFetching', () => {
     const state = fromJS({
@@ -137,7 +137,7 @@ describe('Blog reducer', () => {
     }
     const nextState = reducer(state, action);
 
-    expect(nextState.getIn(['blog', 'isFetching'])).to.be.false;
+    expect(nextState.getIn(['blog', 'isFetching'])).toNotExist();
   });
   it('BLOG_FAILED sets isStale', () => {
     const state = fromJS({
@@ -155,7 +155,7 @@ describe('Blog reducer', () => {
     }
     const nextState = reducer(state, action);
 
-    expect(nextState.getIn(['blog', 'isStale'])).to.be.false;
+    expect(nextState.getIn(['blog', 'isStale'])).toNotExist();
   });
   it('BLOG_FAILED sets lastFetchError', () => {
     const state = fromJS({
@@ -173,9 +173,9 @@ describe('Blog reducer', () => {
     const nextState = reducer(state, action);
 
     const err = nextState.getIn(['blog', 'lastFetchError']);
-    expect(err).to.be.instanceof(Error);
-    expect(err.message).to.be.a('string');
-    expect(err.message).to.be.equal('Boom goes the dynamite!');
+    expect(err).toBeA(Error);
+    expect(err.message).toBeA('string');
+    expect(err.message).toBe('Boom goes the dynamite!');
   });
   it('BLOG_FAILED sets lastFetchDate', () => {
     const state = fromJS({
@@ -194,6 +194,6 @@ describe('Blog reducer', () => {
     const nextState = reducer(state, action);
 
     const lastFetchDate = nextState.getIn(['blog', 'lastFetchDate']);
-    expect(lastFetchDate.getTime()).to.equal(actionDt.getTime());
+    expect(lastFetchDate.getTime()).toEqual(actionDt.getTime());
   });
 });

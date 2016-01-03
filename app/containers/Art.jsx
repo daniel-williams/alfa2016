@@ -3,11 +3,12 @@ import ReactDom from 'react-dom';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import {connect} from 'react-redux';
 import {Location, Link} from 'react-router';
+import {Grid, Row, Col} from 'react-bootstrap';
 
 import * as actionCreators from '../actions/artActionCreators';
-import {ImageLoader} from '../components/sky';
-import {Col} from 'react-bootstrap';
+import {Fetching, ImageLoader} from '../components';
 
+var {constants} = require('../constants');
 var Masonry = require('react-masonry-component')(React);
 var masonryOptions = {
   transitionDuration: 0,
@@ -18,9 +19,14 @@ var masonryOptions = {
 };
 require('./Art.less');
 
+
 export const Art = React.createClass({
   mixins: [PureRenderMixin],
 
+  getGalleryName: function() {
+    let g = constants.galleries.find(item => item.slug === this.props.routeParams.gallerySlug);
+    return g && g.name || '';
+  },
   isFetching: function() {
     return this.props.art.get('isFetching');
   },
@@ -37,9 +43,20 @@ export const Art = React.createClass({
   },
   render: function() {
     return (
-      <div className='mv'>
-        {this.isFetching() && <div>fetching art...</div>}
-        {this.hasItems() && this.renderArt()}
+      <div id='art-wrap'>
+        <Grid fluid={true}>
+          <Row>
+            <Col xs={12}>
+              <h3>{this.getGalleryName()}</h3>
+            </Col>
+            <Col xs={12}>
+              {this.isFetching() && <Fetching label='fetching art' />}
+            </Col>
+            <Col xs={12}>
+              {this.hasItems() && this.renderArt()}
+            </Col>
+          </Row>
+        </Grid>
         <div>
           {this.props.children}
         </div>

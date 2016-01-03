@@ -1,4 +1,4 @@
-import {expect} from 'chai';
+import expect from 'expect';
 
 import {toSlug} from '../../app/slug-utils';
 
@@ -19,25 +19,25 @@ describe('Slug Utils', () => {
   it('should handle whitespace', () => {
     var result = toSlug(whitespace);
 
-    expect(result).to.equal(whitespaceExpected);
+    expect(result).toEqual(whitespaceExpected);
   });
 
   it('should convert to lower case', () => {
     var result = toSlug(title);
 
-    expect(result).to.equal(titleExpected);
+    expect(result).toEqual(titleExpected);
   });
 
   it('should convert ampersands to "and"', () => {
     var result = toSlug(ampersands);
 
-    expect(result).to.equal(ampersandsExpected);
+    expect(result).toEqual(ampersandsExpected);
   });
 
   it('should collapse unsafe characters to single dashes', () => {
     var result = toSlug(special);
 
-    expect(result).to.equal(specialExpected);
+    expect(result).toEqual(specialExpected);
   });
 
 });

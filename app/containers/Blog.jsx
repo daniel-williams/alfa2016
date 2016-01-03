@@ -5,6 +5,7 @@ import {toJS} from 'immutable';
 import {Link, Location} from 'react-router';
 import {Grid, Row, Col} from 'react-bootstrap';
 
+import {Fetching} from '../components'
 import * as actionCreators from '../actions/blogActionCreators';
 require('./Blog.less');
 
@@ -25,10 +26,18 @@ export const Blog = React.createClass({
   },
   render: function() {
     var articles = this.props.blog.get('items').map((item, i) => this.renderArticle(item.toJS(), i));
+    var error = this.props.blog.get('lastFetchError')
+    if(error) {
+      console.log(error);
+    }
     return (
-      <div id='blog' className='mv'>
+      <div id='blog'>
         <Grid>
           <Row>
+            <Col xs={12}>
+              {this.isFetching() && <Fetching label='fetching articles' />}
+              {error && <div className='error'>{error.message}</div>}
+            </Col>
             <Col xs={12}>
               {articles}
             </Col>

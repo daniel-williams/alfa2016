@@ -1,6 +1,7 @@
 import React from 'react'
 import {Grid, Row, Col} from 'react-bootstrap';
 
+import {Icon} from '../components';
 require('./Contact.less');
 
 export default React.createClass({
@@ -38,7 +39,7 @@ export default React.createClass({
                 <a href='mailto:info@AnnaLancasterFineArt.com'>info@AnnaLancasterFineArt.com</a>
               </div>
               <div className='controls'>
-                <a href='#'><i className='icon-alfa-facebook' /></a>
+                <a href='#'><Icon name='facebook' /></a>
                 <a href='#'><i className='icon-alfa-twitter' /></a>
                 <a href='#'><i className='icon-alfa-pinterest' /></a>
                 <a href='#'><i className='icon-alfa-linkedin' /></a>

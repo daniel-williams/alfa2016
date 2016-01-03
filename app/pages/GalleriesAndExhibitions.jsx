@@ -7,11 +7,11 @@ require('./GalleriesAndExhibitions.less');
 export default React.createClass({
   render: function() {
     return (
-      <div id='galleries-and-exhibitions' className='mv'>
+      <div id='galleries-and-exhibitions'>
         <Grid>
           <Row>
             <Col sm={6} xs={12} className='galleries'>
-              <h2>Galleries</h2>
+              <h3>Galleries</h3>
 
               <div className='venue'>
                 <div className='title'>
@@ -61,7 +61,7 @@ export default React.createClass({
 
             </Col>
             <Col sm={6} xs={12} className='exhibitions'>
-              <h2>Exhibitions</h2>
+              <h3>Exhibitions</h3>
 
               <div className='venue'>
                 <div className='title'>
