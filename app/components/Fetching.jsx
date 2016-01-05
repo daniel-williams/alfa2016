@@ -1,8 +1,6 @@
 import React, {PropTypes} from 'react';
 // import PureRenderMixin from 'react-addons-pure-render-mixin';
 
-require('./Fetching.less');
-
 
 export default React.createClass({
   // mixins: [PureRenderMixin],

@@ -7,8 +7,7 @@ import {
   FEATURE_FAILED,
   FEATURE_NEXT,
   FEATURE_PREV,
-}
-from '.';
+} from '.';
 
 
 const firebaseDb = new Firebase('https://blistering-torch-4532.firebaseio.com/');

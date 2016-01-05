@@ -5,8 +5,7 @@ import {
   ART_REQUESTED,
   ART_SUCCESS,
   ART_FAILED,
-}
-from '.';
+} from '.';
 
 
 const firebaseDb = new Firebase('https://blistering-torch-4532.firebaseio.com/');

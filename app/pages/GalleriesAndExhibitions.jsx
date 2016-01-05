@@ -107,6 +107,7 @@ export default React.createClass({
             </Col>
           </Row>
         </Grid>
+        {this.props.children}
       </div>
     );
   }

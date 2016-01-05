@@ -16,14 +16,14 @@ import {ArticleContainer} from '../containers/Article';
 const routes = (
     <Route path='/' component={App}>
         <IndexRoute component={Home} />
-        <Route path='about' component={About} />
-        <Route path='galleries-and-exhibitions' component={GalleriesAndExhibitions} />
-        <Route path='classes' component={Classes} />
-        <Route path='art/:gallerySlug' component={ArtContainer}>
+        <Route path='/about' component={About} />
+        <Route path='/galleries-and-exhibitions' component={GalleriesAndExhibitions} />
+        <Route path='/classes' component={Classes} />
+        <Route path='/art/:gallerySlug' component={ArtContainer}>
           <Route path=':artSlug' component={ArtDetailsContainer} />
         </Route>
-        <Route path='blog' component={BlogContainer} />
-        <Route path='blog/:articleSlug' component={ArticleContainer} />
+        <Route path='/blog' component={BlogContainer} />
+        <Route path='/blog/:articleSlug' component={ArticleContainer} />
     </Route>
 );
 

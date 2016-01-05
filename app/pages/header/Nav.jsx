@@ -3,6 +3,7 @@ import {Location} from 'react-router';
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 
+import * as actionCreators from '../../actions/contactActionCreators';
 require('./Nav.less');
 
 
@@ -52,12 +53,19 @@ export default React.createClass({
             <LinkContainer to="/blog" className={inBlog}>
               <NavItem eventKey={4}>Blog</NavItem>
             </LinkContainer>
+            <li role='presentation'>
+              <a onClick={this.handleContact}>Contact</a>
+            </li>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
     );
   },
 
+  handleContact: function(e) {
+    e.preventDefault();
+    actionCreators.showContact();
+  },
   onClick: function(e) {
     var tgt = $(e.target).closest('li');
     if(!tgt.hasClass('dropdown')) {

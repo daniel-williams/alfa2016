@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDom from 'react-dom';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import {connect} from 'react-redux';
 import {Location, Link} from 'react-router';

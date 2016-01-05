@@ -4,8 +4,7 @@ import {
   BLOG_REQUESTED,
   BLOG_SUCCESS,
   BLOG_FAILED,
-}
-from '.';
+} from '.';
 
 const host = 'https://www.googleapis.com/blogger/v3/blogs/';
 const blogId = '5080215156052292878';

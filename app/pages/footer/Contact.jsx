@@ -1,8 +1,7 @@
 import React from 'react'
 import {Grid, Row, Col} from 'react-bootstrap';
 
-import {Icon} from '../components';
-require('./Contact.less');
+import {Icon} from '../../components';
 
 export default React.createClass({
   render: function() {

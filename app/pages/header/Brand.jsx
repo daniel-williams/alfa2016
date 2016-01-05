@@ -1,7 +1,7 @@
 import React from 'react';
 import {IndexLink} from 'react-router';
 
-import {ImageLoader} from '../components';
+import {ImageLoader} from '../../components';
 require('./Brand.less');
 
 export default React.createClass({
