@@ -1,53 +1,53 @@
 import {Map, List, fromJS} from 'immutable';
 
 import {
-    CONTACT_RESET,
-    CONTACT_POSTING,
-    CONTACT_POST_SUCCESS,
-    CONTACT_POST_FAILED
+    SUBSCRIBE_SHOW,
+    SUBSCRIBE_HIDE,
+    SUBSCRIBE_POSTING,
+    SUBSCRIBE_POST_SUCCESS,
+    SUBSCRIBE_POST_FAILED
 } from '../actions';
 
 const initialState = fromJS({
-  isActive: true,
+  isActive: false,
   isPosting: false,
   lastPostDate: null,
   lastPostError: null,
-  useEmail: null,
-  userName: null,
-  userPhone: null,
-  userMessage: null,
+  userEmail: null,
+  hasResponded: false,
 });
 
 export default function(state = initialState, action) {
   switch(action.type) {
-    case CONTACT_RESET: {
+    case SUBSCRIBE_SHOW: {
       return state.set('isActive', true);
     }
-    case CONTACT_POSTING: {
-      console.log('CONTACT_POSTING', action.payload);
+    case SUBSCRIBE_HIDE: {
+      return state.withMutations(state => {
+        state.set('isActive', false);
+        state.set('hasResponded', true);
+        return state;
+      });
+    }
+    case SUBSCRIBE_POSTING: {
       return state.withMutations(state => {
         state.set('isPosting', true);
         state.set('lastPostDate', null);
         state.set('lastPostError', null);
-        state.set('userName', action.payload.name);
         state.set('userEmail', action.payload.email);
-        state.set('userPhone', action.payload.phone);
-        state.set('userMessage', action.payload.message);
         return state;
       });
     }
-    case CONTACT_POST_SUCCESS: {
-      console.log('CONTACT_POST_SUCCESS', action.payload);
+    case SUBSCRIBE_POST_SUCCESS: {
       return state.withMutations(state => {
-        state.set('isActive', false);
         state.set('isPosting', false);
         state.set('lastPostDate', action.payload.date);
         state.set('lastPostError', null);
-        state.set('userMessage', null);
+        state.set('hasResponded', true);
         return state;
       });
     }
-    case CONTACT_POST_FAILED: {
+    case SUBSCRIBE_POST_FAILED: {
       return state.withMutations(state => {
         state.set('isPosting', false);
         state.set('lastPostDate', action.payload.date);

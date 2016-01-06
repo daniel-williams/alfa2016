@@ -5,6 +5,7 @@ import webpack from 'webpack';
 import webpackMiddleware from 'webpack-dev-middleware';
 import webpackHotMiddleware from 'webpack-hot-middleware';
 import React from 'react';
+import bodyParser from 'body-parser';
 
 import config from './webpack.dev.config.js';
 
@@ -28,6 +29,17 @@ app.use(webpackMiddleware(compiler, {
 app.use(webpackHotMiddleware(compiler));
 
 app.use('/content', express.static('Web/content'));
+app.use(bodyParser.json()); // for parsing application/json
+// app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
+
+app.post('/api/subscribe', function response(req, res) {
+  console.log('subscribe:', req.body);
+  res.status(200).end();
+});
+app.post('/api/contact', function response(req, res) {
+  console.log('contact:', req.body);
+  res.status(200).end();
+});
 
 app.get('*', function response(req, res) {
     res.end(renderPage());

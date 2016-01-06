@@ -10,7 +10,7 @@ export default React.createClass({
   render: function() {
     return (
       <div id='footer'>
-        <Contact />
+        <Contact {...this.props} />
         <SubFooter/>
         <Copyright />
       </div>

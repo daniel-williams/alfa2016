@@ -9,7 +9,7 @@
 @darkCocoa: #594a41;
 @gravel: #716558;
 @beige: #c2b49a;
-
+@danger: #d9534f;
 
 // sizing
 @controlsHeight: 30px;
@@ -176,7 +176,17 @@ fieldset[disabled] .btn-alfa-primary.active {
   border-color: @burntOranage;
 }
 
-
+.form-control {
+  margin-bottom: 0;
+}
+.required, .error {
+  input {
+    border-color: @danger;
+  }
+  span {
+    color: @danger;
+  }
+}
 
 .modal-dialog {
   width: 90%;

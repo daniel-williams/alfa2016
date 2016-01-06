@@ -1,13 +1,14 @@
 import Fetching from './Fetching';
 import Icon from './Icon';
 import ImageLoader from './ImageLoader';
-import {Player, Controls, Slide} from './slideshow';
+import {Player} from './slideshow';
+import {SkyInput, SkyTextArea} from './forms';
 
 export {
   Fetching,
   Icon,
   ImageLoader,
   Player,
-  Controls,
-  Slide,
+  SkyInput,
+  SkyTextArea,
 }

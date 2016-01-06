@@ -1,34 +1,28 @@
 import React from 'react'
 import {Grid, Row, Col} from 'react-bootstrap';
+import Formsy from 'formsy-react';
 
-import {Icon} from '../../components';
+import {Icon, SkyInput, SkyTextArea} from '../../components';
+import * as contactActions from '../../actions/contactActionCreators';
+
 
 export default React.createClass({
+  isActive: function() {
+    var contact = this.props.contact.toJS();
+    console.log('CONTACT', contact);
+    return this.props.contact.get('isActive');
+  },
+  componentWillReceiveProps: function(nextProps) {
+    console.log('willReceive', nextProps.contact.toJS());
+  },
   render: function() {
+    console.log('render', this.props.contact.toJS());
     return (
-      <div id='contact' className='linen'>
+      <div id='contact-form' className='linen'>
         <Grid className='pt'>
           <Row>
-            <Col sm={6} xs={12} className='mb'>
-              <h3>Send a Message</h3>
-              <Row>
-                <Col xs={12}>
-                  <input type='text' className='form-control' name='name' placeholder='Name' />
-                </Col>
-                <Col sm={6} xs={12}>
-                  <input type='text' className='form-control' name='address' placeholder='Email Address' />
-                </Col>
-                <Col sm={6} xs={12}>
-                  <input type='text' className='form-control' name='phone' placeholder='Phone Number' />
-                </Col>
-                <Col xs={12}>
-                  <textarea className='form-control' name='message' placeholder='Message`' />
-                </Col>
-                <Col xs={12}>
-                  <button type='button' className='btn btn-alfa-default' onClick={this.handleSubmit}>Submit</button>
-                </Col>
-              </Row>
-            </Col>
+            {this.isActive() ? this.renderForm()
+                             : this.renderSuccess()}
             <Col sm={6} xs={12} className='mb'>
               <h3>Contact Anna</h3>
               <p>Anna Lancaster is a Tualatin Oregon artist. Contact her today or connect on social media to see news about her latest fine art, gallery events, and more.</p>
@@ -51,8 +45,42 @@ export default React.createClass({
     )
   },
 
-  handleSubmit: function() {
-    alert('TODO: submit form');
+  renderForm: function() {
+    let contact = this.props.contact.toJS();
+    return (
+      <Formsy.Form onValidSubmit={this.props.submitContact}>
+        <Col sm={6} xs={12} className='mb'>
+          <h3>Send a Message</h3>
+          <Row>
+            <Col xs={12} className='mb-half'>
+              <SkyInput defaultValue={contact.userName} name="name" placeholder='Name' className='form-control' />
+            </Col>
+            <Col sm={6} xs={12} className='mb-half'>
+              <SkyInput defaultValue={contact.userEmail} name="email" required validations="isEmail" validationError="A valid email address is required." placeholder='Email Address' className='form-control' />
+            </Col>
+            <Col sm={6} xs={12} className='mb-half'>
+              <SkyInput defaultValue={contact.userPhone} name="phone" placeholder='Phone Number' className='form-control' />
+            </Col>
+            <Col xs={12} className='mb'>
+              <SkyTextArea name="message" required placeholder='Message' className='form-control' />
+            </Col>
+            <Col xs={12}>
+              <button type='submit' className='btn btn-alfa-default'>Submit</button>
+            </Col>
+          </Row>
+        </Col>
+      </Formsy.Form>
+    );
+  },
+  renderSuccess: function() {
+    let contact = this.props.contact.toJS();
+    return (
+      <Col sm={6} xs={12} className='mb'>
+        <h4>Thank you for you inquiry!</h4>
+        <p>We have received your message and will respond to <span style={{fontWeight:'bold'}}>{contact.email}</span> as appropriate. Thank you for your interest in Anna Lancaster Fine Art.</p>
+        <a onClick={contactActions.resetContact}>Have more to say?</a>
+      </Col>
+    );
   },
 
 });
