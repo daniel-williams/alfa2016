@@ -10,7 +10,7 @@ export default React.createClass({
 
   render: function() {
     return (
-      <i className={'icon-alfa-' + this.props.name} />
+      <i className={'icon-alfa-' + this.props.name} {...this.props} />
     );
   }
 })

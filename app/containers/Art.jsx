@@ -7,7 +7,7 @@ import {Grid, Row, Col} from 'react-bootstrap';
 import * as actionCreators from '../actions/artActionCreators';
 import {Fetching, ImageLoader} from '../components';
 
-var {constants} = require('../constants');
+import constants from '../constants';
 var Masonry = require('react-masonry-component')(React);
 var masonryOptions = {
   transitionDuration: 0,

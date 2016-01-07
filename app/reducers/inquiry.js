@@ -1,16 +1,21 @@
 import {Map, List, fromJS} from 'immutable';
 
 import {
-    SUBSCRIBE_SHOW,
-    SUBSCRIBE_HIDE,
-    SUBSCRIBE_POSTING,
-    SUBSCRIBE_POST_SUCCESS,
-    SUBSCRIBE_POST_FAILED
+    INQUIRY_RESET,
+    INQUIRY_POSTING,
+    INQUIRY_POST_SUCCESS,
+    INQUIRY_POST_FAILED
 } from '../actions';
 
+const steps = {
+  Intro: 'Intro',
+  Form: 'Form',
+  Success: 'Success',
+  Failure: 'Failure',
+}
+
 const initialState = fromJS({
-  showSubscribe: false,
-  isActive: true,
+  Step: steps.Intro,
   isPosting: false,
   lastPostDate: null,
   lastPostError: null,
@@ -18,16 +23,10 @@ const initialState = fromJS({
 
 export default function(state = initialState, action) {
   switch(action.type) {
-    case SUBSCRIBE_SHOW: {
-      return state.set('showSubscribe', true);
+    case INQUIRY_RESET: {
+      return state.set('Step', steps.Intro);
     }
-    case SUBSCRIBE_HIDE: {
-      return state.withMutations(state => {
-        state.set('showSubscribe', false);
-        return state;
-      });
-    }
-    case SUBSCRIBE_POSTING: {
+    case INQUIRY_POSTING: {
       return state.withMutations(state => {
         state.set('isPosting', true);
         state.set('lastPostDate', null);
@@ -35,7 +34,7 @@ export default function(state = initialState, action) {
         return state;
       });
     }
-    case SUBSCRIBE_POST_SUCCESS: {
+    case INQUIRY_POST_SUCCESS: {
       return state.withMutations(state => {
         state.set('isActive', false);
         state.set('isPosting', false);
@@ -44,7 +43,7 @@ export default function(state = initialState, action) {
         return state;
       });
     }
-    case SUBSCRIBE_POST_FAILED: {
+    case INQUIRY_POST_FAILED: {
       return state.withMutations(state => {
         state.set('isPosting', false);
         state.set('lastPostDate', action.payload.date);

@@ -30,14 +30,11 @@ app.use(webpackHotMiddleware(compiler));
 
 app.use('/content', express.static('Web/content'));
 app.use(bodyParser.json()); // for parsing application/json
-// app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 
-app.post('/api/subscribe', function response(req, res) {
-  console.log('subscribe:', req.body);
-  res.status(200).end();
-});
-app.post('/api/contact', function response(req, res) {
-  console.log('contact:', req.body);
+
+app.post('/api/*', function response(req, res) {
+  console.log('JSON=', req.body);
   res.status(200).end();
 });
 

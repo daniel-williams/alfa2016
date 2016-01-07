@@ -3,29 +3,30 @@ import {connect} from 'react-redux';
 import {toJS} from 'immutable';
 
 import Bootstrap from '../../Web/content/styles/bootstrap.min.css';
-import * as contactActions from '../actions/contactActionCreators';
-import * as subscribeActions from '../actions/subscribeActionCreators';
-import Header from '../pages/header';
-import Footer from '../pages/footer';
-import {SubscribeContainer} from './Subscribe';
 require('./App.less');
 require('../fonts');
 
+import constants from '../constants';
+import * as subscribeActions from '../actions/subscribeActionCreators';
+import * as contactActions from '../actions/contactActionCreators';
 
-let timer = null;
+import {Subscribe} from '../components';
+import Header from '../pages/header';
+import Footer from '../pages/footer';
+
+
+let actions = Object.assign({}, subscribeActions, contactActions);
+let subscribeTimer = null;
+let subscribeDelay = constants.subscribeDelay;
 
 export const App = React.createClass({
   componentDidMount: function() {
-    timer = setTimeout(this.renderSubscribe, 5000);
+    subscribeTimer = setTimeout(actions.showSubscribe, subscribeDelay);
   },
   componentWillUnmount: function() {
-    if(timer) {
-      clearTimeout(timer);
+    if(subscribeTimer) {
+      clearTimeout(subscribeTimer);
     }
-  },
-  renderSubscribe: function() {
-    console.log('subscribe');
-    subscribeActions.showSubscribe();
   },
   render: function() {
     return (
@@ -35,7 +36,7 @@ export const App = React.createClass({
           {this.props.children}
         </div>
         <Footer {...this.props} />
-        <SubscribeContainer {...this.props} />
+        <Subscribe {...this.props} />
       </div>
     );
   },
@@ -44,8 +45,10 @@ export const App = React.createClass({
 
 function mapStateToProps(state) {
   return {
-    contact: state.get('contact')
+    user: state.get('user'),
+    contact: state.get('contact'),
+    subscribe: state.get('subscribe'),
   };
 }
 
-export const AppContainer = connect(mapStateToProps, contactActions)(App);
+export const AppContainer = connect(mapStateToProps, actions)(App);

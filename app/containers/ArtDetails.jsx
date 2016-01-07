@@ -4,16 +4,23 @@ import {Location, Link} from 'react-router';
 import {connect} from 'react-redux';
 import {Modal, Grid, Row, Col} from 'react-bootstrap';
 
-import * as actionCreators from '../actions/artActionCreators';
-import {ImageLoader} from '../components';
+import * as artActions from '../actions/artActionCreators';
+import * as inquiryActions from '../actions/inquiryActionCreators';
+
+import {Icon, ImageLoader} from '../components';
+import ArtInquiry from './ArtInquiry';
 require('./ArtDetails.less');
 
+
+let actions = Object.assign({}, artActions, inquiryActions);
 
 export const ArtDetails = React.createClass({
   getInitialState: function() {
     return {
       show: true,
       showInfo: false,
+      showInquiry: false,
+      itemOfInterest: null,
     }
   },
   componentWillMount: function() {
@@ -48,7 +55,6 @@ export const ArtDetails = React.createClass({
         }
       }
     }
-
     return artInfo;
   },
   render: function() {
@@ -68,7 +74,7 @@ export const ArtDetails = React.createClass({
                 {this.renderMagnifyIcon()}
               </div>
               <div className='col-0 pull-right'>
-                <a onClick={this.handleClose}><i className='icon-alfa-close' /></a>
+                <a onClick={this.handleClose} className='icon'><Icon name='close' /></a>
               </div>
           </div>
         </Modal.Header>
@@ -82,7 +88,10 @@ export const ArtDetails = React.createClass({
                 <div className='info-wrap'>
                   <h3>{artInfo.item.title}</h3>
                   <p>{this.renderDimensions(artInfo.item)}{artInfo.item.description}</p>
-                  {this.renderSalesInfo(artInfo.item)}
+                  <div className='mt'>
+                    {!this.state.showInquiry && this.renderSalesInfo(artInfo.item)}
+                    {this.state.showInquiry && <ArtContact item={this.state.itemOfInterest} {...this.props} />}
+                  </div>
                 </div>
               </div>
           </section>}
@@ -91,32 +100,40 @@ export const ArtDetails = React.createClass({
     );
   },
   renderSalesInfo(item) {
-    return item.isForSale && !item.isSold ? <div className='buy-now'><button className='btn btn-alfa-default' type='button' onClick={this.handleBuyNow}>Buy Now</button></div>
-                                          : <h3><i className='icon-alfa-sold' /> Sold</h3>
+    return item.isForSale && !item.isSold ? <div className='for-sale'><a onClick={this.handleSalesInquiry(item)}>Available for purchase.</a></div>
+                                          : <h3><Icon name='sold' /> Sold</h3>
   },
   renderDimensions(item) {
     return <span className='dimensions'>{item.width + '" x ' + item.height + '"'}</span>
   },
   renderPrevIcon(artInfo) {
-    return artInfo.prevUrl ? <Link to={artInfo.prevUrl}><i className='icon-alfa-arrow-left' /></Link>
-                           : <a className='disabled'><i className='icon-alfa-arrow-left disabled' /></a>
+    this.resetInquiry();
+    return artInfo.prevUrl ? <Link to={artInfo.prevUrl} className='icon'><Icon name='arrow-left' /></Link>
+                           : <a className='icon disabled'><Icon name='arrow-left disabled' /></a>
   },
   renderNextIcon(artInfo) {
-    return artInfo.nextUrl ? <Link to={artInfo.nextUrl}><i className='icon-alfa-arrow-right' /></Link>
-                           : <a className='disabled'><i className='icon-alfa-arrow-right disabled' /></a>
+    this.resetInquiry();
+    return artInfo.nextUrl ? <Link to={artInfo.nextUrl} className='icon'><Icon name='arrow-right' /></Link>
+                           : <a className='icon disabled'><Icon name='arrow-right disabled' /></a>
   },
 
   renderInfoIcon() {
-    return !this.state.showInfo ? <a onClick={this.handleInfoToggle}><i className='icon-alfa-info' /></a>
-                                : <a className='disabled'><i className='icon-alfa-info disabled' /></a>
+    return !this.state.showInfo ? <a onClick={this.handleInfoToggle} className='icon'><Icon name='info' /></a>
+                                : <a className='icon disabled'><Icon name='info disabled' /></a>
   },
   renderMagnifyIcon() {
-    return this.state.showInfo ? <a onClick={this.handleInfoToggle}><i className='icon-alfa-magnify' /></a>
-                               : <a className='disabled'><i className='icon-alfa-magnify disabled' /></a>
+    return this.state.showInfo ? <a onClick={this.handleInfoToggle} className='icon'><Icon name='magnify' /></a>
+                               : <a className='icon disabled'><Icon name='magnify disabled' /></a>
   },
 
-  handleBuyNow: function() {
-    alert('sucker!');
+  handleSalesInquiry: function(item) {
+    var self = this;
+    return function() {
+      self.setState({
+        showInquiry: true,
+        itemOfInterest: item.title
+      });
+    }
   },
   handleInfoToggle: function() {
     this.setState({
@@ -125,6 +142,7 @@ export const ArtDetails = React.createClass({
   },
 
   handleClose: function() {
+    this.resetInquiry();
     this.setState({
       show: false
     });
@@ -133,7 +151,11 @@ export const ArtDetails = React.createClass({
     setTimeout(this.backToGallery, 200);
   },
   backToGallery: function() {
-    this.props.history.replaceState(null, this.state.galleryUrl);
+    this.props.history.pushState(null, this.state.galleryUrl);
+  },
+
+  resetInquiry: function() {
+    //inquiryActions.resetInquiry();
   },
 
 });
@@ -141,8 +163,10 @@ export const ArtDetails = React.createClass({
 
 function mapStateToProps(state) {
   return {
-    art: state.get('art')
+    art: state.get('art'),
+    inquiry: state.get('inquiry'),
+    user: state.get('user'),
   };
 }
 
-export const ArtDetailsContainer = connect(mapStateToProps, actionCreators)(ArtDetails);
+export const ArtDetailsContainer = connect(mapStateToProps, actions)(ArtDetails);

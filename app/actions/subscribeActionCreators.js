@@ -21,7 +21,7 @@ export function hideSubscribe() {
 
 export function submitSubscribe(formData) {
   return function(dispatch) {
-    dispatch({type: SUBSCRIBE_POSTING, payload: formData});
+    dispatch({type: SUBSCRIBE_POSTING, payload: {user: formData}});
 
     fetch('/api/subscribe', {
       method: 'post',
@@ -33,6 +33,6 @@ export function submitSubscribe(formData) {
     })
     .then(checkStatus)
     .then(() => dispatch({type: SUBSCRIBE_POST_SUCCESS, payload: {date: new Date()}}))
-    .catch((err) => dispatch({type: SUBSCRIBE_POST_FAILED, err: err}));
+    .catch((err) => dispatch({type: SUBSCRIBE_POST_FAILED, payload: {date: new Date(), err: err}}));
   }
 }

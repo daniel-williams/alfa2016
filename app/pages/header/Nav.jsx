@@ -3,6 +3,7 @@ import {Location} from 'react-router';
 import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
 import {LinkContainer} from 'react-router-bootstrap';
 
+import * as contactActions from '../../actions/contactActionCreators';
 require('./Nav.less');
 
 
@@ -52,7 +53,7 @@ export default React.createClass({
             <LinkContainer to="/blog" className={inBlog}>
               <NavItem eventKey={4}>Blog</NavItem>
             </LinkContainer>
-            <LinkContainer to="/contact">
+            <LinkContainer to="/contact" onClick={contactActions.resetContact}>
               <NavItem eventKey={5}>Contact</NavItem>
             </LinkContainer>
           </Nav>

@@ -30,7 +30,7 @@ export default React.createClass({
                     </Row>
                   </Col>
                   <Col md={6} sm={12}>
-                    <h3>Artists' Inpiration</h3>
+                    <h3>Artists' Inspiration</h3>
                     <p>God's masterful creation astounds and inspires me. I count the attribute of creativity to be one of His many precious gifts to humanity. I am given fully in love and admiration to His gift of art. It compels me to creatively rejoice in the mystery and majesty of His design.</p>
                     <p>Whether I am indulging in the joyous color exlosion of my nature abstracts or tenderly rendering a precious moment of time in the classical style of the masters, I accept the challenge to capture the joy and magic of the beauty my eyes have witnessed and my heart longs to express. May you be inspired to create as well.</p>
                   </Col>

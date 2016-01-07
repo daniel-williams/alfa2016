@@ -82,6 +82,9 @@ a {
     cursor: default;
   }
 }
+a.icon:hover {
+  text-decoration: none;
+}
 
 p {
   margin: 0 0 7px;
@@ -96,15 +99,11 @@ img.loaded {
 }
 
 #header {
-  padding-top: 15px;
+
 }
 
 #page-wrap {
   padding: 30px 0;
-}
-
-#footer {
-  padding-bottom: 10px;
 }
 
 
@@ -190,6 +189,15 @@ fieldset[disabled] .btn-alfa-primary.active {
 
 .modal-dialog {
   width: 90%;
+
+  .modal-ttl {
+    margin-right: 30px;
+  }
+  .modal-close-icon {
+    position:absolute;
+    top: 0;
+    right: 15px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -199,14 +207,14 @@ fieldset[disabled] .btn-alfa-primary.active {
 }
 
 
-.working {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0,0,0,0.4);
-  z-index: 9999;
+.linen {
+  background-image: url('/content/images/linen-texture-sm.jpg');
+  background-repeat: repeat;
+}
+
+.inline-lbl {
+  display: inline-block;
+  width: 60px;
 }
 
 .fetching-widget {
