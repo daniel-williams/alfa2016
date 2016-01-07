@@ -1,13 +1,12 @@
 import React from 'react';
 
-import {ImageLoader} from '../';
 
 export default React.createClass({
   render: function() {
-    let cssNames = this.props.active ? 'active' : 'off';
+    let cssNames = this.props.active === true ? 'active' : 'off';
     return (
       <div className={'slide ' + cssNames}>
-        <ImageLoader src={'/content/images/slideshow/' + this.props.src} />
+        {this.props.children}
       </div>
     );
   }

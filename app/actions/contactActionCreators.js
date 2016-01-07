@@ -15,7 +15,6 @@ export function resetContact() {
 }
 
 export function submitContact(formData) {
-  console.log(formData);
   return function(dispatch) {
     dispatch({type: CONTACT_POSTING, payload: {user: formData}});
 

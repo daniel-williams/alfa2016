@@ -8,7 +8,7 @@ import * as artActions from '../actions/artActionCreators';
 import * as inquiryActions from '../actions/inquiryActionCreators';
 
 import {Icon, ImageLoader} from '../components';
-import ArtInquiry from './ArtInquiry';
+import Inquiry from '../pages/Inquiry';
 require('./ArtDetails.less');
 
 
@@ -104,7 +104,7 @@ export const ArtDetails = React.createClass({
     return item.isSold ? <h3><Icon name='sold' /> Sold</h3> : null;
   },
   renderSalesInquiry(item) {
-    return (item.isForSale && !item.isSold) ? <ArtInquiry item={item} {...this.props} /> : null;
+    return (item.isForSale && !item.isSold) ? <Inquiry item={item} {...this.props} /> : null;
   },
   renderDimensions(item) {
     return <span className='dimensions'>{item.width + '" x ' + item.height + '"'}</span>
