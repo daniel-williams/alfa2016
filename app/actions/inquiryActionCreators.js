@@ -4,6 +4,7 @@ import store from '../store';
 
 import {
   INQUIRY_RESET,
+  INQUIRY_SHOW,
   INQUIRY_POSTING,
   INQUIRY_POST_SUCCESS,
   INQUIRY_POST_FAILED
@@ -14,8 +15,11 @@ export function resetInquiry() {
   store.dispatch({type: INQUIRY_RESET});
 }
 
+export function showInquiry() {
+  store.dispatch({type: INQUIRY_SHOW});
+}
+
 export function submitInquiry(formData) {
-  console.log(formData);
   return function(dispatch) {
     dispatch({type: INQUIRY_POSTING, payload: {user: formData}});
 

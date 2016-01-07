@@ -4,12 +4,13 @@ import {Row, Col} from 'react-bootstrap';
 
 import {SkyInput, SkyTextArea} from './';
 
-// `Hi Anna, I'm browsing your website and would like additional information about ${item}.`
 
 export default React.createClass({
-  
+
   render: function() {
-    let user = this.props.user.toJS();
+    const user = this.props.user;
+    const message = this.props.message || '';
+
     return (
       <Formsy.Form onValidSubmit={this.props.onValidSubmit}>
         <Row>
@@ -23,7 +24,7 @@ export default React.createClass({
             <SkyInput value={user.phone} name="phone" placeholder='Phone Number' className='form-control' />
           </Col>
           <Col xs={12} className='mb'>
-            <SkyTextArea name='message' required value={user.message} className='form-control' style={{height:'auto'}} />
+            <SkyTextArea name='message' required value={message} className='form-control' />
           </Col>
           <Col xs={12}>
             <button type='submit' className='btn btn-alfa-default'>Submit</button>

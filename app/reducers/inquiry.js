@@ -2,6 +2,7 @@ import {Map, List, fromJS} from 'immutable';
 
 import {
     INQUIRY_RESET,
+    INQUIRY_SHOW,
     INQUIRY_POSTING,
     INQUIRY_POST_SUCCESS,
     INQUIRY_POST_FAILED
@@ -26,6 +27,9 @@ export default function(state = initialState, action) {
     case INQUIRY_RESET: {
       return state.set('Step', steps.Intro);
     }
+    case INQUIRY_SHOW: {
+      return state.set('Step', steps.Form);
+    }
     case INQUIRY_POSTING: {
       return state.withMutations(state => {
         state.set('isPosting', true);
@@ -36,7 +40,7 @@ export default function(state = initialState, action) {
     }
     case INQUIRY_POST_SUCCESS: {
       return state.withMutations(state => {
-        state.set('isActive', false);
+        state.set('Step', steps.Success);
         state.set('isPosting', false);
         state.set('lastPostDate', action.payload.date);
         state.set('lastPostError', null);
@@ -45,6 +49,7 @@ export default function(state = initialState, action) {
     }
     case INQUIRY_POST_FAILED: {
       return state.withMutations(state => {
+        state.set('Step', steps.Failure);
         state.set('isPosting', false);
         state.set('lastPostDate', action.payload.date);
         state.set('lastPostError', action.payload.err);

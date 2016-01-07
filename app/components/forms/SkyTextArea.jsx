@@ -5,11 +5,6 @@ import Formsy from 'formsy-react';
 export default React.createClass({
   mixins: [Formsy.Mixin],
 
-  getInitialState: function(){
-    return {
-      hideErrors: true
-    };
-  },
   // setValue() will set the value of the component, which in
   // turn will validate it and the rest of the form
   changeValue: function (event) {
@@ -32,13 +27,18 @@ export default React.createClass({
 
     return (
       <div className={className}>
-        <textarea {...this.props} onChange={this.changeValue} onkeyup='autoGrow(this)' ref='el'></textarea>
+        <textarea
+          {...this.props}
+          value={this.getValue()}
+          onChange={this.changeValue}
+          onkeyup='autoGrow(this)'
+          ref='el'></textarea>
         {errorMessage}
       </div>
     );
   },
   autoGrow(el) {
-    el.style.height = '5px';
+    el.style.height = '20px';
     el.style.height = (el.scrollHeight + 20) + 'px';
   },
 });
