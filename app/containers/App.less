@@ -175,6 +175,32 @@ fieldset[disabled] .btn-alfa-primary.active {
   border-color: @burntOranage;
 }
 
+.pagination {
+  margin-top: 0;
+
+  & > li > a, & > li > span {
+    &, &:focus {
+      color: @gravel;
+      background-color: @white;
+      border-color: #ccc;
+    }
+  }
+  & > li > a:hover {
+    color: @white;
+    background-color: @darkPeach;
+    border-color: #ccc;
+  }
+  & > .active > a {
+    color: @white;
+    background-color: @gravel;
+    border-color: #ccc;
+    &:hover, &:focus {
+      background-color: @gravel;
+      border-color: #ccc;
+    }
+  }
+}
+
 .form-control {
   margin-bottom: 0;
 }

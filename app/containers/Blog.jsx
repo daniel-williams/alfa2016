@@ -1,17 +1,18 @@
 import React from 'react';
-import PureRenderMixin from 'react-addons-pure-render-mixin';
+// import PureRenderMixin from 'react-addons-pure-render-mixin';
+import {Location} from 'react-router';
 import {connect} from 'react-redux';
 import {toJS} from 'immutable';
-import {Link, Location} from 'react-router';
 import {Grid, Row, Col} from 'react-bootstrap';
 
-import {Fetching} from '../components'
-import * as actionCreators from '../actions/blogActionCreators';
+import * as actions from '../actions/blogActionCreators';
 require('./Blog.less');
 
+import {ArticleDetail, ArticleList} from '../components';
 
-export const Blog = React.createClass({
-  mixins: [PureRenderMixin],
+
+const Blog = React.createClass({
+  // mixins: [PureRenderMixin],
 
   isFetching: function() {
     return this.props.blog.get('isFetching');
@@ -24,22 +25,24 @@ export const Blog = React.createClass({
       this.props.fetchArticleList();
     }
   },
+  getItems: function() {
+    return this.props.blog.get('items').toJS();
+  },
+  getItem: function(slug) {
+    return this.getItems().find((item) => item.slug === slug);
+  },
+  getSlug: function() {
+    return this.props.params.articleSlug;
+  },
   render: function() {
-    var articles = this.props.blog.get('items').map((item, i) => this.renderArticle(item.toJS(), i));
-    var error = this.props.blog.get('lastFetchError')
-    if(error) {
-      console.log(error);
-    }
+    const articleSlug = this.getSlug();
     return (
       <div id='blog'>
         <Grid>
           <Row>
             <Col xs={12}>
-              {this.isFetching() && <Fetching label='fetching articles' />}
-              {error && <div className='error'>{error.message}</div>}
-            </Col>
-            <Col xs={12}>
-              {articles}
+              {!articleSlug ? <ArticleList items={this.getItems()} {...this.props}/>
+                            : <ArticleDetail item={this.getItem(articleSlug)} {...this.props} />}
             </Col>
           </Row>
         </Grid>
@@ -47,39 +50,7 @@ export const Blog = React.createClass({
     );
   },
 
-  renderArticle: function(item, i) {
-      var tags = null;
-      if(item.tags && item.tags.length > 0) {
-          tags = this.renderTags(item.tags);
-      }
-
-      return (
-          <section key={i} className='mb-tpl'>
-              <header>
-                  <Link to={'/blog/' + item.slug}><h3>{item.title}</h3></Link>
-              </header>
-              <article>
-                  <div dangerouslySetInnerHTML={{__html:item.content}} />
-              </article>
-              <footer>
-                  {tags}
-              </footer>
-          </section>
-      );
-  },
-  renderTags: function(tags) {
-      var tagUi = tags.map((item, i) =>
-          <span className='tag'><a href='#'>{item}</a></span>
-      );
-      return (
-          <div>
-              <span style={{fontWeight:'bold'}}>Tags: </span><span className='tags'>{tagUi}</span>
-          </div>
-      );
-  }
-
 });
-
 
 function mapStateToProps(state) {
     return {
@@ -87,4 +58,4 @@ function mapStateToProps(state) {
     }
 }
 
-export const BlogContainer = connect(mapStateToProps, actionCreators)(Blog);
+export default connect(mapStateToProps, actions)(Blog);

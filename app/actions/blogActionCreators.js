@@ -12,8 +12,8 @@ const apiKey = 'AIzaSyAoTn6DttJFZ5mWGHuqfN5fE1eSvQ0jgaE';
 
 // TODO djw: fetching all not ideal. Solution wants to efficiently retrieve for
 // article list (eg /blog, /blog?page=2) or individual article (eg /blog/some-blog-article).
-// const url = host + blogId + '/posts?key=' + apiKey + '&maxResults=500';
-const url = host + blogId + '/posts?key=' + apiKey;
+const url = host + blogId + '/posts?key=' + apiKey + '&maxResults=500';
+// const url = host + blogId + '/posts?key=' + apiKey;
 
 export function fetchArticleList() {
   return function(dispatch) { // thunk

@@ -2,21 +2,37 @@
 
 
 #blog {
+  article {
+    margin-bottom: 30px;
 
-  header {
-    a, a:visited, a:focus {
-      color: @darkCocoa;
+    header {
+      margin-bottom: 10px;
+
+      a, a:visited, a:focus {
+        color: @darkCocoa;
+      }
+      a:hover {
+        color: @gravel;
+      }
+      .title {
+        display: inline;
+      }
     }
-    a:hover {
-      color: @gravel;
-    }
-  }
-  .tags {
-    .tag:after {
-      content: ', '
-    }
-    .tag:last-child:after {
-      content: ''
+    footer {
+      margin-top: 10px;
+
+      .tags-wrap {
+        .title {
+          font-weight: bold;
+          margin-right: 5px;
+        }
+        .tags > span:after {
+          content: ', '
+        }
+        .tags > span:last-child:after {
+          content: ''
+        }
+      }
     }
   }
 }

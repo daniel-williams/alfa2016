@@ -10,8 +10,7 @@ import Contact from '../pages/Contact';
 import {AppContainer} from '../containers/App';
 import {ArtContainer} from '../containers/Art';
 import {ArtDetailsContainer} from '../containers/ArtDetails';
-import {BlogContainer} from '../containers/Blog';
-import {ArticleContainer} from '../containers/Article';
+import Blog from '../containers/Blog';
 
 
 const routes = (
@@ -23,8 +22,9 @@ const routes = (
         <Route path='/art/:gallerySlug' component={ArtContainer}>
           <Route path=':artSlug' component={ArtDetailsContainer} />
         </Route>
-        <Route path='/blog' component={BlogContainer} />
-        <Route path='/blog/:articleSlug' component={ArticleContainer} />
+        <Route path='/blog' component={Blog}>
+          <Route path='/blog/:articleSlug' component={Blog} />
+        </Route>
         <Route path='/contact' component={Contact} />
     </Route>
 );

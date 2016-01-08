@@ -2,6 +2,7 @@ import React, {PropTypes} from 'react';
 
 import SkySlide from './SkySlide';
 
+
 let nextTimer = null;
 
 export default React.createClass({
