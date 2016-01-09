@@ -1,39 +1,57 @@
 import fetch from 'isomorphic-fetch';
 import {checkStatus, parseJSON} from './fetch-helper';
+
+import store from '../store';
 import {
   BLOG_REQUESTED,
   BLOG_SUCCESS,
   BLOG_FAILED,
+  BLOG_PAGE_NEXT,
+  BLOG_PAGE_PREV,
 } from '.';
 
-const host = 'https://www.googleapis.com/blogger/v3/blogs/';
-const blogId = '5080215156052292878';
-const apiKey = 'AIzaSyAoTn6DttJFZ5mWGHuqfN5fE1eSvQ0jgaE';
+import constants from '../constants';
 
-// TODO djw: fetching all not ideal. Solution wants to efficiently retrieve for
-// article list (eg /blog, /blog?page=2) or individual article (eg /blog/some-blog-article).
-const url = host + blogId + '/posts?key=' + apiKey + '&maxResults=500';
-// const url = host + blogId + '/posts?key=' + apiKey;
 
-export function fetchArticleList() {
-  return function(dispatch) { // thunk
+const {host, id, apiKey, itemsPerPage} = constants.blog;
+const blogUrl = host + id + '?key=' + apiKey;
+
+export function blogPageNext() {
+  return function(dispatch) {
     dispatch({
-      type: BLOG_REQUESTED
+      type: BLOG_PAGE_NEXT
+    });
+  }
+}
+export function blogPagePrev() {
+  return function(dispatch) {
+    dispatch({
+      type: BLOG_PAGE_PREV
+    });
+  }
+}
+
+export function fetchBlog() {
+  return function(dispatch) {
+    dispatch({
+      type: BLOG_REQUESTED,
     });
 
-    fetch(url)
+    fetch(blogUrl)
       .then(checkStatus)
       .then(parseJSON)
       .then(json => dispatch({
         type: BLOG_SUCCESS,
-        date: new Date(),
-        items: json.items,
-        nextPageToken: json.nextPageToken
+        payload: {
+          blog: json
+        },
       }))
       .catch(err => dispatch({
         type: BLOG_FAILED,
-        date: new Date(),
-        err: err
+        payload: {
+          date: new Date(),
+          err: err
+        },
       }));
   }
 }

@@ -11,14 +11,14 @@ const Show = React.createClass({
   isFetching: function() {
     return this.props.show.get('isFetching');
   },
-  isStale: function() {
-    return this.props.show.get('isStale');
+  hasFetched: function() {
+    return this.props.show.get('hasFetched');
   },
   hasItems: function() {
     return this.props.show.getIn(['show', 'items']).count() > 0;
   },
   componentWillMount: function() {
-    if (this.isStale()) {
+    if (this.hasFetched()) {
       this.props.fetchShow();
     }
   },

@@ -22,14 +22,20 @@ export const ART_FAILED = 'ART_FAILED';
 export const BLOG_REQUESTED = 'BLOG_REQUESTED';
 export const BLOG_SUCCESS = 'BLOG_SUCCESS';
 export const BLOG_FAILED = 'BLOG_FAILED';
-export const BLOG_NEXT = 'SHOW_NEXT';
-export const BLOG_PREV = 'SHOW_PREV';
+export const BLOG_PAGE_NEXT = 'BLOG_PAGE_NEXT';
+export const BLOG_PAGE_PREV = 'BLOG_PAGE_PREV';
+
+export const POSTS_REQUESTED = 'POSTS_REQUESTED';
+export const POSTS_SUCCESS = 'POSTS_SUCCESS';
+export const POSTS_FAILED = 'POSTS_FAILED';
+export const POSTS_PAGE_NEXT = 'POSTS_PAGE_NEXT';
+export const POSTS_PAGE_PREV = 'POSTS_PAGE_PREV';
 
 export const SHOW_REQUESTED = 'SHOW_REQUESTED';
 export const SHOW_SUCCESS = 'SHOW_SUCCESS';
 export const SHOW_FAILED = 'SHOW_FAILED';
-export const SHOW_NEXT = 'SHOW_NEXT';
-export const SHOW_PREV = 'SHOW_PREV';
+export const SHOW_PAGE_NEXT = 'SHOW_PAGE_NEXT';
+export const SHOW_PAGE_PREV = 'SHOW_PAGE_PREV';
 
 export const FEATURE_REQUESTED = 'FEATURE_REQUESTED';
 export const FEATURE_SUCCESS = 'FEATURE_SUCCESS';

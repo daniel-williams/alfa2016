@@ -42,11 +42,11 @@ describe('Blog reducer', () => {
 
     expect(nextState.getIn(['blog', 'isFetching'])).toNotExist();
   });
-  it('BLOG_SUCCESS sets isStale', () => {
+  it('BLOG_SUCCESS sets hasFetched', () => {
     const state = fromJS({
       blog: {
         isFetching: true,
-        isStale: true,
+        hasFetched: true,
         lastFetchDate: null,
         items: [],
       }
@@ -58,7 +58,7 @@ describe('Blog reducer', () => {
     }
     const nextState = reducer(state, action);
 
-    expect(nextState.getIn(['blog', 'isStale'])).toNotExist();
+    expect(nextState.getIn(['blog', 'hasFetched'])).toNotExist();
   });
   it('BLOG_SUCCESS sets lastFetchDate', () => {
     const state = fromJS({
@@ -139,11 +139,11 @@ describe('Blog reducer', () => {
 
     expect(nextState.getIn(['blog', 'isFetching'])).toNotExist();
   });
-  it('BLOG_FAILED sets isStale', () => {
+  it('BLOG_FAILED sets hasFetched', () => {
     const state = fromJS({
       blog: {
         isFetching: true,
-        isStale: true,
+        hasFetched: true,
         lastFetchDate: null,
         items: [],
       }
@@ -155,7 +155,7 @@ describe('Blog reducer', () => {
     }
     const nextState = reducer(state, action);
 
-    expect(nextState.getIn(['blog', 'isStale'])).toNotExist();
+    expect(nextState.getIn(['blog', 'hasFetched'])).toNotExist();
   });
   it('BLOG_FAILED sets lastFetchError', () => {
     const state = fromJS({

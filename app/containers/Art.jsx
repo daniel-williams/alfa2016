@@ -29,14 +29,14 @@ export const Art = React.createClass({
   isFetching: function() {
     return this.props.art.get('isFetching');
   },
-  isStale: function() {
-    return this.props.art.get('isStale');
+  hasFetched: function() {
+    return this.props.art.get('hasFetched');
   },
   hasItems: function() {
     return this.props.art.get('items').count() > 0;
   },
   componentWillMount: function() {
-    if (this.isStale()) {
+    if (this.hasFetched()) {
       this.props.fetchArt();
     }
   },

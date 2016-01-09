@@ -8,5 +8,10 @@ export default {
     { name: 'Traditional', slug: 'traditional' },
     { name: 'Archive', slug: 'archive' }
   ],
-  itemsPerPage: 5,
+  blog: {
+    host: 'https://www.googleapis.com/blogger/v3/blogs/',
+    id: '5080215156052292878',
+    apiKey: 'AIzaSyAoTn6DttJFZ5mWGHuqfN5fE1eSvQ0jgaE',
+    itemsPerPage: 5,
+  }
 }

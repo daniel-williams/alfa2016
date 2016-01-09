@@ -14,14 +14,14 @@ export const Feature = React.createClass({
   isFetching: function() {
     return this.props.feature.get('isFetching');
   },
-  isStale: function() {
-    return this.props.feature.get('isStale');
+  hasFetched: function() {
+    return this.props.feature.get('hasFetched');
   },
   getFeature: function() {
     return this.props.feature.get('feature').toJS();
   },
   componentWillMount: function() {
-    if(this.isStale()) {
+    if(this.hasFetched()) {
       this.props.fetchFeature();
     }
   },

@@ -8,7 +8,7 @@ import {
 
 const initialState = fromJS({
     isFetching: false,
-    isStale: true,
+    hasFetched: true,
     lastFetchDate: null,
     lastFetchError: null,
     items: []
@@ -21,7 +21,7 @@ export default function(state = initialState, action) {
         case ART_SUCCESS:
             return state.withMutations(state => {
               state.set('isFetching', false);
-              state.set('isStale', false);
+              state.set('hasFetched', false);
               state.set('lastFetchDate', action.date);
               state.set('items', fromJS(action.items));
               return state;
@@ -29,7 +29,7 @@ export default function(state = initialState, action) {
         case ART_FAILED:
             return state.withMutations(state => {
               state.set('isFetching', false);
-              state.set('isStale', false);
+              state.set('hasFetched', false);
               state.set('lastFetchDate', action.date);
               state.set('lastFetchError', action.err);
               return state;

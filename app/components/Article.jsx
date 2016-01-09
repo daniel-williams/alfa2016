@@ -1,11 +1,28 @@
 import React, {PropTypes} from 'react';
 import {Location} from 'react-router';
+import {Fetching} from '.';
+
 
 export default React.createClass({
   displayName: 'Article',
 
+  getDefaultProps: function() {
+    return {
+      item: null,
+    };
+  },
+  hasItem: function() {
+    return !!this.props.item;
+  },
+  getItem: function() {
+    return this.props.item;
+  },
   render: function() {
-    const item = this.props.item;
+    return this.hasItem() ? this.renderArticle()
+                          : <Fetching />
+  },
+  renderArticle: function() {
+    const item = this.getItem();
     return (
       <article>
         <header>
