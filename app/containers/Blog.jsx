@@ -5,52 +5,46 @@ import {connect} from 'react-redux';
 import {toJS} from 'immutable';
 import {Grid, Row, Col, Pager, PageItem, Pagination} from 'react-bootstrap';
 
-import * as blogActions from '../actions/blogActionCreators';
-import * as postsActions from '../actions/postsActionCreator';
+import * as actions from '../actions/blogActionCreators';
 require('./Blog.less');
 
 import {Article, ArticleList, Fetching} from '../components';
 
 
-const actions = Object.assign({}, blogActions, postsActions);
-
 const Blog = React.createClass({
   mixins: [PureRenderMixin],
 
   componentWillMount: function() {
-    if(this.isBlogStale()) {
-      this.props.fetchBlog();
+    this.props.fetchAsNeeded();
+  },
+  componentWillReceiveProps(nextProps) {
+    if(!nextProps.blog.get('isFetching')) {
+      this.props.fetchAsNeeded();
     }
-    if(this.isPostsStale()) {
-      this.props.fetchPosts(this.props.blog.get('itemsPerPage'));
-    }
   },
-  hasFetched: function() {
-    return (this.isBlogStale() || this.isPostsStale());
+
+  isFetching: function(props) {
+    props = props || this.props;
+    return props.blog.get('isFetching');
   },
-  isBlogStale: function() {
-    return this.props.blog.get('hasFetched');
-  },
-  isPostsStale: function() {
-    return this.props.posts.get('hasFetched');
-  },
-  isFetching: function() {
-    return (this.props.blog.get('isFetching') || this.props.posts.get('isFetching'));
-  },
-  getArticleSlug: function() {
+  getSlug: function() {
     return this.props.params.articleSlug;
   },
-  hasArticleSlug: function() {
-    return !!this.getArticleSlug();
+  hasSlug: function() {
+    return !!this.getSlug();
   },
 
   getItems: function() {
-    return this.props.posts.get('items').toJS();
-  },
-  getItem: function(slug) {
-    return this.getItems().find((item) => item.slug === slug);
-  },
+    const itemsPerPage = this.props.blog.get('itemsPerPage');
+    const start = (this.props.blog.get('activePage') - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
 
+    return this.props.blog.get('items').slice(start, end).toJS();
+  },
+  getItem: function() {
+    const slug = this.getSlug();
+    return this.props.blog.get('items').find((item) => item.slug === slug);
+  },
   getPageCount: function() {
     return this.props.blog.get('totalPages');
   },
@@ -64,31 +58,37 @@ const Blog = React.createClass({
         <Grid>
           <Row>
             <Col xs={12}>
-              {this.hasFetched() ? this.isFetching() && <Fetching />
-                              : this.hasArticleSlug() ? <Article item={this.getItem(this.getArticleSlug())} {...this.props} />
-                                                      : this.renderArticleList()}
+              {this.renderPostContent()}
             </Col>
           </Row>
         </Grid>
       </div>
     );
   },
-  renderArticleList: function() {
+  renderPostContent: function() {
+    return this.hasSlug() ? <Article item={this.getItem()} renderBreadcrumb />
+                          : this.renderArticles()
+  },
+  renderArticles: function() {
     return (
-        <div>
-          <div>
-            {this.renderPager()}
-          </div>
-          <ArticleList items={this.getItems()} />
-        </div>
+      <div>
+        {this.renderPager()}
+        {this.isFetching() ? <Fetching />
+                           : <ArticleList items={this.getItems()} />}
+      </div>
     );
   },
 
   renderPager: function() {
+    const activePage = this.getActivePage();
+    const pageCount = this.getPageCount();
+    const page = (pageCount - activePage) + 1;
+
     return (
       <Pager>
-        <PageItem previous onClick={this.handlePagePrev}>Newer</PageItem>
-        <PageItem next onClick={this.handlePageNext}>Older</PageItem>
+        <PageItem previous onClick={this.handlePageNext} disabled={activePage === pageCount}>older</PageItem>
+        <span className='mh' style={{lineHeight:'32px'}}>page {page} of {pageCount}</span>
+        <PageItem next onClick={this.handlePagePrev} disabled={activePage === 1}>newer</PageItem>
       </Pager>
     );
   },
@@ -98,34 +98,12 @@ const Blog = React.createClass({
   handlePageNext: function() {
     this.props.blogPageNext();
   },
-  // renderPagination: function() {
-  //   return (
-  //     <Pagination
-  //       first='<<'
-  //       last='>>'
-  //       next='older'
-  //       prev='newer'
-  //       ellipsis={true}
-  //       bsSize='small'
-  //       maxButtons={5}
-  //       items={this.getPageCount()}
-  //       activePage={this.getActivePage()}
-  //       onSelect={this.handleSelectPage} />
-  //   );
-  // },
-  // handleSelectPage(event, selectedEvent) {
-  //   this.props.setActivePage(selectedEvent.eventKey);
-  //   console.log('setActivePage:', selectedEvent.eventKey);
-  //   window && window.scrollTo(0,0);
-  // },
-
 
 });
 
 function mapStateToProps(state) {
   return {
     blog: state.get('blog'),
-    posts: state.get('posts'),
   }
 }
 

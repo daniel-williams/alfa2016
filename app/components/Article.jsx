@@ -1,14 +1,21 @@
 import React, {PropTypes} from 'react';
-import {Location} from 'react-router';
+import {Link} from 'react-router';
+import {Breadcrumb, BreadcrumbItem} from 'react-bootstrap';
+import {LinkContainer} from 'react-router-bootstrap';
+
 import {Fetching} from '.';
 
 
 export default React.createClass({
   displayName: 'Article',
 
+  propTypes: {
+    displayBreadcrumb: PropTypes.bool,
+  },
   getDefaultProps: function() {
     return {
       item: null,
+      displayBreadcrumb: false,
     };
   },
   hasItem: function() {
@@ -25,8 +32,9 @@ export default React.createClass({
     const item = this.getItem();
     return (
       <article>
+        {this.props.renderBreadcrumb && this.renderBreadcrumb(item.title)}
         <header>
-          <a onClick={this.handleClick('/blog/' + item.slug)}><h3 className='title'>{item.title}</h3></a>
+          <Link to={'/blog/' + item.slug}><h3 className='title' onClick={this.scrollTop}>{item.title}</h3></Link>
         </header>
         <div dangerouslySetInnerHTML={{__html:item.content}} />
         <footer>
@@ -45,13 +53,16 @@ export default React.createClass({
       </div>
     );
   },
-
-  handleClick: function(url) {
-    var self = this;
-    return function() {
-      window && window.scrollTo(0,0);
-      self.props.history.pushState(null, url);
-    };
+  renderBreadcrumb: function(title) {
+    return (
+      <Breadcrumb>
+        <li><Link to='/blog'>Blog</Link></li>
+        <BreadcrumbItem active>{title}</BreadcrumbItem>
+      </Breadcrumb>
+    );
+  },
+  scrollTop: function() {
+    window && window.scrollTo(0,0);
   }
 
 });

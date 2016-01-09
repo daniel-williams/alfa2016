@@ -14,8 +14,8 @@ export default React.createClass({
               <Grid>
                 <Row>
                   <Col sm={6} xs={12}>
-                    <h3>Get in Touch with the Artist</h3>
-                    <p>If you'd like to chat about Anna Lancaster’s Fine Art, purchase a piece, or simply get in touch with the Artist, please send a message using the form below. Anna looks forward to hearing from you!</p>
+                    <h3>Get in Touch with Anna</h3>
+                    <p>If you'd like to chat about Anna Lancaster Fine Art, purchase a piece, or simply get in touch, I'd love to hear from you. Please refer to my social links and contact information below, or send me a direct message using the contact form. Thank you for your interest in Anna Lancaster Fine Art!</p>
                   </Col>
                   <Col sm={6} className='hidden-xs'>
                     <ImageLoader src='/content/images/anna-lancaster-cathedral-park-plein-air-painting.jpg' className='img-responsive' style={{maxHeight:'200px'}} />

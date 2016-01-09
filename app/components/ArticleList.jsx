@@ -23,32 +23,9 @@ export default React.createClass({
   render: function() {
     return (
       <div className='article-list'>
-        {this.props.items.map((item, idx) => <Article key={idx} item={item} {...this.props} />)}
+        {this.props.items.map((item, idx) => <Article key={item.slug} item={item} />)}
       </div>
     );
   },
-  // getArticles: function() {
-  // renderPagination: function() {
-  //   return (
-  //     <Pagination
-  //       first='<<'
-  //       last='>>'
-  //       next='older'
-  //       prev='newer'
-  //       ellipsis={true}
-  //       bsSize='small'
-  //       maxButtons={5}
-  //       items={this.getPageCount()}
-  //       activePage={this.state.activePage}
-  //       onSelect={this.handleSelect} />
-  //   );
-  // },
-
-  // handleSelect(event, selectedEvent) {
-  //   this.setState({
-  //     activePage: selectedEvent.eventKey
-  //   }, () => window && window.scrollTo(0,0));
-  // },
-
 
 });
