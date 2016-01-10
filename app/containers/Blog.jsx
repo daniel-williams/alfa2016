@@ -15,11 +15,11 @@ const Blog = React.createClass({
   mixins: [PureRenderMixin],
 
   componentWillMount: function() {
-    this.props.fetchAsNeeded();
+    this.props.fetchAsNeeded(this.getSlug());
   },
   componentWillReceiveProps(nextProps) {
     if(!nextProps.blog.get('isFetching')) {
-      this.props.fetchAsNeeded();
+      this.props.fetchAsNeeded(this.getSlug());
     }
   },
 
@@ -43,7 +43,7 @@ const Blog = React.createClass({
   },
   getItem: function() {
     const slug = this.getSlug();
-    return this.props.blog.get('items').find((item) => item.slug === slug);
+    return this.props.blog.get('items').find((item) => item.slug === slug) || this.props.post.get('item');
   },
   getPageCount: function() {
     return this.props.blog.get('totalPages');
@@ -104,6 +104,7 @@ const Blog = React.createClass({
 function mapStateToProps(state) {
   return {
     blog: state.get('blog'),
+    post: state.get('post'),
   }
 }
 
