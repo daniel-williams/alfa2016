@@ -68,6 +68,12 @@ module.exports = {
             'windows.jQuery': 'jquery',
             'root.jQuery': 'jquery',
         }),
-        new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.bundle.js')
+        new webpack.optimize.CommonsChunkPlugin({
+          names: ['vendors'],
+          minChunks: Infinity
+        }),
+        new webpack.optimize.OccurenceOrderPlugin(),
+        new webpack.HotModuleReplacementPlugin(),
+        new webpack.NoErrorsPlugin()
     ],
 };

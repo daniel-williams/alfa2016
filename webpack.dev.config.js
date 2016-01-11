@@ -15,7 +15,7 @@ module.exports = {
             'webpack-hot-middleware/client',
             path.resolve(APP_ROOT, 'index.jsx'),
         ],
-        vendors: ['jquery', 'react', 'react-router', 'redux', 'react-redux', 'firebase', 'immutable'],
+        vendors: ['jquery', 'react', 'react-router', 'redux', 'react-redux', 'immutable', 'firebase'],
     },
     module: {
         loaders: [

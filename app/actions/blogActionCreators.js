@@ -26,20 +26,6 @@ function getPostUrl(itemId) {
   return host + id + '/posts/' + itemId + '?key=' + apiKey;
 }
 
-
-
-export function fetchAsNeeded(slug) {
-  return function(dispatch, getState) {
-    const blogId = getState().getIn(['blog', 'id']);
-
-    if(!blogId) {
-      fetchBlog(dispatch, getState);
-    } else {
-      fetchPostsAsNeeded(dispatch, getState, slug);
-    }
-  }
-}
-
 function fetchBlog(dispatch) {
   dispatch({
     type: BLOG_REQUESTED,
@@ -176,22 +162,6 @@ function fetchPostBySlug(slug) {
   }
 }
 
-export function blogPageNext() {
-  return function(dispatch) {
-    dispatch({
-      type: BLOG_PAGE_NEXT
-    });
-  }
-}
-export function blogPagePrev() {
-  return function(dispatch) {
-    dispatch({
-      type: BLOG_PAGE_PREV
-    });
-  }
-}
-
-
 function processBlogItem(item) {
   return {
       id: item.id,
@@ -210,4 +180,31 @@ function getSlugFromUrl(url) {
       name = name.substr(0, name.lastIndexOf('.'));
   }
   return name;
+}
+
+
+export function fetchAsNeeded(slug) {
+  return function(dispatch, getState) {
+    const blogId = getState().getIn(['blog', 'id']);
+
+    if(!blogId) {
+      fetchBlog(dispatch, getState);
+    } else {
+      fetchPostsAsNeeded(dispatch, getState, slug);
+    }
+  }
+}
+export function blogPageNext() {
+  return function(dispatch) {
+    dispatch({
+      type: BLOG_PAGE_NEXT
+    });
+  }
+}
+export function blogPagePrev() {
+  return function(dispatch) {
+    dispatch({
+      type: BLOG_PAGE_PREV
+    });
+  }
 }
