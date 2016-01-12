@@ -52,8 +52,8 @@ function renderPage(includeFirebase) {
   </head>
   <body>
     <div id="app"></div>
-    <script src="/vendors.bundle.js"></script>
-    <script src="/app.bundle.js"></script>
+    <script src="/content/bundles/vendors.bundle.js"></script>
+    <script src="/content/bundles/app.bundle.js"></script>
   </body>
 </html>
 `

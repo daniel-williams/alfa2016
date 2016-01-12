@@ -59,10 +59,14 @@ export default React.createClass({
               placeholder='Email Address'
               className='form-control' />
           </Col>
-          <Col xs={12}>
-            <button type='submit' className='btn btn-alfa-default mr' disabled={btnState}>Subscribe Now</button>
+        </Row>
+        <Row>
+          <div className='col mb-half'>
+            <button type='submit' className='btn btn-alfa-default' disabled={btnState}>Subscribe Now</button>
+          </div>
+          <div className='col mb-half'>
             <button type='button' className='btn btn-alfa-primary' onClick={this.handleClose} disabled={btnState}>Maybe Later</button>
-          </Col>
+          </div>
         </Row>
       </Formsy.Form>
     );

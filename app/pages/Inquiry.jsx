@@ -43,7 +43,7 @@ export default React.createClass({
   },
   renderForm: function() {
     return(
-      <ContactForm message={this.getMessage()} user={this.props.user.toJS()} onValidSubmit={this.props.submitInquiry} />
+      <ContactForm message={this.getMessage()} user={this.props.user.toJS()} art={this.props.item.title} onValidSubmit={this.props.submitInquiry} />
     );
   },
   renderSuccess: function() {

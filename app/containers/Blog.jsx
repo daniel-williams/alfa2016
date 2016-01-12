@@ -82,13 +82,12 @@ const Blog = React.createClass({
   renderPager: function() {
     const activePage = this.getActivePage();
     const pageCount = this.getPageCount();
-    const page = (pageCount - activePage) + 1;
 
     return (
       <Pager>
-        <PageItem previous onClick={this.handlePageNext} disabled={activePage === pageCount}>older</PageItem>
-        <span className='mh' style={{lineHeight:'32px'}}>page {page} of {pageCount}</span>
-        <PageItem next onClick={this.handlePagePrev} disabled={activePage === 1}>newer</PageItem>
+        <PageItem previous onClick={this.handlePagePrev} disabled={activePage === 1}>newer</PageItem>
+        <span className='mh' style={{lineHeight:'32px'}}>page {activePage} of {pageCount}</span>
+        <PageItem next onClick={this.handlePageNext} disabled={activePage === pageCount}>older</PageItem>
       </Pager>
     );
   },

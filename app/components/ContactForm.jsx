@@ -10,9 +10,11 @@ export default React.createClass({
   render: function() {
     const user = this.props.user;
     const message = this.props.message || '';
+    const art = this.props.art ? <input type='hidden' name='art' value={this.props.art} /> : null;
 
     return (
       <Formsy.Form onValidSubmit={this.props.onValidSubmit}>
+        {art}
         <Row>
           <Col xs={12} className='mb-half'>
             <SkyInput value={user.name} name="name" placeholder='Name' className='form-control' />
