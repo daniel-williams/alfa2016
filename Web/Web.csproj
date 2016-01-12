@@ -566,11 +566,14 @@
     <Content Include="content\images\slideshow\04.jpg" />
     <Content Include="content\images\slideshow\05.jpg" />
     <Content Include="content\images\slideshow\06.jpg" />
+    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="robots.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ApiController.cs" />
     <Compile Include="Controllers\MainController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
