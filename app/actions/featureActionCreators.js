@@ -1,43 +1,36 @@
-import fetch from 'isomorphic-fetch';
-import {checkStatus, toJSON} from './fetch-helper';
-import Firebase from 'firebase';
+import Firebase from '../services/Firebase';
 import {
   FEATURE_REQUESTED,
   FEATURE_SUCCESS,
   FEATURE_FAILED,
-  FEATURE_NEXT,
-  FEATURE_PREV,
 } from '.';
 
 
-const firebaseDb = new Firebase('https://blistering-torch-4532.firebaseio.com/');
-
 export function fetchFeature() {
   return function(dispatch) {
-    dispatch({type: FEATURE_REQUESTED});
+    dispatch({
+      type: FEATURE_REQUESTED
+    });
 
-    try {
-      firebaseDb.child('feature').on('value', function(snapshot) {
-        var feature = snapshot.val();
+    Firebase.fetch('feature')
+      .then(data => {
         dispatch({
           type: FEATURE_SUCCESS,
-          date: new Date(),
-          feature: feature
+          payload: {
+            date: new Date(),
+            feature: data
+          }
         });
-      }, function (err) {
+      })
+      .catch((err) => {
         dispatch({
           type: FEATURE_FAILED,
-          date: new Date(),
-          err: new Error('The read failed: ' + err.code)
+          payload: {
+            date: new Date(),
+            err: err
+          }
         });
       });
-    } catch(err) {
-      dispatch({
-        type: FEATURE_FAILED,
-        date: new Date(),
-        err: err
-      });
-    }
 
   }
 }

@@ -195,16 +195,12 @@ export function fetchAsNeeded(slug) {
   }
 }
 export function blogPageNext() {
-  return function(dispatch) {
-    dispatch({
-      type: BLOG_PAGE_NEXT
-    });
-  }
+  return {
+    type: BLOG_PAGE_NEXT
+  };
 }
 export function blogPagePrev() {
-  return function(dispatch) {
-    dispatch({
-      type: BLOG_PAGE_PREV
-    });
-  }
+  return {
+    type: BLOG_PAGE_PREV
+  };
 }

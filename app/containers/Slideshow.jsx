@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import {toJS} from 'immutable';
 
 import * as actions from '../actions/showActionCreators.js';
-import {ImageLoader, SkyPlayer} from '../components';
+import {Fetching, ImageLoader, SkyPlayer} from '../components';
 
 
 const Show = React.createClass({
@@ -25,7 +25,7 @@ const Show = React.createClass({
   render: function() {
     return (
       <div className='slideshow'>
-        {this.isFetching() && <div>fetching show...</div>}
+        {this.isFetching() && <Fetching />}
         {this.hasItems() && this.renderShow()}
       </div>
     );

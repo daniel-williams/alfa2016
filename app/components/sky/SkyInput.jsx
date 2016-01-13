@@ -26,9 +26,11 @@ export default React.createClass({
       <div className={className}>
         <input
           {...this.props}
-          type="text"
+          type={this.props.type || 'text'}
+          name={this.props.name}
           value={this.getValue()}
-          onChange={this.changeValue} />
+          onChange={this.changeValue}
+          checked={this.props.type === 'checkbox' && this.getValue() ? 'checked' : null} />
         {errorMessage}
       </div>
     );

@@ -28,7 +28,6 @@ const initialState = fromJS({
 });
 
 export default function(state = initialState, action) {
-  // console.log('blog reducer', action);
   switch(action.type) {
     case BLOG_REQUESTED: {
       return state.set('isFetching', true);
@@ -99,13 +98,13 @@ export default function(state = initialState, action) {
 function processBlogItems(items = []) {
   return items.map((item, i) => {
     return {
-        id: item.id,
-        title: item.title,
-        url: item.url,
-        slug: getSlugFromUrl(item.url),
-        content: item.content,
-        date: item.published,
-        tags: item.labels
+      id: item.id,
+      title: item.title,
+      url: item.url,
+      slug: getSlugFromUrl(item.url),
+      content: item.content,
+      date: item.published,
+      tags: item.labels
     };
   });
 }
@@ -114,7 +113,7 @@ function processBlogItems(items = []) {
 function getSlugFromUrl(url) {
   var name = url.split('/').slice(-1)[0];
   if(name.indexOf('.' >= 0)) {
-      name = name.substr(0, name.lastIndexOf('.'));
+    name = name.substr(0, name.lastIndexOf('.'));
   }
   return name;
 }

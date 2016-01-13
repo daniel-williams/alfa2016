@@ -7,8 +7,8 @@ import {Modal, Grid, Row, Col} from 'react-bootstrap';
 import * as artActions from '../actions/artActionCreators';
 import * as inquiryActions from '../actions/inquiryActionCreators';
 
-import {Icon, ImageLoader} from '../components';
-import Inquiry from '../pages/Inquiry';
+import {Spinner, Icon, ImageLoader} from '../components';
+import Inquiry from '../components/Inquiry';
 require('./ArtDetails.less');
 
 
@@ -19,7 +19,8 @@ export const ArtDetails = React.createClass({
     return {
       show: true,
       showInfo: false,
-      itemOfInterest: null,
+      activeItem: null,
+      isLoaded: false,
     }
   },
   componentWillMount: function() {
@@ -59,10 +60,11 @@ export const ArtDetails = React.createClass({
   render: function() {
     const artInfo = this.getArtInfo();
     const item = artInfo.item;
-    const viewMode = this.state.showInfo ? 'show-info' : '';
+    const viewMode = this.state.showInfo ? ' show-info' : '';
+    const imgStatus = this.state.isLoaded ? ' fetching' : '';
 
     return (
-      <Modal id='art-modal' ref='modal' show={this.state.show} backdrop='static'>
+      <Modal id='art-modal' ref='modal' show={this.state.show} backdrop='static' className={imgStatus}>
         <Modal.Header>
           <div className='controls clearfix'>
               <div className='col-0'>
@@ -81,9 +83,16 @@ export const ArtDetails = React.createClass({
         </Modal.Header>
         <Modal.Body>
           {item &&
-            <section className={'item-details ' + viewMode}>
+            <section className={'item-details' + viewMode}>
               <div className='img-panel'>
-                <ImageLoader src={'/content/images/art/' + item.slug + '-lg.jpg'} />
+                <ImageLoader src={'/content/images/art/' + item.slug + '-lg.jpg'}
+                  onLoad={this.handleLoaded}
+                  onTimeout={this.handleTimeout} />
+                {!this.state.isLoaded &&
+                  <div className='spinner-wrap'>
+                    <Spinner />
+                  </div>
+                }
               </div>
               <div className='info-panel'>
                 <div className='info-wrap'>
@@ -110,12 +119,12 @@ export const ArtDetails = React.createClass({
     return <span className='dimensions'>{item.width + '" x ' + item.height + '"'}</span>
   },
   renderPrevIcon(url) {
-    return url ? <Link to={url} className='icon'><Icon name='arrow-left' onClick={actions.resetInquiry} /></Link>
-               : <a className='icon disabled'><Icon name='arrow-left disabled' /></a>
+    return (this.state.isLoaded && url) ? <Link to={url} className='icon'><Icon name='arrow-left' onClick={this.handleViewChange} /></Link>
+                                        : <a className='icon disabled'><Icon name='arrow-left disabled' sytle={{color:'red'}} /></a>
   },
   renderNextIcon(url) {
-    return url ? <Link to={url} className='icon'><Icon name='arrow-right' onClick={actions.resetInquiry} /></Link>
-               : <a className='icon disabled'><Icon name='arrow-right disabled' /></a>
+    return (this.state.isLoaded && url) ? <Link to={url} className='icon'><Icon name='arrow-right' onClick={this.handleViewChange} /></Link>
+                                        : <a className='icon disabled'><Icon name='arrow-right disabled' sytle={{color:'red'}} /></a>
   },
   renderInfoIcon() {
     return !this.state.showInfo ? <a onClick={this.handleInfoToggle} className='icon'><Icon name='info' /></a>
@@ -126,10 +135,27 @@ export const ArtDetails = React.createClass({
                                : <a className='icon disabled'><Icon name='magnify disabled' /></a>
   },
 
+  handleLoaded: function(e) {
+    this.setState({
+      isLoaded: true,
+    });
+  },
+  handleTimeout: function(e) {
+    this.setState({
+      displayError: e.message,
+    });
+  },
+
   handleInfoToggle: function() {
     this.setState({
       showInfo: !this.state.showInfo
     });
+  },
+  handleViewChange: function() {
+    this.setState({
+      isLoaded: false,
+    });
+    actions.resetInquiry();
   },
 
   handleClose: function() {

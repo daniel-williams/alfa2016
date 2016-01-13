@@ -1,68 +1,86 @@
-/*@font-face {
+@font-face {
   	font-family: 'icomoon';
-  	src:url('/content/fonts/icomoon.eot?2chbi4');
+    src:url('/content/fonts/icomoon.eot?2chbi4');
   	src:url('/content/fonts/icomoon.eot?2chbi4#iefix') format('embedded-opentype'),
   		  url('/content/fonts/icomoon.ttf?2chbi4') format('truetype'),
   		  url('/content/fonts/icomoon.woff?2chbi4') format('woff'),
   		  url('/content/fonts/icomoon.svg?2chbi4#icomoon') format('svg');
   	font-weight: normal;
   	font-style: normal;
-  }*/
-  @font-face {
-    	font-family: 'icomoon';
-    	src:url('/content/fonts/icomoon.woff?2chbi4') format('woff');
-    	font-weight: normal;
-    	font-style: normal;
-    }
-
-  [class^='icon-alfa-'], [class*=' icon-alfa-'] {
-      /* use !important to prevent issues with browser extensions that change fonts */
-  	font-family: 'icomoon' !important;
-  	speak: none;
-  	font-style: normal;
-  	font-weight: normal;
-  	font-variant: normal;
-  	text-transform: none;
-  	line-height: 1;
-
-  	/* Better Font Rendering =========== */
-  	-webkit-font-smoothing: antialiased;
-  	-moz-osx-font-smoothing: grayscale;
   }
 
-  .icon-alfa-sold:before {
-  	content: '\e90b';
-  }
-  .icon-alfa-arrow-left:before {
-  	content: '\e900';
-  }
-  .icon-alfa-arrow-right:before {
-  	content: '\e901';
-  }
-  .icon-alfa-close:before {
-  	content: '\e902';
-  }
-  .icon-alfa-facebook:before {
-  	content: '\e903';
-  }
-  .icon-alfa-info:before {
-  	content: '\e904';
-  }
-  .icon-alfa-instagram:before {
-  	content: '\e905';
-  }
-  .icon-alfa-linkedin:before {
-  	content: '\e906';
-  }
-  .icon-alfa-magnify:before {
-  	content: '\e907';
-  }
-  .icon-alfa-menu:before {
-  	content: '\e908';
-  }
-  .icon-alfa-pinterest:before {
-  	content: '\e909';
-  }
-  .icon-alfa-twitter:before {
-  	content: '\e90a';
-  }
+[class^='icon-alfa-'], [class*=' icon-alfa-'] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-alfa-skyberry:before {
+    content: "\e90c";
+}
+.icon-alfa-heart:before {
+    content: "\e90d";
+}
+.icon-alfa-heart-outline:before {
+    content: "\e90e";
+}
+.icon-alfa-build-01:before {
+    content: "\e90f";
+}
+.icon-alfa-build-02:before {
+    content: "\e910";
+}
+.icon-alfa-build-03:before {
+    content: "\e911";
+}
+.icon-alfa-build-04:before {
+    content: "\e912";
+}
+.icon-alfa-build-05:before {
+    content: "\e913";
+}
+.icon-alfa-arrow-left:before {
+    content: "\e900";
+}
+.icon-alfa-arrow-right:before {
+    content: "\e901";
+}
+.icon-alfa-close:before {
+    content: "\e902";
+}
+.icon-alfa-facebook:before {
+    content: "\e903";
+}
+.icon-alfa-info:before {
+    content: "\e904";
+}
+.icon-alfa-instagram:before {
+    content: "\e905";
+}
+.icon-alfa-linkedin:before {
+    content: "\e906";
+}
+.icon-alfa-magnify:before {
+    content: "\e907";
+}
+.icon-alfa-menu:before {
+    content: "\e908";
+}
+.icon-alfa-pinterest:before {
+    content: "\e909";
+}
+.icon-alfa-twitter:before {
+    content: "\e90a";
+}
+.icon-alfa-sold:before {
+    content: "\e90b";
+}

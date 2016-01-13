@@ -38,9 +38,13 @@ export const Feature = React.createClass({
       <div id='feature'>
         <h3>{feature.title}</h3>
         <div dangerouslySetInnerHTML={{__html:feature.summary}} />
-        <div className='mt-half'><Link to={'/blog/' + slug}>Continue reading...</Link></div>
+        <div className='mt-half'><Link to={'/blog/' + slug}><span onClick={this.scrollTop}>Continue reading...</span></Link></div>
       </div>
     );
+  },
+
+  scrollTop: function() {
+    window && window.scrollTo(0,0);
   },
 
 });

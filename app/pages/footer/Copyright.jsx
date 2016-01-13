@@ -1,6 +1,7 @@
 import React from 'react'
 import {Grid, Row, Col} from 'react-bootstrap';
 
+import {Icon} from '../../components';
 
 export default React.createClass({
   render: function() {
@@ -9,7 +10,10 @@ export default React.createClass({
         <Grid>
           <Row className='mb-half'>
             <Col xs={12} style={{textAlign:'center'}}>
-              <span>&#169;</span> Copyright {new Date().getFullYear()}. All rights reserved. Anna Lancaster Fine Art. PO Box 3110. Tualatin Oregon 97062.
+              Copyright <span>&#169;</span> {new Date().getFullYear()}. All rights reserved. Anna Lancaster Fine Art. PO Box 3110. Tualatin Oregon 97062.
+            </Col>
+            <Col xs={12} style={{textAlign:'center'}}>
+              <span className='credits'>With <Icon name='heart-outline' /> by <a href='#'>Skyberry</a></span>
             </Col>
           </Row>
         </Grid>

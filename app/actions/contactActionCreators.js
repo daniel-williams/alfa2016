@@ -11,12 +11,19 @@ import {
 
 
 export function resetContact() {
-  store.dispatch({type: CONTACT_RESET});
+  store.dispatch({
+    type: CONTACT_RESET
+  });
 }
 
 export function submitContact(formData) {
   return function(dispatch) {
-    dispatch({type: CONTACT_POSTING, payload: {user: formData}});
+    dispatch({
+      type: CONTACT_POSTING,
+      payload: {
+        user: formData
+      }
+    });
 
     fetch('/api/contact', {
       method: 'post',
@@ -27,7 +34,18 @@ export function submitContact(formData) {
       body: JSON.stringify(formData),
     })
     .then(checkStatus)
-    .then(() => dispatch({type: CONTACT_POST_SUCCESS, payload: {date: new Date()}}))
-    .catch((err) => dispatch({type: CONTACT_POST_FAILED, payload: {date: new Date(), err: err}}));
+    .then(() => dispatch({
+      type: CONTACT_POST_SUCCESS,
+      payload: {
+        date: new Date()
+      }
+    }))
+    .catch((err) => dispatch({
+      type: CONTACT_POST_FAILED,
+      payload: {
+        date: new Date(),
+        err: err
+      }
+    }));
   }
 }

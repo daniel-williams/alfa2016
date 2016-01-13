@@ -12,16 +12,25 @@ import {
 
 
 export function resetInquiry() {
-  store.dispatch({type: INQUIRY_RESET});
+  store.dispatch({
+    type: INQUIRY_RESET
+  });
 }
 
 export function showInquiry() {
-  store.dispatch({type: INQUIRY_SHOW});
+  store.dispatch({
+    type: INQUIRY_SHOW
+  });
 }
 
 export function submitInquiry(formData) {
   return function(dispatch) {
-    dispatch({type: INQUIRY_POSTING, payload: {user: formData}});
+    dispatch({
+      type: INQUIRY_POSTING,
+      payload: {
+        user: formData
+      }
+    });
 
     fetch('/api/inquiry', {
       method: 'post',
@@ -32,7 +41,18 @@ export function submitInquiry(formData) {
       body: JSON.stringify(formData),
     })
     .then(checkStatus)
-    .then(() => dispatch({type: INQUIRY_POST_SUCCESS, payload: {date: new Date()}}))
-    .catch((err) => dispatch({type: INQUIRY_POST_FAILED, payload: {date: new Date(), err: err}}));
+    .then(() => dispatch({
+      type: INQUIRY_POST_SUCCESS,
+      payload: {
+        date: new Date()
+      }
+    }))
+    .catch((err) => dispatch({
+      type: INQUIRY_POST_FAILED,
+      payload: {
+        date: new Date(),
+        err: err
+      }
+    }));
   }
 }

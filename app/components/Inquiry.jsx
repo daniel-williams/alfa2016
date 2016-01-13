@@ -8,9 +8,6 @@ import * as actions from '../actions/inquiryActionCreators';
 
 
 export default React.createClass({
-  getStep: function() {
-    return this.props.inquiry.get('Step');
-  },
   getMessage: function() {
     return `Hi Anna, I'm browsing your website and would like additional information about ${this.props.item.title}.`
   },

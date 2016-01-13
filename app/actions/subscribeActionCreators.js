@@ -12,16 +12,25 @@ import {
 
 
 export function showSubscribe() {
-  store.dispatch({type: SUBSCRIBE_SHOW});
+  store.dispatch({
+    type: SUBSCRIBE_SHOW
+  });
 }
 
 export function hideSubscribe() {
-  store.dispatch({type: SUBSCRIBE_HIDE});
+  store.dispatch({
+    type: SUBSCRIBE_HIDE
+  });
 }
 
 export function submitSubscribe(formData) {
   return function(dispatch) {
-    dispatch({type: SUBSCRIBE_POSTING, payload: {user: formData}});
+    dispatch({
+      type: SUBSCRIBE_POSTING,
+      payload: {
+        user: formData
+      }
+    });
 
     fetch('/api/subscribe', {
       method: 'post',
@@ -32,7 +41,18 @@ export function submitSubscribe(formData) {
       body: JSON.stringify(formData),
     })
     .then(checkStatus)
-    .then(() => dispatch({type: SUBSCRIBE_POST_SUCCESS, payload: {date: new Date()}}))
-    .catch((err) => dispatch({type: SUBSCRIBE_POST_FAILED, payload: {date: new Date(), err: err}}));
+    .then(() => dispatch({
+      type: SUBSCRIBE_POST_SUCCESS,
+      payload: {
+        date: new Date()
+      }
+    }))
+    .catch((err) => dispatch({
+      type: SUBSCRIBE_POST_FAILED,
+      payload: {
+        date: new Date(),
+        err: err
+      }
+    }));
   }
 }

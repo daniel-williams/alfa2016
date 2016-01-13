@@ -1,6 +1,6 @@
 
 export default {
-  subscribeDelay: 45000,
+  subscribeDelay: 60000,
   galleries: [
     { name: 'Plein Air', slug: 'plein-air' },
     { name: 'Portraits & Figures', slug: 'portraits-and-figures' },
@@ -13,5 +13,8 @@ export default {
     id: '5080215156052292878',
     apiKey: 'AIzaSyAoTn6DttJFZ5mWGHuqfN5fE1eSvQ0jgaE',
     itemsPerPage: 5,
+  },
+  firebase: {
+    host: 'https://blistering-torch-4532.firebaseio.com/'
   }
 }

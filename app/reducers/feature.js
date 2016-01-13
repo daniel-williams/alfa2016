@@ -16,14 +16,15 @@ const initialState = fromJS({
 
 export default function(state = initialState, action) {
   switch(action.type) {
-    case FEATURE_REQUESTED:
+    case FEATURE_REQUESTED: {
       return state.set('isFetching', true);
+    }
     case FEATURE_SUCCESS: {
         return state.withMutations(state => {
           state.set('isFetching', false);
           state.set('hasFetched', false);
-          state.set('lastFetchDate', action.date);
-          state.set('feature', fromJS(action.feature));
+          state.set('lastFetchDate', action.payload.date);
+          state.set('feature', fromJS(action.payload.feature));
           return state;
         });
       }
@@ -31,8 +32,8 @@ export default function(state = initialState, action) {
         return state.withMutations(state => {
           state.set('isFetching', false);
           state.set('hasFetched', false);
-          state.set('lastFetchDate', action.date);
-          state.set('lastFetchError', action.err);
+          state.set('lastFetchDate', action.payload.date);
+          state.set('lastFetchError', action.payload.err);
           return state;
         });
       }

@@ -1,9 +1,7 @@
 import React, {PropTypes} from 'react';
-// import PureRenderMixin from 'react-addons-pure-render-mixin';
-
+import {Icon} from '.';
 
 export default React.createClass({
-  // mixins: [PureRenderMixin],
 
   propTypes: {
     label: PropTypes.string,
@@ -39,8 +37,8 @@ export default React.createClass({
 
   render: function() {
     var boxes = new Array(this.props.boxCount).fill('').map((item, idx) => {
-      let active = this.state.count >= idx ? ' active' : '';
-      return <span key={idx} className={'box' + active} />
+      return this.state.count === idx ? <span key={idx} className='box active' />
+                                      : <span key={idx} className='box' />
     });
 
     return (
@@ -52,7 +50,7 @@ export default React.createClass({
 
   next: function() {
     var count = this.state.count + 1;
-    if( count === this.props.boxCount) count = -1;
+    if( count === this.props.boxCount) count = 0;
     this.setState({
       count: count
     });

@@ -30,8 +30,8 @@ export default function(state = initialState, action) {
         return state.withMutations(state => {
           state.set('isFetching', false);
           state.set('hasFetched', false);
-          state.set('lastFetchDate', action.date);
-          state.set('show', fromJS(action.show));
+          state.set('lastFetchDate', action.payload.date);
+          state.set('show', fromJS(action.payload.show));
           return state;
         });
       }
@@ -39,8 +39,8 @@ export default function(state = initialState, action) {
         return state.withMutations(state => {
           state.set('isFetching', false);
           state.set('hasFetched', false);
-          state.set('lastFetchDate', action.date);
-          state.set('lastFetchError', action.err);
+          state.set('lastFetchDate', action.payload.date);
+          state.set('lastFetchError', action.payload.err);
           return state;
         });
       }

@@ -34,7 +34,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x
 
 
 app.post('/api/*', function response(req, res) {
-  console.log('JSON=', req.body);
+  console.log('url: ', req.url, ', json: ', req.body);
   res.status(200).end();
 });
 
@@ -43,7 +43,7 @@ app.get('*', function response(req, res) {
 });
 
 
-function renderPage(includeFirebase) {
+function renderPage() {
   return `
 <!doctype html>
 <html>

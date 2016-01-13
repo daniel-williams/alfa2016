@@ -10,7 +10,7 @@ export default React.createClass({
   render: function() {
     const user = this.props.user;
     const message = this.props.message || '';
-    const art = this.props.art ? <input type='hidden' name='art' value={this.props.art} /> : null;
+    const art = !!this.props.art && <SkyInput type='hidden' name='art' value={this.props.art} />;
 
     return (
       <Formsy.Form onValidSubmit={this.props.onValidSubmit}>

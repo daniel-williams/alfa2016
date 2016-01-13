@@ -1,5 +1,48 @@
 @import (reference) './App.less';
 
+.spinner-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0.6);
+}
+.react-spinner {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  top: 50px;
+  left: 50px;
+}
+
+.react-spinner_bar {
+  -webkit-animation: react-spinner_spin 1.2s linear infinite;
+  -moz-animation: react-spinner_spin 1.2s linear infinite;
+  animation: react-spinner_spin 1.2s linear infinite;
+  border-radius: 5px;
+  background-color: @gravel;
+  position: absolute;
+  width: 20%;
+  height: 7.8%;
+  top: -3.9%;
+  left: -10%;
+}
+
+@keyframes react-spinner_spin {
+ 0% { opacity: 1; }
+ 100% { opacity: 0.15; }
+}
+
+@-moz-keyframes react-spinner_spin {
+ 0% { opacity: 1; }
+ 100% { opacity: 0.15; }
+}
+
+@-webkit-keyframes react-spinner_spin {
+ 0% { opacity: 1; }
+ 100% { opacity: 0.15; }
+}
 
 #art-modal .modal-dialog {
   .controls {
@@ -50,6 +93,7 @@
   }
 
   .img-panel {
+    position: relative;
     display: inline-block;
     vertical-align: top;
     width: 100%;

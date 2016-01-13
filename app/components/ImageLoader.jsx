@@ -24,8 +24,12 @@ export default React.createClass({
 
 
     handleLoaded: function(event) {
-        this.setState({loaded: true});
-        if(this.props.onLoad) this.props.onLoad(event);
+        this.setState({
+          loaded: true
+        });
+        if(this.props.onLoad) {
+          this.props.onLoad(event);
+        }
     },
 
 });

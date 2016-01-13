@@ -22,10 +22,7 @@ export default function(state = initialState, action) {
       return state.set('showSubscribe', true);
     }
     case SUBSCRIBE_HIDE: {
-      return state.withMutations(state => {
-        state.set('showSubscribe', false);
-        return state;
-      });
+      return state.set('showSubscribe', false);
     }
     case SUBSCRIBE_POSTING: {
       return state.withMutations(state => {
