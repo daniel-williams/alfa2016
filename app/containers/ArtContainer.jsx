@@ -10,7 +10,6 @@ import {Fetching, ImageLoader} from '../components';
 import constants from '../constants';
 var Masonry = require('react-masonry-component')(React);
 var masonryOptions = {
-  transitionDuration: 0,
   itemSelector: '.grid-item',
   percentPosition: true,
   imagesLoaded: true,

@@ -7,26 +7,26 @@ import Classes from '../pages/Classes';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
 
-import {AppContainer} from '../containers/App';
-import {ArtContainer} from '../containers/Art';
-import {ArtDetailsContainer} from '../containers/ArtDetails';
-import Blog from '../containers/Blog';
+import {AppContainer} from '../containers/AppContainer';
+import {ArtContainer} from '../containers/ArtContainer';
+import {ArtDetailsContainer} from '../containers/ArtDetailsContainer';
+import BlogContainer from '../containers/BlogContainer';
 
 
 const routes = (
-    <Route path='/' component={AppContainer}>
-        <IndexRoute component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/galleries-and-exhibitions' component={GalleriesAndExhibitions} />
-        <Route path='/classes' component={Classes} />
-        <Route path='/art/:gallerySlug' component={ArtContainer}>
-          <Route path=':artSlug' component={ArtDetailsContainer} />
-        </Route>
-        <Route path='/blog' component={Blog}>
-          <Route path='/blog/:articleSlug' component={Blog} />
-        </Route>
-        <Route path='/contact' component={Contact} />
+  <Route path='/' component={AppContainer}>
+    <IndexRoute component={Home} />
+    <Route path='/about' component={About} />
+    <Route path='/galleries-and-exhibitions' component={GalleriesAndExhibitions} />
+    <Route path='/classes' component={Classes} />
+    <Route path='/art/:gallerySlug' component={ArtContainer}>
+      <Route path=':artSlug' component={ArtDetailsContainer} />
     </Route>
+    <Route path='/blog' component={BlogContainer}>
+      <Route path='/blog/:articleSlug' component={BlogContainer} />
+    </Route>
+    <Route path='/contact' component={Contact} />
+  </Route>
 );
 
 export default routes;

@@ -2,8 +2,8 @@ import React from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import {Grid, Row, Col} from 'react-bootstrap';
 
-import Slideshow from '../containers/Slideshow';
-import {FeatureContainer} from '../containers/Feature';
+import SlideshowContainer from '../containers/SlideshowContainer';
+import {FeatureContainer} from '../containers/FeatureContainer';
 
 
 export default React.createClass({
@@ -15,7 +15,7 @@ export default React.createClass({
               <Grid>
                 <Row>
                   <Col xs={12}>
-                    <Slideshow />
+                    <SlideshowContainer />
                   </Col>
                   <Col xs={12} className='mt'>
                     <FeatureContainer />

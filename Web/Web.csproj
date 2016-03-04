@@ -587,6 +587,8 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="content\fonts\icomoon.woff" />
+    <Content Include="content\fonts\icomoon.eot" />
+    <Content Include="content\fonts\icomoon.ttf" />
     <None Include="Properties\PublishProfiles\production.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

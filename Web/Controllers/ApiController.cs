@@ -125,6 +125,9 @@ namespace Web.Controllers
             SMTPServer.Port = Int16.Parse(WebConfigurationManager.AppSettings["SMTP_PORT"]);
             //SMTPServer.Credentials = new System.Net.NetworkCredential(WebConfigurationManager.AppSettings["SMTP_USERNAME"], WebConfigurationManager.AppSettings["SMTP_PASSWORD"]);
 
+            // TODO djw: remove this prior to go-live
+            message.Bcc.Add(WebConfigurationManager.AppSettings["DEBUG_EMAIL"]);
+
             try
             {
 #if DEBUG
