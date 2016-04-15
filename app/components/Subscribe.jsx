@@ -26,7 +26,7 @@ export default React.createClass({
               <a onClick={this.handleClose} className='modal-close-icon icon'><Icon name='close' /></a>
             </Col>
             <Col xs={12}>
-              <p>Receive exhibit announcements, artist reception invitations and learn about what's new at Anna Lancater Fine Art.</p>
+              <p>Receive exhibit announcements, artist reception invitations and learn about what's new at Anna Lancaster Fine Art.</p>
             </Col>
           </Row>
         </Modal.Header>
