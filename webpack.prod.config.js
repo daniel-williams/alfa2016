@@ -11,8 +11,8 @@ var DIST_PATH = path.resolve(WEB_ROOT, 'content/bundles');
 
 module.exports = {
     entry: {
-        app: [path.resolve(APP_ROOT, 'index.jsx')],
-        'vendors': path.join(APP_ROOT, 'vendors.js')
+        app: [path.resolve(APP_ROOT, 'boot')],
+        'vendors': path.join(APP_ROOT, 'vendors')
     },
     module: {
         loaders: [
@@ -48,5 +48,7 @@ module.exports = {
           minChunks: Infinity
         }),
         new webpack.optimize.OccurenceOrderPlugin(),
+        new webpack.optimize.DedupePlugin(),
+        new webpack.optimize.UglifyJsPlugin()
     ],
 };

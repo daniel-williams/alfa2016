@@ -7,7 +7,7 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js test/**/*.js*",
     "test:watch": "npm run test -- --watch",
     "dev": "babel-node server",
-    "deploy": "webpack --config webpack.prod.config.js --optimize-minimize"
+    "deploy": "rm -rf Web/content/bundles/* && webpack --progress --colors --config webpack.prod.config.js -p"
   },
   "author": "Daniel James Williams",
   "license": "ISC",
