@@ -11,11 +11,11 @@ var DIST_PATH = path.resolve(WEB_ROOT, 'content/bundles');
 
 module.exports = {
     entry: {
-        app: [
+        'app': [
             'webpack-hot-middleware/client',
-            path.resolve(APP_ROOT, 'index.jsx'),
+            path.resolve(APP_ROOT, 'boot.jsx'),
         ],
-        vendors: ['jquery', 'react', 'react-router', 'redux', 'react-redux', 'immutable', 'firebase'],
+        'vendors': path.join(APP_ROOT, 'vendors.js')
     },
     module: {
         loaders: [

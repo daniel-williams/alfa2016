@@ -12,7 +12,7 @@ var DIST_PATH = path.resolve(WEB_ROOT, 'content/bundles');
 module.exports = {
     entry: {
         app: [path.resolve(APP_ROOT, 'index.jsx')],
-        vendors: ['jquery', 'react', 'react-router', 'redux', 'react-redux', 'immutable', 'firebase'],
+        'vendors': path.join(APP_ROOT, 'vendors.js')
     },
     module: {
         loaders: [
