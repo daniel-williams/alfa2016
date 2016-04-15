@@ -12,11 +12,14 @@ export default React.createClass({
               <Grid>
                 <Row>
                   <Col xs={12}>
-                    <h3>Classes and Workshops</h3>
+                    <h3>News</h3>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col xs={12}>
+                    <div className='mt'><h4>Classes and Workshops Coming Soon</h4></div>
                     <p>Anna Lancaster teaches various aspects of landscape, still life and portraiture. Anna was classically trained and is skilled in the traditional method of indirect painting for classical portraiture and still life. She also is skilled in the direct painting method to paint landscape en plein air, as well as, painting still life and portraiture from live observation, alla prima.</p>
                     <p>Contact Anna Lancaster by email for information about private and group instruction. Workshop opportunities will be posted as they become available.</p>
-                    <div className='mt'><h4>Schedule</h4></div>
-                    <p>Coming soon, please check back.</p>
                   </Col>
                 </Row>
               </Grid>

@@ -3,7 +3,7 @@ import {Route, IndexRoute} from 'react-router';
 
 import Home from '../pages/Home';
 import GalleriesAndExhibitions from '../pages/GalleriesAndExhibitions';
-import Classes from '../pages/Classes';
+import News from '../pages/News';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
 
@@ -18,7 +18,7 @@ const routes = (
     <IndexRoute component={Home} />
     <Route path='/about' component={About} />
     <Route path='/galleries-and-exhibitions' component={GalleriesAndExhibitions} />
-    <Route path='/classes' component={Classes} />
+    <Route path='/News' component={News} />
     <Route path='/art/:gallerySlug' component={ArtContainer}>
       <Route path=':artSlug' component={ArtDetailsContainer} />
     </Route>
