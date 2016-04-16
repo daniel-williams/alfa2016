@@ -14,21 +14,21 @@ export function fetchArt() {
 
     Firebase.fetch('art')
       .then(data => {
-        data.map((item) => {
+        var items = data.map((item) => {
           item.created = new Date(item.created);
           item.ticks = item.created.getTime();
           return item;
         })
         .sort((a, b) => {
-          return a.ticks === b.ticks ? 0 : a.ticks > b.ticks ? 1 : -1
-        })
-        .reverse();
+          var temp = a.ticks === b.ticks ? 0 : a.ticks > b.ticks ? 1 : -1;
+          return a.ticks === b.ticks ? 0 : a.ticks > b.ticks ? 1 : -1;
+        }).reverse();
 
         dispatch({
           type:ART_SUCCESS,
           payload: {
             date: new Date(),
-            items: data
+            items: items
           }
         });
       })

@@ -64,10 +64,9 @@ export const Art = React.createClass({
 
   renderArt: function() {
     var art = this.props.art.get('items').toJS();
-    var filtered = art.filter(item => {
+    var items = art.filter(item => {
       return item.galleries.indexOf(this.props.routeParams.gallerySlug) >= 0;
-    });
-    var mapped = filtered.map((item, i) => {
+    }).map((item, i) => {
       return (
         <Col key={item.slug} lg={2} md={3} sm={4} xs={6} className='grid-item'>
           <Link to={this.props.location.pathname + '/' + item.slug}>
@@ -76,12 +75,13 @@ export const Art = React.createClass({
         </Col>
       );
     });
+    
     return (
       <Masonry  className={'grid'}
                 elementType={'div'}
                 options={masonryOptions}
                 disableImagesLoaded={false} ref='mmm'>
-        {mapped}
+        {items}
       </Masonry>
     );
   },
