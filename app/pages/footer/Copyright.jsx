@@ -10,7 +10,7 @@ export default React.createClass({
         <Grid>
           <Row className='mb-half'>
             <Col xs={12} style={{textAlign:'center'}}>
-              Copyright <span>&#169;</span> {new Date().getFullYear()}. All rights reserved. Anna Lancaster Fine Art. PO Box 3110. Tualatin Oregon 97062.
+              Copyright <span>&#169;</span> {new Date().getFullYear()}. All rights reserved. Anna Lancaster Fine Art. PO Box 489. Tualatin Oregon 97062-0489.
             </Col>
             <Col xs={12} style={{textAlign:'center'}}>
               <span className='credits'>With <Icon name='heart-outline' /> by <a href='http://skyberrystudio.com'>Skyberry</a></span>
