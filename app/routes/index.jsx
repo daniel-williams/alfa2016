@@ -26,6 +26,7 @@ const routes = (
       <Route path='/blog/:articleSlug' component={BlogContainer} />
     </Route>
     <Route path='/contact' component={Contact} />
+    <Route path='*' component={Home} />
   </Route>
 );
 
