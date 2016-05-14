@@ -3,6 +3,7 @@ import PureRenderMixin from 'react-addons-pure-render-mixin';
 import {connect} from 'react-redux';
 import {Location, Link} from 'react-router';
 import {Grid, Row, Col} from 'react-bootstrap';
+import Helmet from 'react-helmet';
 
 import * as actionCreators from '../actions/artActionCreators';
 import {Fetching, ImageLoader} from '../components';
@@ -18,12 +19,25 @@ var masonryOptions = {
 require('./Art.less');
 
 
+
 export const Art = React.createClass({
   mixins: [PureRenderMixin],
 
   getGalleryName: function() {
     let g = constants.galleries.find(item => item.slug === this.props.routeParams.gallerySlug);
     return g && g.name || '';
+  },
+  getGalleryTitle: function() {
+    let g = constants.galleries.find(item => item.slug === this.props.routeParams.gallerySlug);
+    return g && g.title || 'Paintings by Anna Lancaster Fine Art';
+  },
+  getGalleryDescription: function() {
+    let g = constants.galleries.find(item => item.slug === this.props.routeParams.gallerySlug);
+    let descMeta = {
+      'name': 'description',
+      'content': g && g.description || ''
+    }
+    return descMeta;
   },
   isFetching: function() {
     return this.props.art.get('isFetching');
@@ -42,6 +56,10 @@ export const Art = React.createClass({
   render: function() {
     return (
       <div id='art-wrap'>
+        <Helmet
+          title={this.getGalleryTitle()}
+          meta={[this.getGalleryDescription()]}
+        />
         <Grid fluid={true}>
           <Row>
             <Col xs={12}>
@@ -75,7 +93,7 @@ export const Art = React.createClass({
         </Col>
       );
     });
-    
+
     return (
       <Masonry  className={'grid'}
                 elementType={'div'}

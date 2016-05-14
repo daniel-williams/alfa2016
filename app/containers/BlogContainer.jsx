@@ -4,6 +4,7 @@ import {Location} from 'react-router';
 import {connect} from 'react-redux';
 import {toJS} from 'immutable';
 import {Grid, Row, Col, Pager, PageItem, Pagination} from 'react-bootstrap';
+import Helmet from 'react-helmet';
 
 import * as actions from '../actions/blogActionCreators';
 require('./Blog.less');
@@ -55,6 +56,13 @@ const Blog = React.createClass({
   render: function() {
     return (
       <div id='blog'>
+        <Helmet
+          title='Blog of Anna Lancaster Fine Art'
+          meta={[{
+            'name': 'description',
+            'content': 'Read the blog of Anna Lancaster Fine Art for upcoming art events in the Portland Oregon area and recent oil paintings.'
+          }]}
+        />
         <Grid>
           <Row>
             <Col xs={12}>

@@ -1,5 +1,6 @@
 import React from 'react';
 import {Grid, Row, Col} from 'react-bootstrap';
+import Helmet from 'react-helmet';
 
 require('./GalleriesAndExhibitions.less');
 
@@ -8,6 +9,13 @@ export default React.createClass({
   render: function() {
     return (
       <div id='galleries-and-exhibitions'>
+        <Helmet
+          title='Galleries & Exhibits for Anna Lancaster Fine Art'
+          meta={[{
+            'name': 'description',
+            'content': 'Come see Anna Lancaster Fine Art oil paintings in person at these galleries and upcoming art exhibits in the Portland area.'
+          }]}
+        />
         <Grid>
           <Row>
             <Col sm={6} xs={12} className='galleries'>

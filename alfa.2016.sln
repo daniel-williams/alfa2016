@@ -7,7 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".npm", ".npm", "{A8419AE0-4BFC-47BE-A36E-CFC8E5EDFEFA}"
 	ProjectSection(SolutionItems) = preProject
-		.eslintrc = .eslintrc
 		package.json = package.json
 		README.md = README.md
 		server.js = server.js

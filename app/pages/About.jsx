@@ -1,6 +1,7 @@
 import React from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import {Grid, Row, Col} from 'react-bootstrap';
+import Helmet from 'react-helmet';
 
 import {ImageLoader} from '../components';
 require('./About.less');
@@ -11,6 +12,13 @@ export default React.createClass({
     render: function() {
         return (
             <div id='about'>
+              <Helmet
+                title='About Anna Lancaster Tualatin Oregon Artist'
+                meta={[{
+                  'name': 'description',
+                  'content': 'Anna Lancaster paints diversified styles of fine art including portraits, contemporary, and plein air landscapes in oil.'
+                }]}
+              />
               <Grid>
                 <Row>
                   <Col md={6} sm={12} className='mb'>

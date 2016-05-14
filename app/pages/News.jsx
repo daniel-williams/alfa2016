@@ -1,9 +1,10 @@
 import React from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import {Grid, Row, Col} from 'react-bootstrap';
-
+import Helmet from 'react-helmet';
 
 import './News.less';
+
 
 export default React.createClass({
     mixins: [PureRenderMixin],
@@ -11,6 +12,13 @@ export default React.createClass({
     render: function() {
         return (
             <div id='classes'>
+              <Helmet
+                title='News for Anna Lancaster Fine Art'
+                meta={[{
+                  'name': 'description',
+                  'content': 'Browse news articles of Anna Lancaster, Tualatin Oregon artist and owner of Anna Lancaster Fine Art.'
+                }]}
+              />
               <Grid>
                 <Row>
                   <Col xs={12}>
