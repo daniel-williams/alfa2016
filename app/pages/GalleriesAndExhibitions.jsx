@@ -73,42 +73,177 @@ export default React.createClass({
 
               <div className='venue'>
                 <div className='title'>
-                  <div>Winter Art Show</div>
-                  <div>Marilyn Affolter Fine Art Gallery</div>
+                  <div>Plein Air Richmond 2016</div>
+                  <div>Brazier Studio and Gallery, Inc.</div>
                 </div>
                 <div className='hours'>
-                  <div>November 4 - December 19, 3:00 - 7:00 PM</div>
+                  <div>June 19 - 26, 2016</div>
+                  <div>Tuesday – Thursday by Appointment</div>
+                  <div>Friday 11:00 am - 5:00 pm</div>
+                  <div>Saturday 12:00 – 4:00 pm</div>
                 </div>
                 <div className='address'>
-                  <div>Marilyn Affolter Fine Art Gallery</div>
-                  <div>325 NE Evans</div>
-                  <div>McMinnville, Oregon 97128</div>
+                  <div>Brazier Studio and Gallery, Inc.</div>
+                  <div>1616 W Main St.</div>
+                  <div>Richmond, Virginia 23220</div>
+                  <div>Phone: (804) 358-2771</div>
+                  <div><a href='http://www.PleinAirRichmond.com' target='_blank'>www.PleinAirRichmond.com</a></div>
+                  <div><a href='https://www.facebook.com/PleinAirRichmond/' target='_blank'>Facebook Page & Event Info</a></div>
                 </div>
                 <div className='notes'>
-                  <div>This show features works from Anna Lancaster and other local artists including Marilyn Affolter, Dee Boyles, Jeanne Drevas, Deb Perry-Guetti, Lori Wallace-Lloyd, Mary Rash, Amy Brodie-Scout, Marj Engle, Andrew Lonnquist, Cheryl Hudson and Maida Cummings. Visit the gallery on the third Saturday of November, the 21st for their 2 year anniversary celebration.</div>
+                  <div>Anna Lancaster was accepted into her first out of state, juried plein air competition, Plein Air Richmond 2016. Join us Friday, June 24 for the Collector’s Preview with cocktails and the opportunity for patrons and collectors to meet the artists. On Saturday morning from 9:00  – 11:00 am the “Quick Draw AKA Fast and Fresh” will be held.</div>
                 </div>
               </div>
 
               <div className='venue'>
                 <div className='title'>
-                  <div>Big 500 Show &amp; Sale</div>
-                  <div>Peoples Art of Portland</div>
+                  <div>Lake Oswego Festival of the Arts Open Show</div>
+                  <div>Lakewood Center for the Arts</div>
                 </div>
                 <div className='hours'>
-                  <div>December 13, 2015 - January 11, 2016</div>
-                  <div>Thursday - Sunday, 12:00 - 6:00 pm</div>
+                  <div>June 24 - 26, 2016</div>
+                  <div>Friday – Saturday, 10:00 am – 9:00 pm</div>
+                  <div>Sunday 10:00 am – 5:00 pm</div>
                 </div>
                 <div className='address'>
-                  <div>Peoples Art Portland Gallery</div>
-                  <div>Pioneer Square Mall</div>
-                  <div>700 SW 5th Avenue</div>
-                  <div>Suite 4005 (3rd floor)</div>
-                  <div>Portland, Oregon 97204</div>
-                  <div><span className='inline-lbl'>Phone:</span>(503) 267-5993</div>
-                  <div><a href="https://www.facebook.com/events/665465280241506/?pnref=story" title="Visit the Facebook page for more Info" target="_blank">Facebook Page &amp; Event Info</a></div>
+                  <div>Lakewood Center for the Arts</div>
+                  <div>368 S. State Street</div>
+                  <div>Lake Oswego, Oregon 97034</div>
+                </div>
+              </div>
+
+              <div className='venue'>
+                <div className='title'>
+                  <div>Willamette Valley Lavender Plein Air Exhibition</div>
+                  <div>Brazier Studio and Gallery, Inc.</div>
+                </div>
+                <div className='hours'>
+                  <div>July 9 - 10, 2016</div>
+                  <div>Saturday 10:00 am – 6:00 pm</div>
+                  <div>Sunday 10:00 am – 5:00 pm</div>
+                </div>
+                <div className='address'>
+                  <div>Chehalem Cultural Center Ballroom</div>
+                  <div>415 Sheridan Street</div>
+                  <div>Newberg, Oregon 97132</div>
+                  <div><a href='https://www.facebook.com/WillametteValleyLavenderFestival/?fref=nf' target='_blank'>Facebook Page & Event Info</a></div>
+                </div>
+              </div>
+
+              <div className='venue'>
+                <div className='title'>
+                  <div>ArtSplash Show and Sale</div>
+                  <div>Tualatin Commons</div>
+                </div>
+                <div className='hours'>
+                  <div>July 22 - 24, 2016</div>
+                  <div>Friday 12:00 – 9:00 pm</div>
+                  <div>Saturday 11:00 am – 8:00 pm</div>
+                  <div>Sunday 11:00 am – 4:00 pm</div>
+                </div>
+                <div className='address'>
+                  <div>Tualatin Commons</div>
+                  <div>8325 SW Nyberg Street</div>
+                  <div>Tualatin, Oregon 97062</div>
+                </div>
+              </div>
+
+              <div className='venue'>
+                <div className='title'>
+                  <div>Umpqua Valley Plein Air</div>
+                  <div>Umpqua Valley Arts Association</div>
+                </div>
+                <div className='hours'>
+                  <div>September 17, 2016 – October 28, 2016</div>
+                  <div>Tuesday – Friday 10:00 am – 4:00 pm</div>
+                  <div>Saturday 10:00 am – 2:00 pm</div>
+                  <div>Closed Sunday, Monday & all Major Holidays</div>
+                </div>
+                <div className='address'>
+                  <div>Umpqua Valley Arts Association</div>
+                  <div>1624 West Harvard Avenue</div>
+                  <div>Roseburg, Oregon 97471</div>
+                  <div>Phone: (541) 672-2532</div>
+                  <div><a href='http://www.uvarts.com/umpqua-plein-air' target='_blank'>www.uvarts.com/umpqua-plein-air</a></div>
+                  <div><a href='https://www.facebook.com/search/219558844296/local_search?surface=tyah' target='_blank'>Facebook Page & Event Info</a></div>
                 </div>
                 <div className='notes'>
-                  <div>The Peoples Art of Portland annual major group show consists of over 600 regional artists ages 4 - 80 making original artworks on 8" x 8" wood panels, all sold for $40 each and part of the proceeds benefit Oregon Food Bank.</div>
+                  <div>Join Anna Lancaster for the Opening Reception September 17 from 1:00 – 3:00 pm.</div>
+                </div>
+              </div>
+
+              <div className='venue'>
+                <div className='title'>
+                  <div>Washington County Plein Air</div>
+                  <div>Sequoia Gallery Hillsboro</div>
+                </div>
+                <div className='hours'>
+                  <div>September 28, 2016 – October 2, 2016</div>
+                </div>
+                <div className='address'>
+                  <div>Exhibition Bag & Baggage Production</div>
+                  <div>4th and Main</div>
+                  <div>Downtown Hillsboro, Oregon</div>
+                  <div><a href='https://www.facebook.com/pleinairatwashingtoncounty/' target='_blank'>Facebook Page & Event Info</a></div>
+                </div>
+              </div>
+
+              <div className='venue'>
+                <div className='title'>
+                  <div>Portland Open Studios</div>
+                  <div>Anna Lancaster’s Home Studio Tualatin</div>
+                </div>
+                <div className='hours'>
+                  <div>October 10 – 11, 2016 and October 17 – 18, 2016</div>
+                  <div>Monday – Tuesday 10:00 am – 5:00 pm</div>
+                </div>
+                <div className='address'>
+                  <div>Anna Lancaster Fine Art – Home Studio</div>
+                  <div>Phone: (804) 358-2771</div>
+                  <div><a href='http://www.PortlandOpenStudios.com' target='_blank'>www.PortlandOpenStudios.com</a></div>
+                </div>
+                <div className='notes'>
+                  <div>The tour takes place throughout the Portland metro area in Clackamas County, Multnomah County, and Washington County. To find the artists, you will need a map – which is also your ticket. You can buy a ticket/tour guide that features both Eastside and Westside maps and neighborhood maps, along with artwork from the participating artists, the artists’ contact information, and the media(s) they work in for $15. Buy your <a href='http://portlandopenstudios.com/tourguide/#singleTG' target='_blank'>Map Here</a>. You can also buy a Mobile App with images from the participating artists, google map integration, the ability to plan which artists you will see and take notes about the artists you’ve visited and more. The Portland Open Studios App is $4.99, available for both iPhone and Android. Buy your Mobile <a href='http://portlandopenstudios.com/tourguide/#App' target='_blank'>App Here</a>.</div>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+              <div className='venue'>
+                <div className='title'>
+                  <div>Washington County Open Studios</div>
+                  <div>Anna Lancaster’s Home Studio Tualatin</div>
+                </div>
+                <div className='hours'>
+                  <div>October 15 – 16, 2016</div>
+                  <div>Saturday – Sunday 11:00 am – 5:00 pm</div>
+                </div>
+                <div className='address'>
+                  <div>Anna Lancaster Fine Art – Home Studio</div>
+                  <div>Tualatin, Oregon 97062</div>
+                  <div><a href='http://www.WashCoArt.org' target='_blank'>www.WashCoArt.org</a></div>
+                </div>
+              </div>
+
+              <div className='venue'>
+                <div className='title'>
+                  <div>Washington County Open Studios Sneak Preview Exhibit</div>
+                  <div>Beaverton City Hall</div>
+                </div>
+                <div className='hours'>
+                  <div>September - October, 2016</div>
+                  <div>Monday - Friday 8:00 am – 5:00 pm</div>
+                </div>
+                <div className='address'>
+                  <div>Beaverton City Hall</div>
+                  <div>12725 SW Millikan Way, 1st – 4th Floors</div>
+                  <div>Beaverton, Oregon</div>
+                  <div><a href='http://www.WashCoArt.org' target='_blank'>www.WashCoArt.org</a></div>
                 </div>
               </div>
 
