@@ -114,6 +114,22 @@ export default React.createClass({
 
               <div className='venue'>
                 <div className='title'>
+                  <div>Water Works Exhibition 2016</div>
+                  <div>Watertower Gallery</div>
+                </div>
+                <div className='hours'>
+                  <div>July 1 - 31, 2016</div>
+                </div>
+                <div className='address'>
+                  <div>45098 Main Street Watertower, Box 424</div>
+                  <div>Mendocino, California 94360</div>
+                  <div>Phone: (707) 937-5664</div>
+                  <div><a href='http://www.SuziLong.com' target='_blank'>www.SuziLong.com</a></div>
+                </div>
+              </div>
+
+              <div className='venue'>
+                <div className='title'>
                   <div>Willamette Valley Lavender Plein Air Exhibition</div>
                   <div>Brazier Studio and Gallery, Inc.</div>
                 </div>
