@@ -36,6 +36,17 @@ export default React.createClass({
       return (
         <div className='announcements'>
           <div className='mt'><h4>Announcements and Press</h4></div>
+
+          <div className='announcement'>
+            <span className='title'><a href='/content/pdf/willamette-lavender-festival-honorable-mention_07-01-2016.pdf' target='_blank'>Willamette Lavender Festival Honorable Mention</a></span>
+            <span className='date'>7/1/2016</span>
+          </div>
+
+          <div className='announcement'>
+            <span className='title'><a href='/content/pdf/facebook-interview-plein-air-richmond-va_06-22-2016.pdf' target='_blank'>Tabitha Frizzell Treloar of the Richmond SPCA Interview</a></span>
+            <span className='date'>6/22/2016</span>
+          </div>
+
           <div className='announcement'>
             <span className='title'><a href='/content/pdf/tualatin-art-splash-top-honors_07-29-2015.pdf' target='_blank'>Tualatin ArtSplash Top Honors</a></span>
             <span className='date'>7/29/2015</span>

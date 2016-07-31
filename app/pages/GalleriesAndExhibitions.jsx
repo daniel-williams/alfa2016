@@ -73,47 +73,6 @@ export default React.createClass({
 
               <div className='venue'>
                 <div className='title'>
-                  <div>Plein Air Richmond 2016</div>
-                  <div>Brazier Studio and Gallery, Inc.</div>
-                </div>
-                <div className='hours'>
-                  <div>June 19 - 26, 2016</div>
-                  <div>Tuesday – Thursday by Appointment</div>
-                  <div>Friday 11:00 am - 5:00 pm</div>
-                  <div>Saturday 12:00 – 4:00 pm</div>
-                </div>
-                <div className='address'>
-                  <div>Brazier Studio and Gallery, Inc.</div>
-                  <div>1616 W Main St.</div>
-                  <div>Richmond, Virginia 23220</div>
-                  <div>Phone: (804) 358-2771</div>
-                  <div><a href='http://www.PleinAirRichmond.com' target='_blank'>www.PleinAirRichmond.com</a></div>
-                  <div><a href='https://www.facebook.com/PleinAirRichmond/' target='_blank'>Facebook Page & Event Info</a></div>
-                </div>
-                <div className='notes'>
-                  <div>Anna Lancaster was accepted into her first out of state, juried plein air competition, Plein Air Richmond 2016. Join us Friday, June 24 for the Collector’s Preview with cocktails and the opportunity for patrons and collectors to meet the artists. On Saturday morning from 9:00  – 11:00 am the “Quick Draw AKA Fast and Fresh” will be held.</div>
-                </div>
-              </div>
-
-              <div className='venue'>
-                <div className='title'>
-                  <div>Lake Oswego Festival of the Arts Open Show</div>
-                  <div>Lakewood Center for the Arts</div>
-                </div>
-                <div className='hours'>
-                  <div>June 24 - 26, 2016</div>
-                  <div>Friday – Saturday, 10:00 am – 9:00 pm</div>
-                  <div>Sunday 10:00 am – 5:00 pm</div>
-                </div>
-                <div className='address'>
-                  <div>Lakewood Center for the Arts</div>
-                  <div>368 S. State Street</div>
-                  <div>Lake Oswego, Oregon 97034</div>
-                </div>
-              </div>
-
-              <div className='venue'>
-                <div className='title'>
                   <div>Water Works Exhibition 2016</div>
                   <div>Watertower Gallery</div>
                 </div>
