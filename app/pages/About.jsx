@@ -42,7 +42,7 @@ export default React.createClass({
                     <p>God's masterful creation astounds and inspires me. I count the attribute of creativity to be one of His many precious gifts to humanity. I am given fully in love and admiration to His gift of art. It compels me to creatively rejoice in the mystery and majesty of His design.</p>
                     <p>Whether I am indulging in the joyous color exlosion of my nature abstracts or tenderly rendering a precious moment of time in the classical style of the masters, I accept the challenge to capture the joy and magic of the beauty my eyes have witnessed and my heart longs to express. May you be inspired to create as well.</p>
                     <p className='mt-dbl'>Download <a href='/content/pdf/anna-lancaster-resume-2016.pdf' target='_blank'>Artist Statement &amp; Resume</a></p>
-                    <p className='mt-dbl'>Download <a href='/content/pdf/anna-lancaster-artist-bio-2016.pdf' target='_blank'>Artist Bio</a></p>
+                    <p className='mt'>Download <a href='/content/pdf/anna-lancaster-artist-bio-2016.pdf' target='_blank'>Artist Bio</a></p>
                   </Col>
                 </Row>
               </Grid>
