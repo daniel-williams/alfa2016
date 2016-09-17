@@ -73,58 +73,6 @@ export default React.createClass({
 
               <div className='venue'>
                 <div className='title'>
-                  <div>Water Works Exhibition 2016</div>
-                  <div>Watertower Gallery</div>
-                </div>
-                <div className='hours'>
-                  <div>July 1 - 31, 2016</div>
-                </div>
-                <div className='address'>
-                  <div>45098 Main Street Watertower, Box 424</div>
-                  <div>Mendocino, California 94360</div>
-                  <div>Phone: (707) 937-5664</div>
-                  <div><a href='http://www.SuziLong.com' target='_blank'>www.SuziLong.com</a></div>
-                </div>
-              </div>
-
-              <div className='venue'>
-                <div className='title'>
-                  <div>Willamette Valley Lavender Plein Air Exhibition</div>
-                  <div>Brazier Studio and Gallery, Inc.</div>
-                </div>
-                <div className='hours'>
-                  <div>July 9 - 10, 2016</div>
-                  <div>Saturday 10:00 am – 6:00 pm</div>
-                  <div>Sunday 10:00 am – 5:00 pm</div>
-                </div>
-                <div className='address'>
-                  <div>Chehalem Cultural Center Ballroom</div>
-                  <div>415 Sheridan Street</div>
-                  <div>Newberg, Oregon 97132</div>
-                  <div><a href='https://www.facebook.com/WillametteValleyLavenderFestival/?fref=nf' target='_blank'>Facebook Page & Event Info</a></div>
-                </div>
-              </div>
-
-              <div className='venue'>
-                <div className='title'>
-                  <div>ArtSplash Show and Sale</div>
-                  <div>Tualatin Commons</div>
-                </div>
-                <div className='hours'>
-                  <div>July 22 - 24, 2016</div>
-                  <div>Friday 12:00 – 9:00 pm</div>
-                  <div>Saturday 11:00 am – 8:00 pm</div>
-                  <div>Sunday 11:00 am – 4:00 pm</div>
-                </div>
-                <div className='address'>
-                  <div>Tualatin Commons</div>
-                  <div>8325 SW Nyberg Street</div>
-                  <div>Tualatin, Oregon 97062</div>
-                </div>
-              </div>
-
-              <div className='venue'>
-                <div className='title'>
                   <div>Umpqua Valley Plein Air</div>
                   <div>Umpqua Valley Arts Association</div>
                 </div>
