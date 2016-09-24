@@ -38,6 +38,11 @@ export default React.createClass({
           <div className='mt'><h4>Announcements and Press</h4></div>
 
           <div className='announcement'>
+            <span className='title'><a href='https://www.facebook.com/umpquapleinair/videos/1587118088258218/' target='_blank'>Umpqua Plein Air Festival, 1st Prize</a></span>
+            <span className='date'>9/17/2016</span>
+          </div>
+
+          <div className='announcement'>
             <span className='title'><a href='/content/pdf/willamette-lavender-festival-honorable-mention_07-01-2016.pdf' target='_blank'>Willamette Lavender Festival Honorable Mention</a></span>
             <span className='date'>7/1/2016</span>
           </div>
