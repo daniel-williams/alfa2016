@@ -73,102 +73,23 @@ export default React.createClass({
 
               <div className='venue'>
                 <div className='title'>
-                  <div>Umpqua Valley Plein Air</div>
-                  <div>Umpqua Valley Arts Association</div>
+                  <div>March Featured Artist</div>
+                  <div>Affolter Gallery, McMinnville</div>
                 </div>
                 <div className='hours'>
-                  <div>September 17, 2016 – October 28, 2016</div>
-                  <div>Tuesday – Friday 10:00 am – 4:00 pm</div>
-                  <div>Saturday 10:00 am – 2:00 pm</div>
-                  <div>Closed Sunday, Monday & all Major Holidays</div>
+                  <div>March 1, 2017 – March 31, 2017</div>
+                  <div>Wednesday - Saturday 11:00 am – 4:00 pm</div>
+                  <div>Or visit by appointment</div>
                 </div>
                 <div className='address'>
-                  <div>Umpqua Valley Arts Association</div>
-                  <div>1624 West Harvard Avenue</div>
-                  <div>Roseburg, Oregon 97471</div>
-                  <div>Phone: (541) 672-2532</div>
-                  <div><a href='http://www.uvarts.com/umpqua-plein-air' target='_blank'>www.uvarts.com/umpqua-plein-air</a></div>
-                  <div><a href='https://www.facebook.com/search/219558844296/local_search?surface=tyah' target='_blank'>Facebook Page & Event Info</a></div>
-                </div>
-                <div className='notes'>
-                  <div>Join Anna Lancaster for the Opening Reception September 17 from 1:00 – 3:00 pm.</div>
+                  <div>Marilyn Affolter Fine Art Studio &amp; Gallery</div>
+                  <div>325 Evans</div>
+                  <div>McMinnville, Oregon</div>
+                  <div>Phone: (503) 835-1610</div>
+                  <div><a href='https://marilynaffolter.com' target='_blank'>https://marilynaffolter.com</a></div>
                 </div>
               </div>
 
-              <div className='venue'>
-                <div className='title'>
-                  <div>Washington County Plein Air</div>
-                  <div>Sequoia Gallery Hillsboro</div>
-                </div>
-                <div className='hours'>
-                  <div>September 28, 2016 – October 2, 2016</div>
-                </div>
-                <div className='address'>
-                  <div>Exhibition Bag & Baggage Production</div>
-                  <div>4th and Main</div>
-                  <div>Downtown Hillsboro, Oregon</div>
-                  <div><a href='https://www.facebook.com/pleinairatwashingtoncounty/' target='_blank'>Facebook Page & Event Info</a></div>
-                </div>
-              </div>
-
-              <div className='venue'>
-                <div className='title'>
-                  <div>Portland Open Studios</div>
-                  <div>Anna Lancaster’s Home Studio Tualatin</div>
-                </div>
-                <div className='hours'>
-                  <div>October 10 – 11, 2016 and October 17 – 18, 2016</div>
-                  <div>Monday – Tuesday 10:00 am – 5:00 pm</div>
-                </div>
-                <div className='address'>
-                  <div>Anna Lancaster Fine Art – Home Studio</div>
-                  <div>Phone: (804) 358-2771</div>
-                  <div><a href='http://www.PortlandOpenStudios.com' target='_blank'>www.PortlandOpenStudios.com</a></div>
-                </div>
-                <div className='notes'>
-                  <div>The tour takes place throughout the Portland metro area in Clackamas County, Multnomah County, and Washington County. To find the artists, you will need a map – which is also your ticket. You can buy a ticket/tour guide that features both Eastside and Westside maps and neighborhood maps, along with artwork from the participating artists, the artists’ contact information, and the media(s) they work in for $15. Buy your <a href='http://portlandopenstudios.com/tourguide/#singleTG' target='_blank'>Map Here</a>. You can also buy a Mobile App with images from the participating artists, google map integration, the ability to plan which artists you will see and take notes about the artists you’ve visited and more. The Portland Open Studios App is $4.99, available for both iPhone and Android. Buy your Mobile <a href='http://portlandopenstudios.com/tourguide/#App' target='_blank'>App Here</a>.</div>
-                </div>
-              </div>
-
-
-
-
-
-
-
-
-              <div className='venue'>
-                <div className='title'>
-                  <div>Washington County Open Studios</div>
-                  <div>Anna Lancaster’s Home Studio Tualatin</div>
-                </div>
-                <div className='hours'>
-                  <div>October 15 – 16, 2016</div>
-                  <div>Saturday – Sunday 11:00 am – 5:00 pm</div>
-                </div>
-                <div className='address'>
-                  <div>Anna Lancaster Fine Art – Home Studio</div>
-                  <div>Tualatin, Oregon 97062</div>
-                  <div><a href='http://www.WashCoArt.org' target='_blank'>www.WashCoArt.org</a></div>
-                </div>
-              </div>
-
-              <div className='venue'>
-                <div className='title'>
-                  <div>Washington County Open Studios Sneak Preview Exhibit</div>
-                  <div>Beaverton City Hall</div>
-                </div>
-                <div className='hours'>
-                  <div>September - October, 2016</div>
-                  <div>Monday - Friday 8:00 am – 5:00 pm</div>
-                </div>
-                <div className='address'>
-                  <div>Beaverton City Hall</div>
-                  <div>12725 SW Millikan Way, 1st – 4th Floors</div>
-                  <div>Beaverton, Oregon</div>
-                  <div><a href='http://www.WashCoArt.org' target='_blank'>www.WashCoArt.org</a></div>
-                </div>
-              </div>
 
             </Col>
           </Row>

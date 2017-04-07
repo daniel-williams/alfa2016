@@ -38,6 +38,11 @@ export default React.createClass({
           <div className='mt'><h4>Announcements and Press</h4></div>
 
           <div className='announcement'>
+            <span className='title'><a href='/content/pdf/march-2017-featured-artist-affolter-gallery.pdf' target='_blank'>March 2017 Featured Artist, Affolter Gallery</a></span>
+            <span className='date'>3/1/2017</span>
+          </div>
+
+          <div className='announcement'>
             <span className='title'><a href='/content/pdf/2016-a-year-of-awards_10-09-2016.pdf' target='_blank'>2016: A Year of Awards</a></span>
             <span className='date'>10/9/2016</span>
           </div>

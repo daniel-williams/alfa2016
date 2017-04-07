@@ -1,0 +1,7196 @@
+{
+  "feature": {
+    "isBlogPost": true,
+    "summary": "Anna Lancaster’s plein air painting “Swan Island Dahlia Gardens” was accepted into the Laguna Plein Air Painter Association Best of Plein Air 2016 Online Show Case; Expanded Online Gallery of this year’s LPAPA’a Best of Plein Air Exhibition.",
+    "title": "Laguna Plein Air Painters Association"
+  },
+  "galleries": [
+    {
+      "id": 1,
+      "name": "Contemporary",
+      "order": "1",
+      "slug": "contemporary",
+      "thumb": "g_co.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Portraits &amp; Figures",
+      "order": "2",
+      "slug": "portraits-and-figures",
+      "thumb": "g_p.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Traditional",
+      "order": "3",
+      "slug": "traditional",
+      "thumb": "g_tr.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Plein Air",
+      "order": "4",
+      "slug": "plein-air",
+      "thumb": "g_pa.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Archive",
+      "order": "5",
+      "slug": "archive",
+      "thumb": "g_a.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Stills from Life",
+      "order": "6",
+      "slug": "stills-from-life",
+      "thumb": "g_sfl.jpg"
+    }
+  ],
+  "show": {
+    "items": [
+      {
+        "id": "slide01",
+        "src": "01.jpg",
+        "title": "slide01"
+      },
+      {
+        "id": "slide02",
+        "src": "02.jpg",
+        "title": "slide02"
+      },
+      {
+        "id": "slide03",
+        "src": "03.jpg",
+        "title": "slide03"
+      },
+      {
+        "id": "slide04",
+        "src": "04.jpg",
+        "title": "slide04"
+      },
+      {
+        "id": "slide05",
+        "src": "05.jpg",
+        "title": "slide05"
+      },
+      {
+        "id": "slide06",
+        "src": "06.jpg",
+        "title": "slide06"
+      }
+    ],
+    "pauseTime": 10000,
+    "showControls": true,
+    "transitionTime": 1000
+  },
+  "art": [
+    {
+      "created": "1909-01-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "RedSkyInTheMorning.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 11,
+      "id": 1,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 195,
+      "slug": "red-sky-in-the-morning",
+      "title": "Red Sky in the Morning",
+      "width": 14
+    },
+    {
+      "created": "1912-01-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "PatchworkImaginations.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 11,
+      "id": 2,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "patchwork-imaginations",
+      "title": "Patchwork Imaginations",
+      "width": 14
+    },
+    {
+      "created": "1912-02-01T08:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "MossyCavern.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 10,
+      "id": 3,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "mossy-cavern",
+      "title": "Mossy Cavern",
+      "width": 16
+    },
+    {
+      "created": "1912-03-01T08:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "LittleMessagesOfLight.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 11,
+      "id": 4,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "little-messages-of-light",
+      "title": "Little Messages of Light",
+      "width": 14
+    },
+    {
+      "created": "1912-04-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "ShimmerBlossom.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 11,
+      "id": 5,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "shimmer-blossom",
+      "title": "Shimmer Blossom",
+      "width": 14
+    },
+    {
+      "created": "1912-05-01T07:00:00.000Z",
+      "description": "Acrylic on Canvas",
+      "filename": "tlc.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 18,
+      "id": 6,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Acrylic",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "tlc",
+      "title": "TLC",
+      "width": 24
+    },
+    {
+      "created": "1913-02-01T08:00:00.000Z",
+      "description": "Oil on Linen Panel",
+      "filename": "TexturePlates.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 11,
+      "id": 7,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "texture-plates",
+      "title": "Texture Plates",
+      "width": 14
+    },
+    {
+      "created": "1913-02-01T08:00:00.000Z",
+      "description": "Oil on Linen Panel",
+      "filename": "TexturePuzzlePieces.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 11,
+      "id": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "texture-puzzle-pieces",
+      "title": "Texture Puzzle Pieces",
+      "width": 14
+    },
+    {
+      "created": "1913-02-01T08:00:00.000Z",
+      "description": "Oil on Linen Panel",
+      "filename": "TextureShapes.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 11,
+      "id": 9,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "texture-shapes",
+      "title": "Texture Shapes",
+      "width": 14
+    },
+    {
+      "created": "1913-04-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "TheCrossEmerging.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 12,
+      "id": 10,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "the-cross-emerging",
+      "title": "The Cross Emerging",
+      "width": 19
+    },
+    {
+      "created": "1940-01-01T08:00:00.000Z",
+      "description": "Venture into Abstract Contemporary",
+      "filename": "VentureIntoAbstract.jpg",
+      "galleries": [
+        "contemporary"
+      ],
+      "height": 10,
+      "id": 11,
+      "isActive": false,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Abstract",
+      "orientation": [
+        "horizontal",
+        "vertical"
+      ],
+      "slug": "venture-into-abstract",
+      "title": "Venture Into Abstract",
+      "width": 10
+    },
+    {
+      "created": "1994-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "AppleOfHisFathersEyes.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 24,
+      "id": 12,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "apple-of-his-father-s-eyes",
+      "title": "Apple of His Father's Eyes",
+      "width": 34
+    },
+    {
+      "created": "1995-11-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "Jovanna.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 24,
+      "id": 13,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "jovanna",
+      "title": "Jovanna",
+      "width": 20
+    },
+    {
+      "created": "1995-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "FoundFaithful.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 40,
+      "id": 14,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 1800,
+      "slug": "found-faithful-sheena-and-katrina",
+      "title": "Found Faithful - Sheena and Katrina",
+      "width": 30
+    },
+    {
+      "created": "1996-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "StayAwhile.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 36,
+      "id": 15,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "stay-awhile",
+      "title": "Stay Awhile",
+      "width": 34
+    },
+    {
+      "created": "1997-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "TheColorOfWinterMinisink.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 18,
+      "id": 16,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 950,
+      "slug": "the-color-of-winter-minisink",
+      "title": "The Color of Winter Minisink",
+      "width": 24
+    },
+    {
+      "created": "1999-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "ThereforeBeAnImitatorOfGod.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 24,
+      "id": 17,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "therefore-be-an-imitator-of-god",
+      "title": "Therefore Be an Imitator of God",
+      "width": 20
+    },
+    {
+      "created": "2000-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "HisFathersPromise.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 30,
+      "id": 18,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "his-father-s-promise",
+      "title": "His Father's Promise",
+      "width": 20
+    },
+    {
+      "created": "2002-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "LessonsByScriptureLight.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 34,
+      "id": 19,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 1800,
+      "slug": "lessons-by-scripture-light",
+      "title": "Lessons by Scripture Light",
+      "width": 46
+    },
+    {
+      "created": "2003-10-01T07:00:00.000Z",
+      "description": "Tempera and Watercolor on Watercolor Paper",
+      "filename": "HedgedInBehindAndBefore.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 18,
+      "id": 20,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "hedged-in-behind-and-before",
+      "title": "Hedged in Behind and Before",
+      "width": 12
+    },
+    {
+      "created": "2003-10-01T07:00:00.000Z",
+      "description": "Tempera and Watercolor on Watercolor Paper",
+      "filename": "HisEyeIsOnTheSparrow.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 12,
+      "id": 21,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "his-eye-is-on-the-sparrow",
+      "title": "His Eye is on the Sparrow",
+      "width": 18
+    },
+    {
+      "created": "2003-11-01T07:00:00.000Z",
+      "description": "Tempera and Watercolor on Watercolor Paper.",
+      "filename": "ShelterForAFragileFlower.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 18,
+      "id": 22,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "shelter-for-a-fragile-flower",
+      "title": "Shelter for a Fragile Flower",
+      "width": 12
+    },
+    {
+      "created": "2003-11-01T07:00:00.000Z",
+      "description": "Tempera and Watercolor on Watercolor Paper.",
+      "filename": "WhichSideOfTheFence.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 12,
+      "id": 23,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "which-side-of-the-fence",
+      "title": "Which Side of the Fence",
+      "width": 18
+    },
+    {
+      "created": "2003-12-01T08:00:00.000Z",
+      "description": "Tempera and Watercolor on Watercolor Paper",
+      "filename": "BeautyStillGrows.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 16,
+      "id": 24,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "still life",
+        "florals"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "beauty-still-grows-in-this-old-clay-pot",
+      "title": "Beauty Still Grows in this Old Clay Pot",
+      "width": 12
+    },
+    {
+      "created": "2003-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "ConcertOfBrothers.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 34,
+      "id": 25,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 2100,
+      "slug": "concert-of-brother-s",
+      "title": "Concert of Brother's",
+      "width": 46
+    },
+    {
+      "created": "2003-12-01T08:00:00.000Z",
+      "description": "Tempera and Watercolor on Watercolor Paper",
+      "filename": "EveningKissedRose.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 18,
+      "id": 26,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "evening-kissed-rose",
+      "title": "Evening Kissed Rose",
+      "width": 12
+    },
+    {
+      "created": "2003-12-01T08:00:00.000Z",
+      "description": "Tempera and Watercolor on Watercolor Paper",
+      "filename": "FellowshipOfGoodFriends.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 18,
+      "id": 27,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "still life",
+        "florals"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "fellowship-of-good-friends",
+      "title": "Fellowship of Good Friends",
+      "width": 12
+    },
+    {
+      "created": "2003-12-01T08:00:00.000Z",
+      "description": "Tempera and Watercolor on Watercolor Paper",
+      "filename": "FlashyLadySlipper.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 18,
+      "id": 28,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "flashy-lady-slipper",
+      "title": "Flashy Lady Slipper",
+      "width": 12
+    },
+    {
+      "created": "2003-12-01T08:00:00.000Z",
+      "description": "Tempera and Watercolor on Watercolor Paper",
+      "filename": "Garments.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 18,
+      "id": 29,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "garments",
+      "title": "Garments",
+      "width": 12
+    },
+    {
+      "created": "2003-12-01T08:00:00.000Z",
+      "description": "Tempera and Watercolor on Watercolor Paper",
+      "filename": "RoseOfSharon.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 18,
+      "id": 30,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "rose-of-sharon",
+      "title": "Rose of Sharon",
+      "width": 12
+    },
+    {
+      "created": "2003-12-01T08:00:00.000Z",
+      "description": "Tempera and Watercolor on Watercolor Paper.",
+      "filename": "StrengthOnThePeacefulShore.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 12,
+      "id": 31,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "strength-on-the-peaceful-shore",
+      "title": "Strength on the Peaceful Shore",
+      "width": 18
+    },
+    {
+      "created": "2003-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "TheBathingYaquina.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 24,
+      "id": 32,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "the-bathing-yaquina-head",
+      "title": "The Bathing Yaquina Head",
+      "width": 30
+    },
+    {
+      "created": "2003-12-01T08:00:00.000Z",
+      "description": "Tempera and Watercolor on Watercolor Paper.",
+      "filename": "TravelWhileThePathIsLight.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 18,
+      "id": 33,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "travel-while-the-path-is-light",
+      "title": "Travel While the Path is Light",
+      "width": 12
+    },
+    {
+      "created": "2004-12-01T08:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "AlayneJoyous.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 20,
+      "id": 34,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "alayne-joyous",
+      "title": "Alayne Joyous",
+      "width": 16
+    },
+    {
+      "created": "2004-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "AsTheDeerPantsForWater.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 25,
+      "id": 35,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 1400,
+      "slug": "as-the-deer-pants-for-water",
+      "title": "As the Deer Pants for Water",
+      "width": 32
+    },
+    {
+      "created": "2004-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "EveningWatch.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 12,
+      "id": 36,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "evening-watch",
+      "title": "Evening Watch",
+      "width": 24
+    },
+    {
+      "created": "2004-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "QuietMemory.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 34,
+      "id": 37,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "quiet-memory",
+      "title": "Quiet Memory",
+      "width": 24
+    },
+    {
+      "created": "2004-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "WaitingForMyFriends.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 34,
+      "id": 38,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "waiting-for-my-friends",
+      "title": "Waiting for My Friends",
+      "width": 24
+    },
+    {
+      "created": "2005-11-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "DanceOnTheBeach.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 34,
+      "id": 39,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 1800,
+      "slug": "dance-on-the-beach",
+      "title": "Dance on the Beach",
+      "width": 46
+    },
+    {
+      "created": "2005-11-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "MenuchaPilgrimsPath.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 24,
+      "id": 40,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 950,
+      "slug": "menucha-pilgrim-s-path",
+      "title": "Menucha Pilgrim's Path",
+      "width": 18
+    },
+    {
+      "created": "2005-12-01T08:00:00.000Z",
+      "description": "En Plein Air, Oil on Linen",
+      "filename": "CrownJewel.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 16,
+      "id": 41,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "crown-jewel-corbit-or",
+      "title": "Crown Jewel, Corbit OR",
+      "width": 20
+    },
+    {
+      "created": "2005-12-01T08:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "FortressOfRoses.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 14,
+      "id": 42,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 325,
+      "slug": "fortress-of-roses",
+      "title": "Fortress of Roses",
+      "width": 11
+    },
+    {
+      "created": "2005-12-01T08:00:00.000Z",
+      "description": "En Plein Air, Oil on Linen",
+      "filename": "HiddenGardenAtFannoCreek.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 43,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "hidden-garden-at-fanno-creek-or",
+      "title": "Hidden Garden at Fanno Creek, OR",
+      "width": 14
+    },
+    {
+      "created": "2005-12-01T08:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "PrincessTerriAndStinger.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 24,
+      "id": 44,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "princess-terri-and-stinger",
+      "title": "Princess Terri and Stinger",
+      "width": 20
+    },
+    {
+      "created": "2005-12-01T08:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "QueenKristenAndBig.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 24,
+      "id": 45,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "queen-kristen-and-big",
+      "title": "Queen Kristen and Big",
+      "width": 20
+    },
+    {
+      "created": "2005-12-01T08:00:00.000Z",
+      "description": "Oil Pastel and Oil Wash on Watercolor Paper.",
+      "filename": "QuietRosesBeforeTheStorm.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 14,
+      "id": 46,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "quiet-roses-before-the-storm",
+      "title": "Quiet Roses Before the Storm",
+      "width": 11
+    },
+    {
+      "created": "2005-12-01T08:00:00.000Z",
+      "description": "Available as Giclee' from Original Oil 'Found Faithful'",
+      "filename": "SharrahsPatchworkOfDreams.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 14,
+      "id": 47,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Photoshop",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "sharrah-s-patchwork-of-dreams",
+      "title": "Sharrah's Patchwork of Dreams",
+      "width": 11
+    },
+    {
+      "created": "2005-12-01T08:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "YoungWatchmenOfTheColumbiaRiverGorge.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 16,
+      "id": 48,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "young-watchmen-of-the-columbia-river-gorge",
+      "title": "Young Watchmen of the Columbia River Gorge",
+      "width": 20
+    },
+    {
+      "created": "2006-11-01T07:00:00.000Z",
+      "description": "Pastel and Watercolor on Watercolor Paper",
+      "filename": "FunkyBluesFuchsia.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 18,
+      "id": 49,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "funky-blues-fuchsia",
+      "title": "Funky Blues Fuchsia",
+      "width": 12
+    },
+    {
+      "created": "2006-12-01T08:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "Rosalie.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 20,
+      "id": 50,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "rosalie",
+      "title": "Rosalie",
+      "width": 16
+    },
+    {
+      "created": "2006-12-01T08:00:00.000Z",
+      "description": "Pastel and Watercolor on Watercolor Paper.",
+      "filename": "RoyalMajestic.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 24,
+      "id": 51,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "royal-majestic",
+      "title": "Royal Majestic",
+      "width": 28
+    },
+    {
+      "created": "2006-12-01T08:00:00.000Z",
+      "description": "Pastel and Watercolor on Watercolor Paper.",
+      "filename": "SherbetMountain.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 18,
+      "id": 52,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "sherbet-mountain",
+      "title": "Sherbet Mountain",
+      "width": 24
+    },
+    {
+      "created": "2006-12-01T08:00:00.000Z",
+      "description": "Oil on Museum Board",
+      "filename": "SimplyClassical.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 10,
+      "id": 53,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 195,
+      "slug": "simply-classical",
+      "title": "Simply Classical",
+      "width": 8
+    },
+    {
+      "created": "2006-12-01T08:00:00.000Z",
+      "description": "Pastel and Watercolor on Watercolor Paper.",
+      "filename": "SomewhereBeyondTheWesternSky.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 24,
+      "id": 54,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "somewhere-beyond-the-western-sky",
+      "title": "Somewhere Beyond the Western Sky",
+      "width": 30
+    },
+    {
+      "created": "2006-12-01T08:00:00.000Z",
+      "description": "Pastel and Watercolor on Watercolor Paper.",
+      "filename": "SpringsFirstMorningGloria.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 24,
+      "id": 55,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "springs-first-morning-gloria",
+      "title": "Springs First Morning Gloria",
+      "width": 18
+    },
+    {
+      "created": "2006-12-01T08:00:00.000Z",
+      "description": "Available as Giclee' from Original Oil 'Apple of His Fathers Eyes'",
+      "filename": "SunnySweet.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 10,
+      "id": 56,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Photoshop",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "sunny-sweet",
+      "title": "Sunny Sweet",
+      "width": 8
+    },
+    {
+      "created": "2007-10-01T07:00:00.000Z",
+      "description": "Pastel and Watercolor on Watercolor Paper",
+      "filename": "HighDesertFireClearing.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 24,
+      "id": 57,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "high-desert-fire-clearing",
+      "title": "High Desert Fire Clearing",
+      "width": 18
+    },
+    {
+      "created": "2007-10-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "WeCanStay.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 11,
+      "id": 58,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "we-can-stay-till-the-last-drop-of-water-is-under-the-bridge",
+      "title": "We Can Stay, 'Till the Last Drop of Water is Under the Bridge",
+      "width": 14
+    },
+    {
+      "created": "2007-11-01T07:00:00.000Z",
+      "description": "Pastel and Watercolor on Watercolor Paper.",
+      "filename": "RubiesOfSpring.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 24,
+      "id": 59,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "rubies-of-spring",
+      "title": "Rubies of Spring",
+      "width": 18
+    },
+    {
+      "created": "2007-11-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "Transcending.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 18,
+      "id": 60,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 950,
+      "slug": "transcending",
+      "title": "Transcending",
+      "width": 24
+    },
+    {
+      "created": "2007-11-01T07:00:00.000Z",
+      "description": "Pastel and Watercolor on Watercolor Paper.",
+      "filename": "WintersAdvance.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 16,
+      "id": 61,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "winters-advance",
+      "title": "Winters Advance",
+      "width": 12
+    },
+    {
+      "created": "2007-12-01T08:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "ChildrenAreABlessedHeritage.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 24,
+      "id": 62,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "children-are-a-blessed-heritage-unto-the-lord",
+      "title": "Children are a Blessed Heritage unto the Lord",
+      "width": 30
+    },
+    {
+      "created": "2007-12-01T08:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "HighWaterAtBeavercreek.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 20,
+      "id": 63,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 750,
+      "slug": "high-water-at-beavercreek",
+      "title": "High Water at Beavercreek",
+      "width": 16
+    },
+    {
+      "created": "2007-12-01T08:00:00.000Z",
+      "description": "Pastel and Watercolor on Watercolor Paper",
+      "filename": "IrisWhisperingSecrets.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 30,
+      "id": 64,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "iris-whispering-secrets",
+      "title": "Iris Whispering Secrets",
+      "width": 24
+    },
+    {
+      "created": "2007-12-01T08:00:00.000Z",
+      "description": "Original Oil on Linen",
+      "filename": "Preponderance.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 24,
+      "id": 65,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 1400,
+      "slug": "preponderance",
+      "title": "Preponderance",
+      "width": 36
+    },
+    {
+      "created": "2007-12-01T08:00:00.000Z",
+      "description": "Original Oil on Canvas",
+      "filename": "ReachForTheSun.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 16,
+      "id": 66,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 725,
+      "slug": "reach-for-the-sun",
+      "title": "Reach for the Sun",
+      "width": 20
+    },
+    {
+      "created": "2007-12-01T08:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "ShimmerMountain.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 20,
+      "id": 67,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "shimmer-mountain",
+      "title": "Shimmer Mountain",
+      "width": 16
+    },
+    {
+      "created": "2007-12-01T08:00:00.000Z",
+      "description": "Pastel and Watercolor on Watercolor Paper.",
+      "filename": "SunlitStorm.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 24,
+      "id": 68,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "sunlit-storm",
+      "title": "Sunlit Storm",
+      "width": 18
+    },
+    {
+      "created": "2008-10-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "IrenicSanctuary.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 24,
+      "id": 69,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 1400,
+      "slug": "irenic-sanctuary",
+      "title": "Irenic Sanctuary",
+      "width": 36
+    },
+    {
+      "created": "2008-11-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "IrisFamilyPortrait.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 12,
+      "id": 70,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "iris-family-portrait",
+      "title": "Iris Family Portrait",
+      "width": 9
+    },
+    {
+      "created": "2008-11-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "SuddenArrival.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 24,
+      "id": 71,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 1400,
+      "slug": "sudden-arrival",
+      "title": "Sudden Arrival",
+      "width": 36
+    },
+    {
+      "created": "2008-12-01T08:00:00.000Z",
+      "description": "Original Oil on Linen",
+      "filename": "AdorningMyNeighborsSteps.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 11,
+      "id": 72,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "still life",
+        "florals"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 2000,
+      "slug": "adorning-my-neighbors-steps",
+      "title": "Adorning My Neighbors Steps",
+      "width": 14
+    },
+    {
+      "created": "2008-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "AfternoonSheSlumbers.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 16,
+      "id": 73,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 550,
+      "slug": "afternoon-she-slumbers",
+      "title": "Afternoon She Slumbers",
+      "width": 20
+    },
+    {
+      "created": "2008-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "FireSkyAtFogerty.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 16,
+      "id": 74,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "fire-sky-at-fogerty",
+      "title": "Fire Sky at Fogerty",
+      "width": 20
+    },
+    {
+      "created": "2008-12-01T08:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "ImpetuousSpirit.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 24,
+      "id": 75,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 950,
+      "slug": "impetuous-spirit-mount-st-helens",
+      "title": "Impetuous Spirit - Mount St. Helens",
+      "width": 18
+    },
+    {
+      "created": "2008-12-01T08:00:00.000Z",
+      "description": "Original Oil on Canvas",
+      "filename": "MixItUp.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 20,
+      "id": 76,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "mix-it-up",
+      "title": "Mix It Up",
+      "width": 16
+    },
+    {
+      "created": "2008-12-01T08:00:00.000Z",
+      "description": "Mixed Media on Watercolor Paper.",
+      "filename": "SunCypressAndSurf.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 24,
+      "id": 77,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "sun-cypress-and-surf",
+      "title": "Sun, Cypress and Surf",
+      "width": 30
+    },
+    {
+      "created": "2008-12-01T08:00:00.000Z",
+      "description": "Mixed Media on Watercolor Paper",
+      "filename": "WarmGathering.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 30,
+      "id": 78,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "still life",
+        "florals"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "warm-gathering",
+      "title": "Warm Gathering",
+      "width": 24
+    },
+    {
+      "created": "2008-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "WhenIrisAndRosesCameToLunch.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "height": 20,
+      "id": 79,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 625,
+      "slug": "when-iris-and-rose-came-to-lunch",
+      "title": "When Iris and Rose Came to Lunch",
+      "width": 16
+    },
+    {
+      "created": "2009-09-01T07:00:00.000Z",
+      "description": "Oil on 300 lb. Gessoed Watercolor Paper Mounted on Wood Panel",
+      "filename": "PoconoMountain.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 14,
+      "id": 80,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "pocono-mountain-floral-gathering",
+      "title": "Pocono Mountain Floral Gathering",
+      "width": 20
+    },
+    {
+      "created": "2009-10-01T07:00:00.000Z",
+      "description": "Pallet Knife Oil on Canvas",
+      "filename": "ColorBurst.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 20,
+      "id": 81,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 550,
+      "slug": "color-burst",
+      "title": "Color Burst",
+      "width": 16
+    },
+    {
+      "created": "2009-10-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "EveningKissedSweet.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 24,
+      "id": 82,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "still life"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "evening-kissed-sweet",
+      "title": "Evening Kissed Sweet",
+      "width": 30
+    },
+    {
+      "created": "2009-10-01T07:00:00.000Z",
+      "description": "Oil on Gessoed Watercolor Paper",
+      "filename": "PuppyHotelGardens.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 9,
+      "id": 83,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "florals",
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "puppy-hotel-gardens",
+      "title": "Puppy Hotel Gardens",
+      "width": 12
+    },
+    {
+      "created": "2009-11-01T07:00:00.000Z",
+      "description": "Oil on Art Board",
+      "filename": "GoldenHood.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 18,
+      "id": 84,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 550,
+      "slug": "golden-hood",
+      "title": "Golden Hood",
+      "width": 24
+    },
+    {
+      "created": "2009-11-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "SerenadeAFutureDance.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 30,
+      "id": 85,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 1800,
+      "slug": "serenade-a-future-dance",
+      "title": "Serenade a Future Dance",
+      "width": 40
+    },
+    {
+      "created": "2009-11-01T07:00:00.000Z",
+      "description": "Oil on Wood Panel",
+      "filename": "SunflowersForBreakfast.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 11,
+      "id": 86,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "still life"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 350,
+      "slug": "sunflowers-for-breakfast",
+      "title": "Sunflowers for Breakfast",
+      "width": 14
+    },
+    {
+      "created": "2009-11-01T07:00:00.000Z",
+      "description": "Oil on Wood Panel",
+      "filename": "ThePrettyClub.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 14,
+      "id": 87,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "the-pretty-club",
+      "title": "The Pretty Club",
+      "width": 11
+    },
+    {
+      "created": "2009-12-01T08:00:00.000Z",
+      "description": "Mixed Media on Watercolor Paper",
+      "filename": "BurstBeyondBorders.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 12,
+      "id": 88,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 175,
+      "slug": "burst-beyond-borders",
+      "title": "Burst Beyond Borders",
+      "width": 9
+    },
+    {
+      "created": "2009-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "MagnoliaChoir.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 10,
+      "id": 89,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "magnolia-choir",
+      "title": "Magnolia Choir",
+      "width": 8
+    },
+    {
+      "created": "2009-12-01T08:00:00.000Z",
+      "description": "Oil on Wood Panel",
+      "filename": "MeetYouAtTheTeapot.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 11,
+      "id": 90,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "still life"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 350,
+      "slug": "meet-you-at-the-teapot",
+      "title": "Meet you at the Teapot",
+      "width": 14
+    },
+    {
+      "created": "2009-12-01T08:00:00.000Z",
+      "description": "Oil on Gessoed Watercolor Paper",
+      "filename": "MichaelsEternalSpring.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 18,
+      "id": 91,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "michael-s-eternal-spring",
+      "title": "Michael's Eternal Spring",
+      "width": 12
+    },
+    {
+      "created": "2009-12-01T08:00:00.000Z",
+      "description": "Mixed Media on Art Board",
+      "filename": "RetreatBehindTheMountain.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 30,
+      "id": 92,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "retreat-behind-the-mountain",
+      "title": "Retreat Behind the Mountain",
+      "width": 23
+    },
+    {
+      "created": "2009-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "RiseAmongUs.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 24,
+      "id": 93,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "rise-among-us",
+      "title": "Rise Among Us",
+      "width": 36
+    },
+    {
+      "created": "2009-12-01T08:00:00.000Z",
+      "description": "Oil on Linen - Commission for Sheila B.",
+      "filename": "TheWedding.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 24,
+      "id": 94,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "the-wedding",
+      "title": "The Wedding",
+      "width": 30
+    },
+    {
+      "created": "2009-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "UnderTheGazeOfChristmasCactus.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 20,
+      "id": 95,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "still life"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 550,
+      "slug": "under-the-gaze-of-christmas-cactus",
+      "title": "Under the Gaze of Christmas Cactus",
+      "width": 16
+    },
+    {
+      "created": "2009-12-01T08:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "WhenSearchingForMyOrdinaryWorld.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 30,
+      "id": 96,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 1100,
+      "slug": "when-searching-for-my-ordinary-world-help-me-remember-you",
+      "title": "When Searching for My Ordinary World, Help Me Remember You",
+      "width": 24
+    },
+    {
+      "created": "2010-09-01T07:00:00.000Z",
+      "description": "Oil Impasto on 300 lb. Watercolor Paper mounted on Art Panel",
+      "filename": "WarmGatheringForTea.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 30,
+      "id": 97,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 950,
+      "slug": "warm-gathering-for-tea",
+      "title": "Warm Gathering for Tea",
+      "width": 24
+    },
+    {
+      "created": "2010-10-01T07:00:00.000Z",
+      "description": "Oil Impasto on 140 lb. Watercolor Paper mounted on Art Panel",
+      "filename": "FireFuchsiaII.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 18,
+      "id": 98,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "fire-fuchsia-ii",
+      "title": "Fire Fuchsia II",
+      "width": 11
+    },
+    {
+      "created": "2010-11-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "FathersLove.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 30,
+      "id": 99,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "father-s-love-for-the-tablets-of-her-heart",
+      "title": "Father's Love for the Tablets of Her Heart",
+      "width": 24
+    },
+    {
+      "created": "2010-11-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "LateSpringBloom.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 10,
+      "id": 100,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "late-spring-bloom",
+      "title": "Late Spring Bloom",
+      "width": 8
+    },
+    {
+      "created": "2010-11-01T07:00:00.000Z",
+      "description": "Oil Impasto on 140 lb. Watercolor Paper mounted on Wood Panel",
+      "filename": "RubiesOfSpringII.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 24,
+      "id": 101,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 650,
+      "slug": "rubies-of-spring-ii",
+      "title": "Rubies of Spring II",
+      "width": 18
+    },
+    {
+      "created": "2010-12-01T08:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "CorporalMatthewLempke.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 30,
+      "id": 102,
+      "isActive": false,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "corporal-matthew-lempke",
+      "title": "Corporal Matthew Lempke",
+      "width": 24
+    },
+    {
+      "created": "2010-12-01T08:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "FruitOfHerPassionateDedication.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 36,
+      "id": 103,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "fruit-of-her-passionate-dedication",
+      "title": "Fruit of Her Passionate Dedication",
+      "width": 24
+    },
+    {
+      "created": "2010-12-01T08:00:00.000Z",
+      "description": "Oil Impasto on 140 lb. Watercolor Paper mounted on Wood Panel",
+      "filename": "HighTideCascade.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 24,
+      "id": 104,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 750,
+      "slug": "high-tide-cascade",
+      "title": "High Tide Cascade",
+      "width": 18
+    },
+    {
+      "created": "2010-12-01T08:00:00.000Z",
+      "description": "Oil Impasto on 300 lb. Watercolor Paper mounted on Art Panel",
+      "filename": "IrisWhisperingSecretsII.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 30,
+      "id": 105,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 950,
+      "slug": "iris-whispering-secrets-ii",
+      "title": "Iris Whispering Secrets II",
+      "width": 24
+    },
+    {
+      "created": "2010-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "NeedleByAHaystack.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 11,
+      "id": 106,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 350,
+      "slug": "needle-by-a-haystack",
+      "title": "Needle by a Haystack",
+      "width": 14
+    },
+    {
+      "created": "2010-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "OSeBaBa.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 16,
+      "id": 107,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 950,
+      "slug": "o-se-baba",
+      "title": "O Se' BaBa",
+      "width": 20
+    },
+    {
+      "created": "2010-12-01T08:00:00.000Z",
+      "description": "Oil Impasto on 140 lb. Watercolor Paper mounted on Art Panel",
+      "filename": "SunsetShawlII.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 24,
+      "id": 108,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 950,
+      "slug": "sunset-shawl-ii",
+      "title": "Sunset Shawl II",
+      "width": 30
+    },
+    {
+      "created": "2010-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "VibrantMagnolias.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 10,
+      "id": 109,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "florals"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 225,
+      "slug": "vibrant-magnolias",
+      "title": "Vibrant Magnolias",
+      "width": 8
+    },
+    {
+      "created": "2010-12-01T08:00:00.000Z",
+      "description": "Acrylic Impasto and Gouache on 300 lb. Watercolor Paper",
+      "filename": "WildMagnolias.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 19,
+      "id": 110,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Mixed Media",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "wild-magnolias",
+      "title": "Wild Magnolias",
+      "width": 13
+    },
+    {
+      "created": "2011-01-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "DanceBetweenShowers.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 18,
+      "id": 111,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 950,
+      "slug": "ballet-folklorico-between-spring-showers",
+      "title": "Ballet Folklorico Between Spring Showers",
+      "width": 22
+    },
+    {
+      "created": "2011-01-01T08:00:00.000Z",
+      "description": "Oil and Mixed Media on Watercolor Paper",
+      "filename": "MyrtleBeach.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 12,
+      "id": 112,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": false,
+      "keywords": [
+        "landscapes"
+      ],
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "myrtle-beach",
+      "title": "Myrtle Beach",
+      "width": 17
+    },
+    {
+      "created": "2011-01-01T08:00:00.000Z",
+      "description": "Oil on Wood & Canvas Panel.",
+      "filename": "RedAndYellowBells.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "height": 11,
+      "id": 113,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "keywords": [
+        "still life"
+      ],
+      "media": "Mixed Media",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 195,
+      "slug": "red-and-yellow-sweet-bells",
+      "title": "Red and Yellow Sweet Bells",
+      "width": 14
+    },
+    {
+      "created": "2011-10-01T07:00:00.000Z",
+      "description": "Oil on Gessoed Watercolor Paper",
+      "filename": "YouRedefineActingYourAge.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 19,
+      "id": 114,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "you-redefine-acting-your-age",
+      "title": "You Redefine Acting Your Age",
+      "width": 13
+    },
+    {
+      "created": "2011-11-01T07:00:00.000Z",
+      "description": "Acrylic on Canvas",
+      "filename": "BendSummersEve.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 11,
+      "id": 115,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 195,
+      "slug": "bend-summer-s-eve",
+      "title": "Bend Summer's Eve",
+      "width": 17
+    },
+    {
+      "created": "2011-11-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "CannonBeachEveningSunset.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 16,
+      "id": 116,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 550,
+      "slug": "cannon-beach-evening-sunset",
+      "title": "Cannon Beach Evening Sunset",
+      "width": 20
+    },
+    {
+      "created": "2011-11-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "CannonBeachSunsetSentinels.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 16,
+      "id": 117,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "cannon-beach-sunset-sentinels",
+      "title": "Cannon Beach Sunset Sentinels",
+      "width": 20
+    },
+    {
+      "created": "2011-11-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "DebbieBunce.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 28,
+      "id": 118,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "debbie-bunce",
+      "title": "Debbie Bunce",
+      "width": 22
+    },
+    {
+      "created": "2011-11-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "EucalyptisShoreBlk.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 10,
+      "id": 119,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 225,
+      "slug": "eucalyptus-shore-blk",
+      "title": "Eucalyptus Shore Blk",
+      "width": 8
+    },
+    {
+      "created": "2011-11-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "FloppyRoses.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 14,
+      "id": 120,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 350,
+      "slug": "floppy-roses",
+      "title": "Floppy Roses",
+      "width": 11
+    },
+    {
+      "created": "2011-11-01T07:00:00.000Z",
+      "description": "Acrylic on Canvas",
+      "filename": "GoldenAnniversaryPark.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 11,
+      "id": 121,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 195,
+      "slug": "golden-anniversary-park-s-peak",
+      "title": "Golden Anniversary Park's Peak",
+      "width": 17
+    },
+    {
+      "created": "2011-11-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "GoodMorningMagnolia.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 10,
+      "id": 122,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 225,
+      "slug": "good-morning-magnolia",
+      "title": "Good Morning Magnolia",
+      "width": 8
+    },
+    {
+      "created": "2011-11-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "HillsideRodie.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 10,
+      "id": 123,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 195,
+      "slug": "hillside-rodie",
+      "title": "Hillside Rodie",
+      "width": 8
+    },
+    {
+      "created": "2011-11-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "JustPassingThrough.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 8,
+      "id": 124,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 225,
+      "slug": "just-passing-through",
+      "title": "Just Passing Through",
+      "width": 10
+    },
+    {
+      "created": "2011-11-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "MatureRoseHorizon.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 11,
+      "id": 125,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 375,
+      "slug": "mature-rose-horizon",
+      "title": "Mature Rose Horizon",
+      "width": 14
+    },
+    {
+      "created": "2011-11-01T07:00:00.000Z",
+      "description": "Acrylic on Canvas",
+      "filename": "PurpleMountainLake.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 11,
+      "id": 126,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 250,
+      "slug": "purple-mountain-lake",
+      "title": "Purple Mountain Lake",
+      "width": 14
+    },
+    {
+      "created": "2011-11-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "RoseJam.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 10,
+      "id": 127,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "price": 225,
+      "slug": "rose-jam",
+      "title": "Rose Jam",
+      "width": 8
+    },
+    {
+      "created": "2011-11-01T07:00:00.000Z",
+      "description": "Oil and Mixed Media on Wood Panel",
+      "filename": "SweetByCandlelight.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "height": 11,
+      "id": 128,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "sweet-by-candle-light",
+      "title": "Sweet by Candle Light",
+      "width": 17
+    },
+    {
+      "created": "2011-11-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "TimAndSarahFallon.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 30,
+      "id": 129,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "tim-and-sarah-fallon",
+      "title": "Tim and Sarah Fallon",
+      "width": 24
+    },
+    {
+      "created": "2011-11-01T07:00:00.000Z",
+      "description": "Acrylic on Canvas",
+      "filename": "WhereTheRiverRuns.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 9,
+      "id": 130,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "price": 200,
+      "slug": "where-the-river-runs",
+      "title": "Where the River Runs",
+      "width": 12
+    },
+    {
+      "created": "2012-01-01T08:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "LtJasonCammarataAndP3.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 20,
+      "id": 131,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "lt-jason-cammarata-and-p3",
+      "title": "Lt. Jason Cammarata and P3",
+      "width": 24
+    },
+    {
+      "created": "2012-01-01T08:00:00.000Z",
+      "description": "Acrylic on Canvas",
+      "filename": "PartyInAPewterPot.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 14,
+      "id": 132,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Acrylic",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "party-in-a-pewter-pot",
+      "title": "Party in a Pewter Pot",
+      "width": 11
+    },
+    {
+      "created": "2012-01-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "YouWouldBeAPool.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 14,
+      "id": 133,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "you-would-be-a-pool-there-on-a-mountain-standing-tall-i-would-be-a-waterfall",
+      "title": "You Would be a Pool There on a Mountain, Standing Tall, I would be a Waterfall",
+      "width": 11
+    },
+    {
+      "created": "2012-03-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "DropThatPullsTheWaterfall.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 20,
+      "id": 134,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "drop-that-pulls-the-waterfall",
+      "title": "Drop That Pulls the Waterfall",
+      "width": 16
+    },
+    {
+      "created": "2012-07-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "MountainSideRose.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 12,
+      "id": 135,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "mountain-side-rose",
+      "title": "Mountain Side Rose",
+      "width": 9
+    },
+    {
+      "created": "2012-07-01T07:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "SauvieIslandUpTheHill.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 136,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "up-the-hill-sauvie-island-or",
+      "title": "Up The Hill, Sauvie Island OR",
+      "width": 14
+    },
+    {
+      "created": "2012-08-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "EucalyptusBay.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 20,
+      "id": 137,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "eucalyptus-bay",
+      "title": "Eucalyptus Bay",
+      "width": 24
+    },
+    {
+      "created": "2012-08-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "SentimentalSunsetMyrtleBeach.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 20,
+      "id": 138,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "sentimental-sunset-myrtle-beach",
+      "title": "Sentimental Sunset - Myrtle Beach",
+      "width": 16
+    },
+    {
+      "created": "2012-09-01T07:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "SentimentalReflections.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 14,
+      "id": 139,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "sentimental-reflection-jackson-bottom-wetland-preserve-hillsboro-or",
+      "title": "Sentimental Reflection - Jackson Bottom Wetland Preserve, Hillsboro OR",
+      "width": 11
+    },
+    {
+      "created": "2013-05-01T07:00:00.000Z",
+      "description": "Acrylic on Canvas",
+      "filename": "AnniversaryBeach.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 11,
+      "id": 140,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Acrylic",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "anniversary-beach-oregon-en-plein-air",
+      "title": "Anniversary Beach, Oregon, en plein air",
+      "width": 14
+    },
+    {
+      "created": "2013-05-01T07:00:00.000Z",
+      "description": "Oil on Art Panel",
+      "filename": "DocAshland.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 12,
+      "id": 141,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "doc-ashland-portrait-from-life",
+      "title": "Doc., Ashland, Portrait from Life",
+      "width": 9
+    },
+    {
+      "created": "2013-05-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "MyFavoriteHouse.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 24,
+      "id": 142,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil ",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "my-favorite-house-on-lake-shore-road",
+      "title": "My Favorite House on Lake Shore Road",
+      "width": 20
+    },
+    {
+      "created": "2013-05-01T07:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "WindyWindow.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 143,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil ",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "windy-window-chinook-boating-park-fair-view-or",
+      "title": "Windy Window, Chinook Boating Park, Fair View OR",
+      "width": 14
+    },
+    {
+      "created": "2013-08-01T07:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "BlueMistMorning.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 9,
+      "id": 144,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "blue-mist-morning-muir-beach-ca",
+      "title": "Blue Mist Morning, Muir Beach CA",
+      "width": 12
+    },
+    {
+      "created": "2013-08-01T07:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "CannonBeachCurl.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 9,
+      "id": 145,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "cannon-beach-curl-cannon-beach-or",
+      "title": "Cannon Beach Curl, Cannon Beach OR",
+      "width": 12
+    },
+    {
+      "created": "2013-08-01T07:00:00.000Z",
+      "description": "En Plein Air, Oil on Linen",
+      "filename": "EarlyMorningMist.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 146,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "early-morning-mist-hood-river-or",
+      "title": "Early Morning Mist, Hood River OR",
+      "width": 14
+    },
+    {
+      "created": "2013-08-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "LateLightAtLakeshore.jpg",
+      "galleries": [
+        "traditional"
+      ],
+      "height": 24,
+      "id": 147,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal",
+        "vertical"
+      ],
+      "slug": "late-light-at-lakeshore-lake-oswego-or",
+      "title": "Late Light at Lakeshore, Lake Oswego OR",
+      "width": 24
+    },
+    {
+      "created": "2013-08-01T07:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "LavenderGateway.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 12,
+      "id": 148,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "lavender-gateway-mountain-side-lavender-farm-hillsboro-or",
+      "title": "Lavender Gateway, Mountain Side Lavender Farm, Hillsboro OR",
+      "width": 16
+    },
+    {
+      "created": "2013-08-01T07:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "MeadowGate.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 149,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "meadow-gate-sauvie-island-or",
+      "title": "Meadow Gate, Sauvie Island OR",
+      "width": 14
+    },
+    {
+      "created": "2013-08-01T07:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "PhilipFosterFarm.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 12,
+      "id": 150,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "philip-foster-farm-estacada-or",
+      "title": "Philip Foster Farm, Estacada OR",
+      "width": 16
+    },
+    {
+      "created": "2013-08-01T07:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "SunnyEmbrace.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 9,
+      "id": 151,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "sunny-embrace-mt-hood-vineyard-homestead-hood-river-or",
+      "title": "Sunny Embrace, Mt. Hood Vineyard Homestead, Hood River OR",
+      "width": 12
+    },
+    {
+      "created": "2013-08-01T07:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "ViewFromTheBluff.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 14,
+      "id": 152,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "view-from-the-bluff-cannon-beach-or",
+      "title": "View from the Bluff, Cannon Beach OR",
+      "width": 11
+    },
+    {
+      "created": "2013-08-01T07:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "WhenTheFogBreaks.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 153,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "when-the-fog-breaks-ecola-state-park-lookout",
+      "title": "When the Fog Breaks, Ecola State Park Lookout",
+      "width": 14
+    },
+    {
+      "created": "2013-08-01T07:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "WildwoodWaterRush.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 20,
+      "id": 154,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "wildwood-water-rush-welches-or",
+      "title": "Wildwood Water Rush, Welches OR",
+      "width": 16
+    },
+    {
+      "created": "2013-09-01T07:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "HouseOnMainStreet.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 155,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "house-on-main-street-hillsboro-or",
+      "title": "House on Main Street, Hillsboro OR",
+      "width": 14
+    },
+    {
+      "created": "2013-09-01T07:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "ViewFromRoodBridge.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 16,
+      "id": 156,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "view-from-rood-bridge-hillsboro-or",
+      "title": "View from Rood Bridge, Hillsboro OR",
+      "width": 20
+    },
+    {
+      "created": "2013-12-01T08:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "5thStreetMarket.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 14,
+      "id": 157,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "5th-street-market-eugene",
+      "title": "5th Street Market, Eugene",
+      "width": 11
+    },
+    {
+      "created": "2013-12-01T08:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "BlueHeronSwanSong.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 18,
+      "id": 158,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "blue-heron-swan-song-oregon-city-falls",
+      "title": "Blue Heron Swan Song, Oregon City Falls",
+      "width": 24
+    },
+    {
+      "created": "2013-12-01T08:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "PanoramaPointLookout.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 159,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "panorama-point-county-park-scenic-view-hood-river-oregon",
+      "title": "Panorama Point, County Park Scenic View, Hood River Oregon",
+      "width": 14
+    },
+    {
+      "created": "2013-12-01T08:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "PumpkinGlow.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 12,
+      "id": 160,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "pumpkin-glow-rasmussen-farms-hood-river",
+      "title": "Pumpkin Glow, Rasmussen Farms, Hood River",
+      "width": 9
+    },
+    {
+      "created": "2013-12-01T08:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "SheepTireYouOut.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 18,
+      "id": 161,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "sheep-tire-you-out-so-we-are-resting-on-the-bluff",
+      "title": "Sheep Tire you Out, So, We are Resting on the Bluff",
+      "width": 24
+    },
+    {
+      "created": "2013-12-01T08:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "SunKissedSlope.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 162,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "sun-kissed-slope-rooster-rock-state-park",
+      "title": "Sun Kissed Slope, Rooster Rock State Park",
+      "width": 14
+    },
+    {
+      "created": "2013-12-01T08:00:00.000Z",
+      "description": "En Plein Air, Oil on Canvas",
+      "filename": "ViewFromMcLoughlin.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 16,
+      "id": 163,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "view-from-mcloughlin-promenade-oregon-city",
+      "title": "View from McLoughlin Promenade, Oregon City",
+      "width": 20
+    },
+    {
+      "created": "2014-04-01T07:00:00.000Z",
+      "description": "Acrylic on Canvas - Enlargement from Plein Air Study 2014",
+      "filename": "ViewFromTheVineyard.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 20,
+      "id": 164,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Acrylic",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "view-from-the-vineyard-george-crest-vineyard-wa",
+      "title": "View from the Vineyard - George Crest Vineyard, WA",
+      "width": 16
+    },
+    {
+      "created": "2014-08-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air",
+      "filename": "AnInvitingPlace.jpg",
+      "galleries": [
+        "archive"
+      ],
+      "height": 20,
+      "id": 165,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "an-inviting-place-mountain-side-farm-hillsboro",
+      "title": "An Inviting Place, Mountain Side Farm Hillsboro",
+      "width": 24
+    },
+    {
+      "created": "2014-08-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air.",
+      "filename": "BoxRRanchTallFirs.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 14,
+      "id": 166,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "box-r-ranch-tall-firs-ashland",
+      "title": "Box R Ranch Tall Firs, Ashland",
+      "width": 18
+    },
+    {
+      "created": "2014-08-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air.",
+      "filename": "BrilliantMorningMist.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 16,
+      "id": 167,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "brilliant-morning-mist-st-john-s-bridge-portland",
+      "title": "Brilliant Morning Mist, St. John's Bridge Portland",
+      "width": 20
+    },
+    {
+      "created": "2014-08-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air.",
+      "filename": "ChinookLandingAtSunset.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 12,
+      "id": 168,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "chinook-landing-at-sunset-fairview",
+      "title": "Chinook Landing at Sunset, Fairview",
+      "width": 16
+    },
+    {
+      "created": "2014-08-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air.",
+      "filename": "GeorgeRodgersBridge.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 12,
+      "id": 169,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "george-rodgers-bridge-lake-oswego",
+      "title": "George Rodgers Bridge, Lake Oswego",
+      "width": 16
+    },
+    {
+      "created": "2014-08-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air.",
+      "filename": "ItTakes2Baby.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 20,
+      "id": 170,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "it-takes-2-baby-mountain-side-farm-hillsboro",
+      "title": "It Takes 2 Baby, Mountain Side Farm Hillsboro",
+      "width": 24
+    },
+    {
+      "created": "2014-08-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air.",
+      "filename": "KellyPointBeach.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 18,
+      "id": 171,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "kelly-point-beach-portland",
+      "title": "Kelly Point Beach, Portland",
+      "width": 14
+    },
+    {
+      "created": "2014-08-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air.",
+      "filename": "LittleWarmUpFor2.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 12,
+      "id": 172,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "little-warm-up-for-2-mountain-side-farm-hillsboro",
+      "title": "Little Warm Up for 2, Mountain Side Farm, Hillsboro",
+      "width": 16
+    },
+    {
+      "created": "2014-08-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air",
+      "filename": "NewBloomsRhododendrenGarden.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 12,
+      "id": 173,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "new-blooms-rhododendren-garden-portland",
+      "title": "New Blooms Rhododendren Garden, Portland",
+      "width": 16
+    },
+    {
+      "created": "2014-08-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air.",
+      "filename": "RoosterRockJetty.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 16,
+      "id": 174,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "rooster-rock-jetty-columbia-river-gorge",
+      "title": "Rooster Rock Jetty, Columbia River Gorge",
+      "width": 20
+    },
+    {
+      "created": "2014-08-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air.",
+      "filename": "SkinnerButteRapids.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 16,
+      "id": 175,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "skinner-butte-rapids-eugene",
+      "title": "Skinner Butte Rapids, Eugene",
+      "width": 20
+    },
+    {
+      "created": "2014-08-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air.",
+      "filename": "WatchingOverTheLavender.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 16,
+      "id": 176,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "watching-over-the-lavender-mountain-side-farm-hillsboro",
+      "title": "Watching Over the Lavender, Mountain Side Farm, Hillsboro",
+      "width": 20
+    },
+    {
+      "created": "2014-08-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air.",
+      "filename": "WhittakerPondShimmer.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 16,
+      "id": 177,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "whittaker-pond-shimmer-portland",
+      "title": "Whittaker Pond Shimmer, Portland",
+      "width": 12
+    },
+    {
+      "created": "2014-09-01T07:00:00.000Z",
+      "description": "Oil on Linen enlargement of Blue Mist Morning Plein Air study.",
+      "filename": "BlueMorningMist.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 24,
+      "id": 178,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil on Linen",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "blue-morning-mist",
+      "title": "Blue Morning Mist",
+      "width": 25
+    },
+    {
+      "created": "2014-09-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "HillsboroBridge.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 16,
+      "id": 179,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "hillsboro-bridge-with-mcm-style-hillsboro-oregon",
+      "title": "Hillsboro Bridge with MCM Style, Hillsboro Oregon",
+      "width": 20
+    },
+    {
+      "created": "2015-02-01T08:00:00.000Z",
+      "description": "Oil on Canvas and Wood Panel en Plein Air",
+      "filename": "CrownPoint.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 8,
+      "id": 180,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal",
+        "vertical"
+      ],
+      "slug": "crown-point-columbia-river-gorge",
+      "title": "Crown Point, Columbia River Gorge",
+      "width": 8
+    },
+    {
+      "created": "2015-02-01T08:00:00.000Z",
+      "description": "Oil on Canvas and Wood Panel en Plein Air",
+      "filename": "HaystackRock.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 8,
+      "id": 181,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal",
+        "vertical"
+      ],
+      "slug": "haystack-rock-cannon-beach",
+      "title": "Haystack Rock, Cannon Beach",
+      "width": 8
+    },
+    {
+      "created": "2015-02-01T08:00:00.000Z",
+      "description": "Oil on Canvas and Wood Panel en Plein Air",
+      "filename": "Independence.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 8,
+      "id": 182,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal",
+        "vertical"
+      ],
+      "slug": "independence-new-jersey",
+      "title": "Independence, New Jersey",
+      "width": 8
+    },
+    {
+      "created": "2015-02-01T08:00:00.000Z",
+      "description": "Oil on Canvas and Wood Panel en Plein Air",
+      "filename": "IndianPoint.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 8,
+      "id": 183,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal",
+        "vertical"
+      ],
+      "slug": "indian-point-cannon-beach",
+      "title": "Indian Point, Cannon Beach",
+      "width": 8
+    },
+    {
+      "created": "2015-02-01T08:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air",
+      "filename": "RowenaCrestSunset.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 12,
+      "id": 184,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "rowena-crest-sunset",
+      "title": "Rowena Crest Sunset",
+      "width": 16
+    },
+    {
+      "created": "2015-02-01T08:00:00.000Z",
+      "description": "Oil on Canvas and Wood Panel en Plein Air",
+      "filename": "SunsetSeascape.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 8,
+      "id": 185,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal",
+        "vertical"
+      ],
+      "slug": "sunset-seascape-oregon-coast",
+      "title": "Sunset Seascape, Oregon Coast",
+      "width": 8
+    },
+    {
+      "created": "2015-06-01T07:00:00.000Z",
+      "description": "Oil on Wood & Canvas Panel.",
+      "filename": "3PearStillLife.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "height": 18,
+      "id": 186,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "3-pear-still-life",
+      "title": "3 Pear Still Life",
+      "width": 24
+    },
+    {
+      "created": "2015-06-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air.",
+      "filename": "CanadianGeeseOnParade.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "height": 24,
+      "id": 187,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "canadian-geese-on-parade",
+      "title": "Canadian Geese on Parade",
+      "width": 30
+    },
+    {
+      "created": "2015-06-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel en Plein Air.",
+      "filename": "FishermansWharf.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 188,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "fisherman-s-wharf-monterey-california",
+      "title": "Fisherman's Wharf, Monterey California",
+      "width": 14
+    },
+    {
+      "created": "2015-06-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel en Plein Air.",
+      "filename": "GeorgeRodgersPark.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 189,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "george-rodgers-park-lake-oswego-oregon",
+      "title": "George Rodgers Park, Lake Oswego Oregon",
+      "width": 14
+    },
+    {
+      "created": "2015-06-01T07:00:00.000Z",
+      "description": "Oil on Canvas.",
+      "filename": "LittleBlueBottle.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "height": 8,
+      "id": 190,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "little-blue-bottle",
+      "title": "Little Blue Bottle",
+      "width": 10
+    },
+    {
+      "created": "2015-06-01T07:00:00.000Z",
+      "description": "Oil on Canvas.",
+      "filename": "LittleBlueJug.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "height": 8,
+      "id": 191,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "little-blue-jug",
+      "title": "Little Blue Jug",
+      "width": 10
+    },
+    {
+      "created": "2015-06-01T07:00:00.000Z",
+      "description": "Oil on Canvas.",
+      "filename": "LittleYellowPitcher.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "height": 8,
+      "id": 192,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "little-yellow-pitcher",
+      "title": "Little Yellow Pitcher",
+      "width": 10
+    },
+    {
+      "created": "2015-06-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air.",
+      "filename": "MillenniumParkFishingAndDuckFeedingOutlet.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 20,
+      "id": 193,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "millennium-park-fishing-and-duck-feeding-outlet",
+      "title": "Millennium Park Fishing and Duck Feeding Outlet",
+      "width": 24
+    },
+    {
+      "created": "2015-06-01T07:00:00.000Z",
+      "description": "Oil on Canvas.",
+      "filename": "RedMinatureTeapotAndAlarm.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "height": 8,
+      "id": 194,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "red-minature-tea-pot-and-alarm",
+      "title": "Red Minature Tea Pot and Alarm",
+      "width": 10
+    },
+    {
+      "created": "2015-06-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel en Plein Air",
+      "filename": "StateStreet.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 14,
+      "id": 195,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "state-street-b-and-g-lake-oswego-oregon",
+      "title": "State Street B and G, Lake Oswego Oregon",
+      "width": 11
+    },
+    {
+      "created": "2015-06-01T07:00:00.000Z",
+      "description": "Oil on Wood & Canvas Panel.",
+      "filename": "StrawberryLimeOrangeMix.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "height": 11,
+      "id": 196,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "strawberry-lime-orange-mix",
+      "title": "Strawberry Lime Orange Mix",
+      "width": 14
+    },
+    {
+      "created": "2015-06-01T07:00:00.000Z",
+      "description": "Oil on Canvas.",
+      "filename": "ToastAndCoffeeForBreakfast.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "height": 16,
+      "id": 197,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "toast-and-coffee-for-breakfast",
+      "title": "Toast and Coffee for Breakfast",
+      "width": 20
+    },
+    {
+      "created": "2015-07-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air.",
+      "filename": "LavenderLunchBreak.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 16,
+      "id": 198,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "lavender-lunch-break-the-honey-bees-invited-themselves",
+      "title": "Lavender Lunch Break - The Honey Bees Invited Themselves",
+      "width": 20
+    },
+    {
+      "created": "2015-07-01T07:00:00.000Z",
+      "description": "Oil on Canvas en Plein Air",
+      "filename": "MorningSunOnTheLavenderMountainside.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 16,
+      "id": 199,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "morning-sun-on-the-lavender-mountainside",
+      "title": "Morning Sun on the Lavender Mountainside",
+      "width": 20
+    },
+    {
+      "created": "2015-07-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "RightSideOfTheTrack.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 16,
+      "id": 200,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "right-side-of-the-track",
+      "title": "Right Side of the Track",
+      "width": 20
+    },
+    {
+      "created": "2015-07-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "WildEpiphanyIceCream.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 201,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "wild-epiphany-ice-cream",
+      "title": "Wild Epiphany Ice Cream",
+      "width": 14
+    },
+    {
+      "created": "2015-09-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "TillikumBridgeSunsetTwinkle.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 9,
+      "id": 202,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "tillikum-bridge-sunset-twinkle",
+      "title": "Tillikum Bridge, Sunset Twinkle",
+      "width": 12
+    },
+    {
+      "created": "2015-09-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "TillikumBridgeTheCloudsRollIn.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 203,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "tillikum-bridge-the-clouds-roll-in",
+      "title": "Tillikum Bridge, The Clouds Roll In",
+      "width": 14
+    },
+    {
+      "created": "2015-09-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "TillikumBridgeWarmAfternoon.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 9,
+      "id": 204,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "tillikum-bridge-warm-afternoon",
+      "title": "Tillikum Bridge, Warm Afternoon",
+      "width": 12
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "AFewRowsInTheOutback.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 12,
+      "id": 205,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "a-few-rows-in-the-outback",
+      "title": "A Few Rows in the Outback",
+      "width": 16
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "AltonBakerParkRiverRocks.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 206,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "alton-baker-park-river-rocks",
+      "title": "Alton Baker Park River Rocks",
+      "width": 14
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "CascadeLocksWatersEdge.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 14,
+      "id": 207,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "cascade-locks-waters-edge",
+      "title": "Cascade Locks Waters Edge",
+      "width": 11
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "CoolReflectionsTualatinWetlands.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 208,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "cool-reflections-tualatin-wetlands",
+      "title": "Cool Reflections Tualatin Wetlands",
+      "width": 14
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "EugeneAltonBakerParkSandyShore.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 209,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "eugene-alton-baker-park-sandy-shore",
+      "title": "Eugene Alton Baker Park Sandy Shore",
+      "width": 14
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "EugeneRiverSide.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 210,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "eugene-river-side",
+      "title": "Eugene River Side",
+      "width": 14
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "EugeneByTheCreek.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 14,
+      "id": 211,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "eugene-by-the-creek",
+      "title": "Eugene by the Creek",
+      "width": 11
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "FallInHoodRiver.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 5,
+      "id": 212,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "fall-in-hood-river",
+      "title": "Fall in Hood River",
+      "width": 7
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "FootHillsParkAtRest.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 213,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "foot-hills-park-at-rest",
+      "title": "Foot Hills Park at Rest",
+      "width": 14
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "HoodRiverBluff.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 5,
+      "id": 214,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "hood-river-bluff",
+      "title": "Hood River Bluff",
+      "width": 7
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "LuscherFarmTrees.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 8,
+      "id": 215,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "luscher-farm-trees",
+      "title": "Luscher Farm Trees",
+      "width": 10
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "MontinoreVineyardWarmUp.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 216,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "montinore-vineyard-warm-up",
+      "title": "Montinore Vineyard Warm Up",
+      "width": 14
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "MoorageAroundBack.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 16,
+      "id": 217,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "moorage-around-back",
+      "title": "Moorage Around Back",
+      "width": 20
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "RedAndOrangeDoors.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 8,
+      "id": 218,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "red-and-orange-doors-umpqua-quick-draw",
+      "title": "Red and Orange Doors, Umpqua Quick Draw",
+      "width": 10
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "RuthonParkSentinel.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 219,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "ruthon-park-sentinel",
+      "title": "Ruthon Park Sentinel",
+      "width": 14
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "SauviesIslandTheStudio.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 220,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "sauvies-island-the-studio",
+      "title": "Sauvies Island The Studio",
+      "width": 14
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "SilverFallsConferenceCenter.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 14,
+      "id": 221,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "silver-falls-conference-center",
+      "title": "Silver Falls Conference Center",
+      "width": 11
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "SilverFallsTreeMoss.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 14,
+      "id": 222,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "silver-falls-tree-moss",
+      "title": "Silver Falls Tree Moss",
+      "width": 11
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "StandingAtAttention.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 10,
+      "id": 223,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "standing-at-attention",
+      "title": "Standing at Attention",
+      "width": 8
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "StudebakerHasSeenBetterDays.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 16,
+      "id": 224,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "studebaker-has-seen-better-days",
+      "title": "Studebaker has seen Better Days",
+      "width": 20
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "SwanIslandDahliaGardens.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 225,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "swan-island-dahlia-gardens",
+      "title": "Swan Island Dahlia Gardens",
+      "width": 14
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "SwiftwaterParkRiverRush.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 16,
+      "id": 226,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "swiftwater-park-river-rush",
+      "title": "Swiftwater Park River Rush",
+      "width": 20
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "TualatinCenturyFarmNumberedDays.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 14,
+      "id": 227,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "tualatin-century-farm-numbered-days",
+      "title": "Tualatin Century Farm Numbered Days",
+      "width": 11
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "TualatinWetlandCloudyDayReflections.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 9,
+      "id": 228,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "tualatin-wetland-cloudy-day-reflections",
+      "title": "Tualatin Wetland Cloudy Day Reflections",
+      "width": 12
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "TualatinWetlandStillStanding.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 11,
+      "id": 229,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "tualatin-wetland-still-standing",
+      "title": "Tualatin Wetland Still Standing",
+      "width": 14
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "UmpquaRiverReflections.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 14,
+      "id": 230,
+      "isActive": true,
+      "isForSale": false,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "umpqua-river-reflections-swiftwater-park",
+      "title": "Umpqua River Reflections, Swiftwater Park",
+      "width": 11
+    },
+    {
+      "created": "2015-11-01T07:00:00.000Z",
+      "description": "Oil on Linen Panel.",
+      "filename": "YellowSailBoat.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "height": 10,
+      "id": 231,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "yellow-sail-boat",
+      "title": "Yellow Sail Boat",
+      "width": 8
+    },
+    {
+      "id": 232,
+      "created": "2015-12-01T07:00:00.000Z",
+      "description": "Oil on Wood Panel",
+      "filename": "HoodRiverMarina.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "hood-river-marina",
+      "title": "Hood River Marina"
+    },
+    {
+      "id": 233,
+      "created": "2015-12-01T07:00:00.000Z",
+      "description": "Oil on Wood Panel",
+      "filename": "BlairstownStream.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "blairstown-stream",
+      "title": "Blairstown Stream"
+    },
+    {
+      "id": 234,
+      "created": "2015-12-01T07:00:00.000Z",
+      "description": "Oil on Wood Panel",
+      "filename": "RailroadBridge.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "railroad-bridge",
+      "title": "Railroad Bridge"
+    },
+    {
+      "id": 235,
+      "created": "2015-12-01T07:00:00.000Z",
+      "description": "Oil on Wood Panel",
+      "filename": "AlamarCurl.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "alamar-curl",
+      "title": "Alamar Curl"
+    },
+    {
+      "id": 236,
+      "created": "2015-12-01T07:00:00.000Z",
+      "description": "Oil on Wood Panel",
+      "filename": "PortlandMarina.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "portland-marina",
+      "title": "Portland Marina"
+    },
+    {
+      "id": 237,
+      "created": "2016-04-15T07:00:00.000Z",
+      "description": "Oil on Linen Panel",
+      "filename": "ArtfulTeaHoodRiverTeapot.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 16,
+      "height": 20,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "artful-tea-hood-river-teapot",
+      "title": "Artful Tea - Hood River Teapot"
+    },
+    {
+      "id": 238,
+      "created": "2016-04-15T07:00:00.000Z",
+      "description": "Oil on Cotton Canvas Panel",
+      "filename": "CoffeeCup.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 10,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "coffee-cup",
+      "title": "Coffee Cup"
+    },
+    {
+      "id": 239,
+      "created": "2016-04-15T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "JohnsonLakePark.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 9,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "johnson-lake-park",
+      "title": "Johnson Lake Park"
+    },
+    {
+      "id": 240,
+      "created": "2016-04-15T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "TryonStatePark.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "tryon-state-park",
+      "title": "Tryon State Park"
+    },
+    {
+      "id": 241,
+      "created": "2016-04-15T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "LewisAndClarkStatePark.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "lewis-and-clark-state-park",
+      "title": "Lewis & Clark State Park"
+    },
+    {
+      "id": 242,
+      "created": "2016-04-15T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "GeorgeRodgersParkTowardPortland.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 20,
+      "height": 16,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "george-rodgers-park-toward-portland",
+      "title": "George Rodgers Park Toward Portland"
+    },
+    {
+      "id": 243,
+      "created": "2016-06-05T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "last-light-catalina-mountain.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 9,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "last-light-catalina-mountain",
+      "title": "Last Light Catalina Mountain - Tuscan, AZ"
+    },
+    {
+      "id": 244,
+      "created": "2016-06-05T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "nestled-in-on-a-rainy-day.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "nestled-in-on-a-rainy-day",
+      "title": "Nestled in on a Rainy Day - Luscher Farm"
+    },
+    {
+      "id": 245,
+      "created": "2016-06-05T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "stand-alone.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 11,
+      "height": 14,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "stand-alone",
+      "title": "Stand Alone - Tuscan, AZ"
+    },
+    {
+      "id": 246,
+      "created": "2016-06-05T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "stoney-companions.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 11,
+      "height": 14,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "stoney-companions",
+      "title": "Stoney Companions - Foot Hills Park"
+    },
+    {
+      "id": 247,
+      "created": "2016-06-05T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "the-fleet-awaits.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 12,
+      "height": 9,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "the-fleet-awaits",
+      "title": "The Fleet Awaits - Tigard Post Office"
+    },
+    {
+      "id": 248,
+      "created": "2016-06-05T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "the-road-in.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 20,
+      "height": 16,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "the-road-in",
+      "title": "The Road In"
+    },
+    {
+      "id": 249,
+      "created": "2016-06-05T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "tuscan-movie-mission.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 12,
+      "height": 9,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "tuscan-movie-mission",
+      "title": "Tuscan Movie Mission"
+    },
+    {
+      "id": 250,
+      "created": "2016-06-05T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "warm-evening-water.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 20,
+      "height": 16,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "warm-evening-water",
+      "title": "Warm Evening Water - George Rodgers Inlet"
+    },
+    {
+      "id": 251,
+      "created": "2016-06-05T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "think-it-over.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "width": 16,
+      "height": 20,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "think-it-over",
+      "title": "Think it Over"
+    },
+    {
+      "id": 252,
+      "created": "2016-06-05T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "corin.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "width": 16,
+      "height": 20,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "corin",
+      "title": "Corin"
+    },
+    {
+      "id": 253,
+      "created": "2016-06-05T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "dressed-for-success.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "width": 16,
+      "height": 20,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "dressed-for-success",
+      "title": "Dressed for Success"
+    },
+    {
+      "id": 254,
+      "created": "2016-06-09T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "millenium-park-cafe.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 20,
+      "height": 16,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "millenium-park-cafe",
+      "title": "Millenium Park Cafe"
+    },
+    {
+      "id": 255,
+      "created": "2016-06-09T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "tualatin-farm-without-the-barn.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 16,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "tualatin-farm-without-the-barn",
+      "title": "Tualatin Farm Without The Barn"
+    },
+    {
+      "id": 256,
+      "created": "2016-07-31T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "3-men-and-a-lady.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "3-men-and-a-lady",
+      "title": "3 Men and a Lady, Port of Ilwaco, Washington Boat Yard"
+    },
+    {
+      "id": 257,
+      "created": "2016-07-31T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "cape-disappointment.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "cape-disappointment",
+      "title": "Cape Disappointment, Waikiki Beach, Ilwaco Washington"
+    },
+    {
+      "id": 258,
+      "created": "2016-07-31T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "astoria-bridge-not-too-far.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 16,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "astoria-bridge-not-too-far",
+      "title": "Astoria Bridge Not Too Far, Astoria Oregon"
+    },
+    {
+      "id": 259,
+      "created": "2016-07-31T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "bad-scooter.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "bad-scooter",
+      "title": "Bad Scooter, Richmond Virginia"
+    },
+    {
+      "id": 260,
+      "created": "2016-07-31T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "blackberry-beach.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "blackberry-beach",
+      "title": "Blackberry Beach, Cascade Locks Oregon"
+    },
+    {
+      "id": 261,
+      "created": "2016-07-31T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "gateway-to-beauty.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 11,
+      "height": 14,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "gateway-to-beauty",
+      "title": "Gateway to Beauty, Red Ridge Farm and Vineyard, Newberg Oregon"
+    },
+    {
+      "id": 262,
+      "created": "2016-07-31T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "lavender-flower-mix.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 20,
+      "height": 16,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "lavender-flower-mix",
+      "title": "Lavender Flower Mix, Mountain Side Lavender Farm, Hillsboro Oregon"
+    },
+    {
+      "id": 263,
+      "created": "2016-07-31T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "lavender-for-company.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 16,
+      "height": 20,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "lavender-for-company",
+      "title": "Lavender for Company, Wayward Winds Lavender Farm, Newburg Oregon"
+    },
+    {
+      "id": 264,
+      "created": "2016-07-31T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "comfort-zone-rockets-landing.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 16,
+      "height": 20,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "comfort-zone-rockets-landing",
+      "title": "Comfort Zone, Rockets Landing Sternwheeler, Richmond Virginia"
+    },
+    {
+      "id": 265,
+      "created": "2016-07-31T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "through-the-looking-glass.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 10,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "through-the-looking-glass",
+      "title": "Through the Looking Glass, Cary Town, Richmond Virginia"
+    },
+    {
+      "id": 266,
+      "created": "2016-07-31T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "georgian-earthen-vessel.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 11,
+      "height": 14,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "georgian-earthen-vessel",
+      "title": "Georgian Earthen Vessel of Biblical Porportion, Richmond Virginia"
+    },
+    {
+      "id": 267,
+      "created": "2016-08-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "pepper-sticks-with-you.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 20,
+      "height": 16,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "pepper-sticks-with-you",
+      "title": "Pepper Sticks with You"
+    },
+    {
+      "id": 268,
+      "created": "2016-07-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "shes-got-yar.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 16,
+      "height": 20,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "shes-got-yar",
+      "title": "She's Got Yar"
+    },
+    {
+      "id": 269,
+      "created": "2016-08-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "dressed-to-scare-crows.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 10,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "dressed-to-scare-crows",
+      "title": "Dressed to Scare Crows"
+    },
+    {
+      "id": 270,
+      "created": "2016-08-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "resting-place-cascade-locks-marina.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 11,
+      "height": 14,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "resting-place-cascade-locks-marina",
+      "title": "Resting Place, Cascade Locks Marina"
+    },
+    {
+      "id": 271,
+      "created": "2016-08-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "watchmen-of-the-path.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 11,
+      "height": 14,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "watchmen-of-the-path",
+      "title": "Watchmen of the Path"
+    },
+    {
+      "id": 272,
+      "created": "2016-09-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "stephensen-gold.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 10,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "stephensen-gold",
+      "title": "Stephensen Gold"
+    },
+    {
+      "id": 273,
+      "created": "2016-09-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "stephensen-fall-reflections.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "stephensen-fall-reflections",
+      "title": "Stephensen Fall Reflections"
+    },
+    {
+      "id": 274,
+      "created": "2016-09-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "wild-flowers-rule-at-blackberry-beach.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 16,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "wild-flowers-rule-at-blackberry-beach",
+      "title": "Wild Flowers Rule at Blackberry Beach"
+    },
+    {
+      "id": 275,
+      "created": "2016-09-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "mcmenamins-cloudy-day-sunflowers.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 10,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "mcmenamins-cloudy-day-sunflowers",
+      "title": "McMenamins Cloudy Day Sunflowers"
+    },
+    {
+      "id": 276,
+      "created": "2016-09-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "mcmenamins-made-in-the-shade.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 16,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "mcmenamins-made-in-the-shade",
+      "title": "McMenamins Made in the Shade"
+    },
+    {
+      "id": 277,
+      "created": "2016-09-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "chinook-hillside.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 10,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "chinook-hillside",
+      "title": "Chinook Hillside"
+    },
+    {
+      "id": 278,
+      "created": "2016-09-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "george-rodgers-park-moment.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 10,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "george-rodgers-park-moment",
+      "title": "George Rodgers Park Moment"
+    },
+    {
+      "id": 279,
+      "created": "2016-09-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "gorge-white-house-glory.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 20,
+      "height": 16,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "gorge-white-house-glory",
+      "title": "Gorge White House Glory"
+    },
+    {
+      "id": 280,
+      "created": "2016-09-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "mcmenamins-garden-path.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 10,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "mcmenamins-garden-path",
+      "title": "McMenamins Garden Path"
+    },
+    {
+      "id": 281,
+      "created": "2016-09-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "stephens-pebble-beach.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 10,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "stephens-pebble-beach",
+      "title": "Stephens Pebble Beach"
+    },
+    {
+      "id": 282,
+      "created": "2016-09-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "tualatin-wet-lands-autumn-reflection.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 10,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "tualatin-wet-lands-autumn-reflection",
+      "title": "Tualatin Wet Lands Autumn Reflection"
+    },
+    {
+      "id": 283,
+      "created": "2016-09-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "villa-catalina-red-awaits.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "villa-catalina-red-awaits",
+      "title": "Villa Catalina Red Awaits"
+    },
+    {
+      "id": 285,
+      "created": "2016-09-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "hood-river-fall-shawl.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 9,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "hood-river-fall-shawl",
+      "title": "Hood River Fall Shawl"
+    },
+    {
+      "id": 286,
+      "created": "2016-09-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "rico.jpg",
+      "galleries": [
+        "portraits-and-figures"
+      ],
+      "width": 16,
+      "height": 20,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "rico",
+      "title": "Rico"
+    },
+    {
+      "id": 287,
+      "created": "2016-09-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "mist-veil-knight-bridge-park-west-linn.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "mist-veil-knight-bridge-park-west-linn",
+      "title": "Mist Veil Knight Bridge Park, West Linn Oregon"
+    },
+    {
+      "id": 288,
+      "created": "2016-09-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "fall-respite-george-rodgers-park-lake-oswego.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "fall-respite-george-rodgers-park-lake-oswego",
+      "title": "Fall Respite, George Rodgers Park, Lake Oswego Oregon"
+    },
+    {
+      "id": 289,
+      "created": "2016-10-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "north-umpqua-morning-glimmer.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 20,
+      "height": 16,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "north-umpqua-morning-glimmer",
+      "title": "North Umpqua Morning Glimmer"
+    },
+    {
+      "id": 290,
+      "created": "2016-10-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "fall-fruit-of-the-vine.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 20,
+      "height": 16,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "fall-fruit-of-the-vine",
+      "title": "Fall Fruit of the Vine"
+    },
+    {
+      "id": 291,
+      "created": "2016-10-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "little-blue-has-pretty-friends.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "little-blue-has-pretty-friends",
+      "title": "Little Blue has Pretty Friends"
+    },
+    {
+      "id": 292,
+      "created": "2016-10-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "go-with-the-flow-swirling-pool-of-the-north-umpqua.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 16,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "go-with-the-flow-swirling-pool-of-the-north-umpqua",
+      "title": "Go With the Flow Swirling Pool of the North Umpqua"
+    },
+    {
+      "id": 293,
+      "created": "2016-10-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "rome-wasnt-built-in-a-day.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 20,
+      "height": 16,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "rome-wasnt-built-in-a-day",
+      "title": "Rome Wasn't Built in a Day"
+    },
+    {
+      "id": 294,
+      "created": "2016-10-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "cloudy-day-autumn-beauty.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 20,
+      "height": 16,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "cloudy-day-autumn-beauty",
+      "title": "Cloudy Day Autumn Beauty"
+    },
+    {
+      "id": 295,
+      "created": "2016-10-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "beautiful-fall-respite.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 16,
+      "height": 20,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "beautiful-fall-respite",
+      "title": "Beautiful Fall Respite"
+    },
+    {
+      "id": 296,
+      "created": "2016-10-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "the-light-behind-oregon-city-bridge.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 9,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "horizontal"
+      ],
+      "slug": "the-light-behind-oregon-city-bridge",
+      "title": "The Light Behind Oregon City Bridge"
+    },
+    {
+      "id": 297,
+      "created": "2016-10-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "tualatin-century-farm-gold-grass-skirt.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "tualatin-century-farm-gold-grass-skirt",
+      "title": "Tualatin Century Farm Gold Grass Skirt"
+    },
+    {
+      "id": 298,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "amber-bottle-and-flower.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 9,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "amber-bottle-and-flower",
+      "title": "Amber Bottle and Flower"
+    },
+    {
+      "id": 299,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "red-tractor-at-luscher-farms.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal"
+      ],
+      "slug": "red-tractor-at-luscher-farms",
+      "title": "Red Tractor at Luscher Farms"
+    },
+    {
+      "id": 300,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "black-pitcher-black-pan.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal"
+      ],
+      "slug": "black-pitcher-black-pan",
+      "title": "Black Pitcher Black Pan"
+    },
+    {
+      "id": 301,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "blue-and-white-teapot.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 8,
+      "height": 10,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "blue-and-white-teapot",
+      "title": "Blue and White Teapot"
+    },
+    {
+      "id": 302,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "cholula-hot-sauce.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 16,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal"
+      ],
+      "slug": "cholula-hot-sauce",
+      "title": "Cholula Hot Sauce"
+    },
+    {
+      "id": 303,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "affilati-park-high-water.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 11,
+      "height": 14,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Vertical"
+      ],
+      "slug": "affilati-park-high-water",
+      "title": "Affilati Park High Water"
+    },
+    {
+      "id": 304,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "princess-flower-and-black-lantern.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal"
+      ],
+      "slug": "princess-flower-and-black-lantern",
+      "title": "Princess Flower and Black Lantern"
+    },
+    {
+      "id": 305,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "favorite-dead-tree-in-snow.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 10,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal"
+      ],
+      "slug": "favorite-dead-tree-in-snow",
+      "title": "Favorite Dead Tree in Snow"
+    },
+    {
+      "id": 306,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "near-luscher-farm.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 10,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "near-luscher-farm",
+      "title": "Near Luscher Farm"
+    },
+    {
+      "id": 307,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "tualatin-wet-land-creek-in-snow.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 10,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "tualatin-wet-land-creek-in-snow",
+      "title": "Tualatin Wet Land Creek in Snow"
+    },
+    {
+      "id": 308,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "horizon-campus-snow-day.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 11,
+      "height": 14,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "horizon-campus-snow-day",
+      "title": "Horizon Campus Snow Day"
+    },
+    {
+      "id": 309,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "george-rodgers-high-water.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 11,
+      "height": 14,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "george-rodgers-high-water",
+      "title": "George Rodgers High Water"
+    },
+    {
+      "id": 310,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "good-will-vase-decked-out.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 14,
+      "height": 18,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "good-will-vase-decked-out",
+      "title": "Good Will Vase Decked Out"
+    },
+    {
+      "id": 311,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "hand-thrown-teapot-and-mug.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 12,
+      "height": 16,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "hand-thrown-teapot-and-mug",
+      "title": "Hand Thrown Teapot and Mug"
+    },
+    {
+      "id": 312,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "mason-jar-and-lemons.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 11,
+      "height": 14,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "mason-jar-and-lemons",
+      "title": "Mason Jar and Lemons"
+    },
+    {
+      "id": 313,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "mexican-bean-pot.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal"
+      ],
+      "slug": "mexican-bean-pot",
+      "title": "Mexican Bean Pot"
+    },
+    {
+      "id": 314,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "olive-pitcher.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 8,
+      "height": 10,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "olive-pitcher",
+      "title": "Olive Pitcher"
+    },
+    {
+      "id": 315,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "griffin-house-view.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 20,
+      "height": 16,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal"
+      ],
+      "slug": "griffin-house-view",
+      "title": "Griffin House View"
+    },
+    {
+      "id": 316,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "south-western-vase.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 12,
+      "height": 9,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal"
+      ],
+      "slug": "south-western-vase",
+      "title": "South Western Vase"
+    },
+    {
+      "id": 317,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "still-with-abstract.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 16,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal"
+      ],
+      "slug": "still-with-abstract",
+      "title": "Still with Abstract"
+    },
+    {
+      "id": 318,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "out-the-window.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 9,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "out-the-window",
+      "title": "Out the Window"
+    },
+    {
+      "id": 319,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "tualatin-wet-land-sunny-day.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 10,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal"
+      ],
+      "slug": "tualatin-wet-land-sunny-day",
+      "title": "Tualatin Wet Land Sunny Day"
+    },
+    {
+      "id": 320,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "tualatin-wet-land-favorite-dead-tree.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 10,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "tualatin-wet-land-favorite-dead-tree",
+      "title": "Tualatin Wet Land Favorite Dead Tree"
+    },
+    {
+      "id": 321,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "tualatin-wet-land-snow-creek.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 11,
+      "height": 14,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "tualatin-wet-land-snow-creek",
+      "title": "Tualatin Wet Land Snow Creek"
+    },
+    {
+      "id": 322,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "duck-and-blue-pitcher.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 9,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "duck-and-blue-pitcher",
+      "title": "Duck and Blue Pitcher"
+    },
+    {
+      "id": 323,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "dappled-copper-pot.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 9,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "dappled-copper-pot",
+      "title": "Dappled Copper Pot"
+    },
+    {
+      "id": 324,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "fields-bridge-park-high-water.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 11,
+      "height": 14,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "fields-bridge-park-high-water",
+      "title": "Fields Bridge Park High Water"
+    },
+    {
+      "id": 325,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "wood-scoop-and-yellow-pitcher.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal"
+      ],
+      "slug": "wood-scoop-and-yellow-pitcher",
+      "title": "Wood Scoop and Yellow Pitcher"
+    },
+    {
+      "id": 326,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "sweet-tea.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 9,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "sweet-tea",
+      "title": "Sweet Tea"
+    },
+    {
+      "id": 327,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "yellow-pitcher-and-duck.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal"
+      ],
+      "slug": "yellow-pitcher-and-duck",
+      "title": "Yellow Pitcher and Duck"
+    },
+    {
+      "id": 328,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "clear-bottle.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 9,
+      "height": 12,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "clear-bottle",
+      "title": "Clear Bottle"
+    },
+    {
+      "id": 329,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "tranquil-creek-in-snow.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal"
+      ],
+      "slug": "tranquil-creek-in-snow",
+      "title": "Tranquil Creek in Snow"
+    },
+    {
+      "id": 330,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "lemon-and-black-pitcher.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 12,
+      "height": 9,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal"
+      ],
+      "slug": "lemon-and-black-pitcher",
+      "title": "Lemon and Black Pitcher"
+    },
+    {
+      "id": 331,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Wood Panel",
+      "filename": "george-rodgers-golden-lady.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal",
+        "vertical"
+      ],
+      "slug": "george-rodgers-golden-lady",
+      "title": "George Rodgers Golden Lady"
+    },
+    {
+      "id": 332,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Wood Panel",
+      "filename": "lincoln-city-break.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal",
+        "vertical"
+      ],
+      "slug": "lincoln-city-break",
+      "title": "Lincoln City Break"
+    },
+    {
+      "id": 333,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Wood Panel",
+      "filename": "by-rolling-hills-fall.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal",
+        "vertical"
+      ],
+      "slug": "by-rolling-hills-fall",
+      "title": "By Rolling Hills Fall"
+    },
+    {
+      "id": 334,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Wood Panel",
+      "filename": "affilati-park-fall.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal",
+        "vertical"
+      ],
+      "slug": "affilati-park-fall",
+      "title": "Affilati Park Fall"
+    },
+    {
+      "id": 335,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Wood Panel",
+      "filename": "fields-bridge-afternoon-fall.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal",
+        "vertical"
+      ],
+      "slug": "fields-bridge-afternoon-fall",
+      "title": "Fields Bridge Afternoon Fall"
+    },
+    {
+      "id": 336,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Wood Panel",
+      "filename": "fields-bridge-fall-west-linn.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal",
+        "vertical"
+      ],
+      "slug": "fields-bridge-fall-west-linn",
+      "title": "Fields Bridge Fall, West Linn"
+    },
+    {
+      "id": 337,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Wood Panel",
+      "filename": "last-of-fall-reflections.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal",
+        "vertical"
+      ],
+      "slug": "last-of-fall-reflections",
+      "title": "Last of Fall Reflections"
+    },
+    {
+      "id": 338,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Wood Panel",
+      "filename": "rest-at-george-rodgers.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 8,
+      "height": 8,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": true,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal",
+        "vertical"
+      ],
+      "slug": "rest-at-george-rodgers",
+      "title": "Rest at George Rodgers"
+    },
+    {
+      "id": 339,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "water-is-high-but-calm.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 11,
+      "height": 14,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "water-is-high-but-calm",
+      "title": "Water is High but Calm"
+    },
+    {
+      "id": 340,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "old-99-bridge-oregon-city.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 20,
+      "height": 16,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal"
+      ],
+      "slug": "old-99-bridge-oregon-city",
+      "title": "Old 99 Bridge, Oregon City"
+    },
+    {
+      "id": 341,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Linen",
+      "filename": "little-tea-kettle.jpg",
+      "galleries": [
+        "plein-air"
+      ],
+      "width": 14,
+      "height": 11,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "Horizontal"
+      ],
+      "slug": "little-tea-kettle",
+      "title": "Little Tea Kettle"
+    },
+    {
+      "id": 342,
+      "created": "2017-03-01T07:00:00.000Z",
+      "description": "Oil on Canvas",
+      "filename": "the-other-wood-duck.jpg",
+      "galleries": [
+        "stills-from-life"
+      ],
+      "width": 8,
+      "height": 10,
+      "isActive": true,
+      "isForSale": true,
+      "isSold": false,
+      "media": "Oil",
+      "orientation": [
+        "vertical"
+      ],
+      "slug": "the-other-wood-duck",
+      "title": "The Other Wood Duck"
+    }
+  ]
+}
