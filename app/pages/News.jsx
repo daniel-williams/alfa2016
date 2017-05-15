@@ -38,6 +38,30 @@ export default React.createClass({
           <div className='mt'><h4>Announcements and Press</h4></div>
 
           <div className='announcement'>
+            <span className='title'><a href='/content/pdf/little-gems-exhibit-washington-plein-air-painters_05-14-2017.pdf' target='_blank'>Little Gems exhibit Washington Plein air painters</a></span>
+            <span className='date'>5/14/2017</span>
+          </div>
+
+          <div className='announcement'>
+            <span className='title'><a href='/content/pdf/Oregon-art-beats-feature-pacific-northwest-plein-air_05-09-2017.pdf' target='_blank'>Oregon Art Beats feature pacific northwest plein air</a></span>
+            <span className='date'>5/9/2017</span>
+          </div>
+
+          <div className='announcement'>
+            <span className='title'><a href='/content/pdf/ArtSplash-tualatin-valley-times-newspaper_05-03-2017.pdf' target='_blank'>ArtSplash tualatin valley times newspaper</a></span>
+            <span className='date'>5/3/2017</span>
+          </div>
+
+          <div className='announcement'>
+            <span className='title'><a href='/content/pdf/Art-and-culture-showcase-washington-county_05-01-2017.pdf' target='_blank'>Art and Culture Showcase washington county</a></span>
+            <span className='date'>5/1/2017</span>
+          </div>
+
+
+
+
+
+          <div className='announcement'>
             <span className='title'><a href='/content/pdf/march-2017-featured-artist-affolter-gallery.pdf' target='_blank'>March 2017 Featured Artist, Affolter Gallery</a></span>
             <span className='date'>3/1/2017</span>
           </div>
